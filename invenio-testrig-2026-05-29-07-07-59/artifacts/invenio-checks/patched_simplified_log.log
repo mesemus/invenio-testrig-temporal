@@ -1,0 +1,116 @@
+ redis Pulling 
+ postgresql Pulling 
+ opensearch Pulling 
+ rabbitmq Pulling 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-checks/patched
+configfile: setup.cfg
+testpaths: docs, tests, invenio_checks
+plugins: isort-4.0.0, invenio-4.0.1, pydocstyle-2.4.0, flask-1.3.0, github-actions-annotate-failures-0.4.0, cov-7.1.0, black-0.6.0, pycodestyle-2.5.0
+collected 208 items
+docs/conf.py ...                                                         [  1%]
+tests/conftest.py ...                                                    [  2%]
+tests/contrib/file_formats/conftest.py ...                               [  4%]
+tests/contrib/file_formats/test_check.py ...                             [  5%]
+tests/contrib/metadata/test_expressions.py ............................. [ 19%]
+        [ 50%]
+tests/contrib/metadata/test_rules.py ....................                [ 60%]
+tests/test_invenio_checks.py ....                                        [ 62%]
+invenio_checks/__init__.py ...                                           [ 63%]
+invenio_checks/alembic/1742548610_create_checks_branch.py ...            [ 65%]
+invenio_checks/alembic/1742549302_create_base_tables.py ...              [ 66%]
+invenio_checks/alembic/c39b06b59667_change_datetime_types.py ...         [ 68%]
+invenio_checks/api.py ...                                                [ 69%]
+invenio_checks/base.py ...                                               [ 71%]
+invenio_checks/components.py ...                                         [ 72%]
+invenio_checks/config.py ...                                             [ 74%]
+invenio_checks/contrib/__init__.py ...                                   [ 75%]
+invenio_checks/contrib/file_formats.py ...                               [ 76%]
+invenio_checks/contrib/metadata/__init__.py ...                          [ 78%]
+invenio_checks/contrib/metadata/check.py ...                             [ 79%]
+invenio_checks/contrib/metadata/expressions.py ...                       [ 81%]
+invenio_checks/contrib/metadata/rules.py ...                             [ 82%]
+invenio_checks/ext.py ...                                                [ 84%]
+invenio_checks/models.py ...                                             [ 85%]
+invenio_checks/proxies.py ...                                            [ 87%]
+invenio_checks/services/__init__.py ...                                  [ 88%]
+invenio_checks/services/config.py ...                                    [ 89%]
+invenio_checks/services/permissions.py ...                               [ 91%]
+invenio_checks/services/results.py ...                                   [ 92%]
+invenio_checks/services/schema.py ...                                    [ 94%]
+invenio_checks/services/services.py ...                                  [ 95%]
+invenio_checks/utils.py ...                                              [ 97%]
+invenio_checks/views/__init__.py ...                                     [ 98%]
+invenio_checks/views/ui.py ...                                           [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                           Stmts   Miss  Cover   Missing
+invenio_checks/__init__.py                                         3      0   100%
+invenio_checks/alembic/1742548610_create_checks_branch.py          8      2    75%   19, 24
+invenio_checks/alembic/1742549302_create_base_tables.py           20      8    60%   28-109, 121-124
+invenio_checks/alembic/c39b06b59667_change_datetime_types.py      17     10    41%   25-29, 34-38
+invenio_checks/api.py                                             39     27    31%   26-28, 33-36, 49-96
+invenio_checks/base.py                                            34      7    79%   26, 30, 43, 47, 50, 59, 64
+invenio_checks/components.py                                     100     72    28%   27-29, 47-49, 53-70, 75-86, 91-104, 108-139, 143-145, 149-155, 159-164, 168-181
+invenio_checks/config.py                                           2      0   100%
+invenio_checks/contrib/__init__.py                                 0      0   100%
+invenio_checks/contrib/file_formats.py                            81     10    88%   51, 55-56, 78, 115, 120, 123, 127, 131, 158
+invenio_checks/contrib/metadata/__init__.py                        4      0   100%
+invenio_checks/contrib/metadata/check.py                          90     61    32%   33-35, 39, 43-45, 58-72, 77-103, 107-120, 128-131, 136-146, 151-161
+invenio_checks/contrib/metadata/expressions.py                   242     20    92%   34, 77, 194-195, 207-208, 255-256, 284, 311, 366, 437, 476-484
+invenio_checks/contrib/metadata/rules.py                          68      0   100%
+invenio_checks/ext.py                                             15      0   100%
+invenio_checks/models.py                                          56      6    89%   42-45, 67, 73
+invenio_checks/proxies.py                                          3      0   100%
+invenio_checks/services/__init__.py                                4      0   100%
+invenio_checks/services/config.py                                 24      0   100%
+invenio_checks/services/permissions.py                            16      0   100%
+invenio_checks/services/results.py                                42     27    36%   22, 31-35, 40-47, 53-56, 61-75
+invenio_checks/services/schema.py                                 24      0   100%
+invenio_checks/services/services.py                               15      6    60%   23, 31, 35, 39, 43, 47
+invenio_checks/utils.py                                            6      0   100%
+invenio_checks/views/__init__.py                                   2      0   100%
+invenio_checks/views/ui.py                                         4      0   100%
+TOTAL                                                            919    256    72%
+============================= 208 passed in 16.87s =============================
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

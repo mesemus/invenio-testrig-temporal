@@ -1,0 +1,1628 @@
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original
+configfile: setup.cfg
+testpaths: tests, invenio_app_rdm
+plugins: Faker-40.19.1, isort-4.0.0, invenio-4.0.1, pydocstyle-2.4.0, flask-1.3.0, github-actions-annotate-failures-0.4.0, cov-7.1.0, time-machine-2.19.0, black-0.6.0, pycodestyle-2.5.0
+collected 346 items
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py,line=76::subject_nested is deprecated. Use subject_combined instead.
+
+tests/__init__.py ...                                                    [  0%]
+tests/api/__init__.py ...                                                [  1%]
+tests/api/conftest.py ...                                                [  2%]
+tests/api/test_protect_files_rest.py ..::error file=workdir/tests/invenio-app-rdm/original/tests/api/test_protect_files_rest.py,line=56::test_files_rest_endpoint_is_protected%0A%0ATypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+F                                 [  3%]
+tests/api/test_record_api.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+s.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+                                    [  5%]
+tests/api/test_stats_api.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                          [  6%]
+tests/conftest.py ...                                                    [  7%]
+tests/fixtures/__init__.py ...                                           [  8%]
+tests/fixtures/conftest.py ...                                           [  9%]
+tests/fixtures/test_cli.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 10%]
+tests/fixtures/test_fixtures.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_pages/records/models.py,line=58::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+                                     [ 11%]
+tests/mock_module/__init__.py ...                                        [ 12%]
+tests/mock_module/views.py ...                                           [ 13%]
+tests/redirector/__init__.py ...                                         [ 13%]
+tests/redirector/conftest.py ...                                         [ 14%]
+tests/redirector/test_redirector.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                  [ 15%]
+tests/test_migrate_13_0_to_14_0.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=496::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=443::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py,line=164::nested transaction already deassociated from connection
+                                   [ 16%]
+tests/test_tasks.py ..E::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+EEE                                               [ 18%]
+tests/test_utils.py ......                                               [ 19%]
+tests/test_version.py ...                                                [ 20%]
+tests/test_views.py ...                                                  [ 21%]
+tests/ui/__init__.py ...                                                 [ 22%]
+tests/ui/conftest.py ...                                                 [ 23%]
+tests/ui/test_deposits.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.                                           [ 24%]
+tests/ui/test_export_formats.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                      [ 25%]
+tests/ui/test_file_download.py ..E::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+E::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+E                                     [ 26%]
+tests/ui/test_filters.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+.                                            [ 28%]
+tests/ui/test_robotstxt.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 28%]
+tests/ui/test_signposting_ui.py ..E::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+EEEEE.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                               [ 31%]
+tests/ui/test_sitemaps.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 32%]
+tests/ui/test_stats_ui.py ...::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 34%]
+invenio_app_rdm/__init__.py ...                                          [ 34%]
+invenio_app_rdm/administration/__init__.py ...                           [ 35%]
+invenio_app_rdm/administration/audit_logs/__init__.py ...                [ 36%]
+invenio_app_rdm/administration/audit_logs/audit_logs.py ...              [ 37%]
+invenio_app_rdm/administration/domains/__init__.py ...                   [ 38%]
+invenio_app_rdm/administration/domains/domains.py ...                    [ 39%]
+invenio_app_rdm/administration/moderation/__init__.py ...                [ 40%]
+invenio_app_rdm/administration/moderation/requests.py ...                [ 41%]
+invenio_app_rdm/administration/records/__init__.py ...                   [ 41%]
+invenio_app_rdm/administration/records/records.py ...                    [ 42%]
+invenio_app_rdm/administration/roles/__init__.py ...                     [ 43%]
+invenio_app_rdm/administration/roles/roles.py ...                        [ 44%]
+invenio_app_rdm/administration/user_moderation/__init__.py ...           [ 45%]
+invenio_app_rdm/administration/user_moderation/user_moderation.py ...    [ 46%]
+invenio_app_rdm/administration/users/__init__.py ...                     [ 47%]
+invenio_app_rdm/administration/users/permissions.py ...                  [ 47%]
+invenio_app_rdm/administration/users/users.py ...                        [ 48%]
+invenio_app_rdm/administration/views/__init__.py ...                     [ 49%]
+invenio_app_rdm/administration/views/ui.py ...                           [ 50%]
+invenio_app_rdm/cli.py ...                                               [ 51%]
+invenio_app_rdm/communities_ui/__init__.py ...                           [ 52%]
+invenio_app_rdm/communities_ui/searchapp.py ...                          [ 53%]
+invenio_app_rdm/communities_ui/sitemap.py ...                            [ 54%]
+invenio_app_rdm/communities_ui/views/__init__.py ...                     [ 54%]
+invenio_app_rdm/communities_ui/views/communities.py ...                  [ 55%]
+invenio_app_rdm/communities_ui/views/ui.py ...                           [ 56%]
+invenio_app_rdm/config.py ...                                            [ 57%]
+invenio_app_rdm/ext.py ...                                               [ 58%]
+invenio_app_rdm/fixtures/__init__.py ...                                 [ 59%]
+invenio_app_rdm/fixtures/oai_sets.py ...                                 [ 60%]
+invenio_app_rdm/fixtures/pages.py ...                                    [ 60%]
+invenio_app_rdm/records_ui/__init__.py ...                               [ 61%]
+invenio_app_rdm/records_ui/previewer/__init__.py ...                     [ 62%]
+invenio_app_rdm/records_ui/previewer/iiif_simple.py ...                  [ 63%]
+invenio_app_rdm/records_ui/searchapp.py ...                              [ 64%]
+invenio_app_rdm/records_ui/sitemap.py ...                                [ 65%]
+invenio_app_rdm/records_ui/utils.py ...                                  [ 66%]
+invenio_app_rdm/records_ui/views/__init__.py ...                         [ 67%]
+invenio_app_rdm/records_ui/views/decorators.py ...                       [ 67%]
+invenio_app_rdm/records_ui/views/deposits.py ...                         [ 68%]
+invenio_app_rdm/records_ui/views/filters.py ...                          [ 69%]
+invenio_app_rdm/records_ui/views/records.py ...                          [ 70%]
+invenio_app_rdm/redirector/__init__.py ...                               [ 71%]
+invenio_app_rdm/redirector/resource.py ...                               [ 72%]
+invenio_app_rdm/redirector/views.py ...                                  [ 73%]
+invenio_app_rdm/requests_ui/__init__.py ...                              [ 73%]
+invenio_app_rdm/requests_ui/views/__init__.py ...                        [ 74%]
+invenio_app_rdm/requests_ui/views/requests.py ...                        [ 75%]
+invenio_app_rdm/requests_ui/views/ui.py ...                              [ 76%]
+invenio_app_rdm/tasks.py ...                                             [ 77%]
+invenio_app_rdm/theme/__init__.py ...                                    [ 78%]
+invenio_app_rdm/theme/views.py ...                                       [ 79%]
+invenio_app_rdm/theme/webpack.py ...                                     [ 80%]
+invenio_app_rdm/upgrade_scripts/__init__.py ...                          [ 80%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py . [ 81%]
+..                                                                       [ 81%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py . [ 82%]
+..                                                                       [ 82%]
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py ...              [ 83%]
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py ...              [ 84%]
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py ...              [ 85%]
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py ...              [ 86%]
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py ...        [ 86%]
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py ...                [ 87%]
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py ...                [ 88%]
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py ...                [ 89%]
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py ...                [ 90%]
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py ...                [ 91%]
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py ...                [ 92%]
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py ...               [ 93%]
+invenio_app_rdm/users/schemas.py ...                                     [ 93%]
+invenio_app_rdm/users_ui/__init__.py ...                                 [ 94%]
+invenio_app_rdm/users_ui/searchapp.py ...                                [ 95%]
+invenio_app_rdm/users_ui/views/__init__.py ...                           [ 96%]
+invenio_app_rdm/users_ui/views/dashboard.py ...                          [ 97%]
+invenio_app_rdm/users_ui/views/ui.py ...                                 [ 98%]
+invenio_app_rdm/utils/files.py ...                                       [ 99%]
+invenio_app_rdm/views.py ...                                             [100%]
+
+==================================== ERRORS ====================================
+______________ ERROR at setup of test_task_file_integrity_report _______________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2649d7ef30>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2649d7efd0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26496d74d0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'k2sq0-2vj09', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26493b3e20>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f264ade1490>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:14:16,499] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:14:16,555] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:14:17,747] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:14:17,802] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+___________ ERROR at setup of test_integrity_report_invalid_template ___________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2649d7ef30>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2649d7efd0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26496d74d0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'skvtj-d4q59', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26496367a0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f264b262c90>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+__________ ERROR at setup of test_integrity_report_invalid_addresses ___________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2649d7ef30>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2649d7efd0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26496d74d0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'nyget-fy743', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26499a04f0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f264b441e50>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___________ ERROR at setup of test_integrity_report_default_template ___________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2649d7ef30>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2649d7efd0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26496d74d0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'h3w1k-7r622', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f2649964270>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f264b422810>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+______ ERROR at setup of test_file_download_with_and_without_preview_flag ______
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f26482659f0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2648265950>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 1>, 'user2': <User 2>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f2648ac24e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'fsc1j-sx264', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26482c3470>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f2648149df0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:14:32,744] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:14:32,797] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+_____________ ERROR at setup of test_nonexistent_file_returns_404 ______________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f26482659f0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2648265950>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 3>, 'user2': <User 4>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f2648ac24e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'wkny8-aq763', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26482c1940>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f2648172cf0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+_____________ ERROR at setup of test_deleted_record_file_redirects _____________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f26482659f0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2648265950>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 5>, 'user2': <User 6>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f2648ac24e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '635zc-xjg47', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26480f7010>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f2648016210>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[True-head] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2646bab390>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2646bab2f0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 1>, 'user2': <User 2>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26470d10e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'e1ykv-tr091', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f264708f5b0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f2646b96030>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:14:44,314] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:14:44,366] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+____ ERROR at setup of test_link_in_landing_page_response_headers[True-get] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2646bab390>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2646bab2f0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 3>, 'user2': <User 4>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26470d10e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'r7r0p-hw743', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f2646f86e80>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f2646925550>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[False-head] ___
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2646bab390>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2646bab2f0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 5>, 'user2': <User 6>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26470d10e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'vft4j-5x264', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f2646929df0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f26469c1310>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[False-get] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2646bab390>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2646bab2f0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 7>, 'user2': <User 8>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26470d10e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '1gd1z-6v597', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26470a8090>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f26469c3650>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+____ ERROR at setup of test_link_in_content_resource_response_headers[head] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2646bab390>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2646bab2f0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 9>, 'user2': <User 10>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26470d10e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'myqp1-33787', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f26469a40e0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f264698bcb0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+____ ERROR at setup of test_link_in_content_resource_response_headers[get] _____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f2646bab390>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f2646bab2f0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 11>, 'user2': <User 12>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f26470d10e0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'zb642-w2517', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f2647c1c4f0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f26467dc110>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+=================================== FAILURES ===================================
+____________________ test_files_rest_endpoint_is_protected _____________________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f264e462c30>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f264e3ad8c0>])
+client_with_login = <FlaskClient <Flask 'invenio'>>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+es_clear = <OpenSearch([{'host': 'localhost', 'port': 9200}])>
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    def test_files_rest_endpoint_is_protected(
+        running_app, client_with_login, headers, es_clear, minimal_record
+    ):
+        client = client_with_login
+    
+        # Create draft with file
+        minimal_record["files"] = {"enabled": True}
+        recid = create_draft(client, minimal_record, headers)
+        init_file(client, recid, headers)
+>       upload_file(client, recid)
+
+tests/api/test_protect_files_rest.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/api/test_protect_files_rest.py:30: in upload_file
+    return client.put(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1172: in put
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/invenio_records_resources/resources/files/resource.py:88: in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/invenio_records_resources/resources/files/resource.py:287: in update_content
+    item = self.service.set_file_content(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f2650b54b90>
+identity = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='system_role', value='any_user'), Need(method='id', value=1)}>
+id_ = 's90rp-xam17', file_key = 'test.pdf'
+stream = <werkzeug.wsgi.LimitedStream object at 0x7f264e389180>
+content_length = 8, uow = <invenio_db.uow.UnitOfWork object at 0x7f264e0a2340>
+kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+------------------------------ Captured log setup ------------------------------
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+  self.init_app(app)
+
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py:171: UserWarning: It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+  warnings.warn(
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_oauth2server/ext.py:332: RuntimeWarning: You are overriding the default OAuthlib "URL encoded" set of valid characters. Make sure that the characters defined in oauthlib.common.urlencoded are indeed limitting your needs.
+  warnings.warn(
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py:70: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+  result = self._write_client.setex(
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py:77: DeprecationWarning: Remember me support has been removed.
+  warnings.warn("Remember me support has been removed.", DeprecationWarning)
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py:59: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+  self.redis.setex(key, ittl, value)
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:497: DeprecationWarning: `es_clear` fixture is deprecated, use `search_clear` instead.
+  warn(
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py:76
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py:76: DeprecationWarning: subject_nested is deprecated. Use subject_combined instead.
+    warn(
+
+tests/api/test_record_api.py::test_record_read_non_existing_pid
+tests/api/test_stats_api.py::test_ui_event_emission
+tests/fixtures/test_cli.py::test_create_fixtures
+tests/fixtures/test_fixtures.py::test_load_oai_sets
+tests/redirector/test_redirector.py::test_redirector
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+tests/test_tasks.py::test_task_file_integrity_report
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+    self.init_app(app)
+
+tests/api/test_record_api.py: 1 warning
+tests/api/test_stats_api.py: 1 warning
+tests/fixtures/test_cli.py: 1 warning
+tests/fixtures/test_fixtures.py: 1 warning
+tests/redirector/test_redirector.py: 2 warnings
+tests/test_migrate_13_0_to_14_0.py: 2 warnings
+tests/test_tasks.py: 2 warnings
+tests/ui/test_deposits.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_file_download.py: 1 warning
+tests/ui/test_filters.py: 1 warning
+tests/ui/test_robotstxt.py: 1 warning
+tests/ui/test_signposting_ui.py: 1 warning
+tests/ui/test_sitemaps.py: 1 warning
+tests/ui/test_stats_ui.py: 1 warning
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/ext.py:171: UserWarning: It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+    warnings.warn(
+
+tests/api/test_record_api.py::test_record_read_non_existing_pid
+tests/api/test_record_api.py::test_record_draft_create_and_read
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/api/test_record_api.py::test_record_search
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:497: DeprecationWarning: `es_clear` fixture is deprecated, use `search_clear` instead.
+    warn(
+
+tests/api/test_record_api.py::test_record_draft_create_and_read
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/redirector/test_redirector.py::test_redirector
+tests/ui/test_deposits.py::test_resource_types
+tests/ui/test_file_download.py::test_file_download_with_and_without_preview_flag
+tests/ui/test_file_download.py::test_nonexistent_file_returns_404
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_security/utils.py:77: DeprecationWarning: Remember me support has been removed.
+    warnings.warn("Remember me support has been removed.", DeprecationWarning)
+
+tests/api/test_record_api.py: 4 warnings
+tests/api/test_stats_api.py: 1 warning
+tests/fixtures/test_cli.py: 1 warning
+tests/test_migrate_13_0_to_14_0.py: 1 warning
+tests/ui/test_deposits.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_file_download.py: 1 warning
+tests/ui/test_robotstxt.py: 1 warning
+tests/ui/test_sitemaps.py: 1 warning
+tests/ui/test_stats_ui.py: 2 warnings
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/cachelib/redis_base.py:70: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+    result = self._write_client.setex(
+
+tests/api/test_record_api.py: 6 warnings
+tests/api/test_stats_api.py: 1 warning
+tests/redirector/test_redirector.py: 1 warning
+tests/ui/test_deposits.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_file_download.py: 2 warnings
+tests/ui/test_robotstxt.py: 1 warning
+tests/ui/test_signposting_ui.py: 2 warnings
+tests/ui/test_stats_ui.py: 4 warnings
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py:59: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+    self.redis.setex(key, ittl, value)
+
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+tests/ui/test_export_formats.py::test_export_formats
+tests/ui/test_signposting_ui.py::test_link_in_metadata_resource_response_headers[head]
+tests/ui/test_signposting_ui.py::test_link_in_metadata_resource_response_headers[get]
+tests/ui/test_sitemaps.py::test_sitemap_section_of_records
+tests/ui/test_stats_ui.py::test_record_view_events
+tests/ui/test_stats_ui.py::test_record_view_statistics
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:335: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/api/test_record_api.py: 2 warnings
+tests/fixtures/test_fixtures.py: 1 warning
+tests/test_migrate_13_0_to_14_0.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_signposting_ui.py: 2 warnings
+tests/ui/test_sitemaps.py: 1 warning
+tests/ui/test_stats_ui.py: 2 warnings
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py:193: SAWarning: nested transaction already deassociated from connection
+    self.session.commit()
+
+tests/fixtures/test_fixtures.py::test_load_pages
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_pages/records/models.py:58: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:496: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:443: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/original/invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py:164: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                                                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------
+invenio_app_rdm/__init__.py                                                   2      0   100%
+invenio_app_rdm/administration/__init__.py                                    0      0   100%
+invenio_app_rdm/administration/audit_logs/__init__.py                         2      0   100%
+invenio_app_rdm/administration/audit_logs/audit_logs.py                      28      0   100%
+invenio_app_rdm/administration/domains/__init__.py                            2      0   100%
+invenio_app_rdm/administration/domains/domains.py                            40      0   100%
+invenio_app_rdm/administration/moderation/__init__.py                         2      0   100%
+invenio_app_rdm/administration/moderation/requests.py                        78     22    72%   62-65, 70-76, 85, 120-126, 130-153
+invenio_app_rdm/administration/records/__init__.py                            2      0   100%
+invenio_app_rdm/administration/records/records.py                            61      8    87%   72, 77-79, 83-85, 89, 148
+invenio_app_rdm/administration/roles/__init__.py                              2      0   100%
+invenio_app_rdm/administration/roles/roles.py                                46      3    93%   46-48
+invenio_app_rdm/administration/user_moderation/__init__.py                    2      0   100%
+invenio_app_rdm/administration/user_moderation/user_moderation.py            63     11    83%   94-97, 102-108, 117, 155-161
+invenio_app_rdm/administration/users/__init__.py                              2      0   100%
+invenio_app_rdm/administration/users/permissions.py                           9      6    33%   18-24
+invenio_app_rdm/administration/users/users.py                                59      4    93%   65-67, 124
+invenio_app_rdm/administration/views/__init__.py                              2      0   100%
+invenio_app_rdm/administration/views/ui.py                                    4      0   100%
+invenio_app_rdm/cli.py                                                       45     22    51%   41-45, 64-95
+invenio_app_rdm/communities_ui/__init__.py                                    0      0   100%
+invenio_app_rdm/communities_ui/searchapp.py                                   5      0   100%
+invenio_app_rdm/communities_ui/sitemap.py                                    13      0   100%
+invenio_app_rdm/communities_ui/views/__init__.py                              2      0   100%
+invenio_app_rdm/communities_ui/views/communities.py                          63     43    32%   38-41, 57-112, 127-134, 149-164, 179-196
+invenio_app_rdm/communities_ui/views/ui.py                                   45     17    62%   43-65
+invenio_app_rdm/config.py                                                   323      3    99%   302-304, 334
+invenio_app_rdm/ext.py                                                       43     12    72%   22-25, 44, 50-58, 63, 112-117
+invenio_app_rdm/fixtures/__init__.py                                         21      6    71%   23-28
+invenio_app_rdm/fixtures/oai_sets.py                                          6      0   100%
+invenio_app_rdm/fixtures/pages.py                                            35      1    97%   49
+invenio_app_rdm/records_ui/__init__.py                                        0      0   100%
+invenio_app_rdm/records_ui/previewer/__init__.py                              0      0   100%
+invenio_app_rdm/records_ui/previewer/iiif_simple.py                          14      7    50%   31-32, 41-46
+invenio_app_rdm/records_ui/searchapp.py                                       6      0   100%
+invenio_app_rdm/records_ui/sitemap.py                                        10      0   100%
+invenio_app_rdm/records_ui/utils.py                                          83     43    48%   40-51, 80-85, 93, 107-119, 132, 165-184, 189-222
+invenio_app_rdm/records_ui/views/__init__.py                                 57      0   100%
+invenio_app_rdm/records_ui/views/decorators.py                              264    102    61%   48, 53, 61-64, 75-91, 120-122, 147, 159-169, 192, 198-201, 222-249, 268-282, 298-301, 307-311, 329-332, 338-342, 354-364, 378-386, 399-402, 428-436, 455-467, 504-508, 525-531
+invenio_app_rdm/records_ui/views/deposits.py                                245    153    38%   64-140, 145-146, 217-223, 234-237, 255-258, 262-265, 269-272, 276-279, 283-286, 290, 294, 298, 305, 313, 317, 323-328, 333-345, 357-376, 392-407, 436-442, 448, 453-472, 483-501, 538-625, 652-653
+invenio_app_rdm/records_ui/views/filters.py                                 125     70    44%   32-35, 40-48, 53, 67-68, 73-86, 93-94, 99-100, 105-121, 135, 152, 162, 185-215, 229-234
+invenio_app_rdm/records_ui/views/records.py                                 219    110    50%   88-103, 119-142, 156-167, 171, 178-179, 183, 213, 218, 238, 247-282, 347, 378-399, 407-420, 427-447, 457-465, 471, 477, 485, 490, 502-522, 536-554
+invenio_app_rdm/redirector/__init__.py                                        0      0   100%
+invenio_app_rdm/redirector/resource.py                                       29      1    97%   94
+invenio_app_rdm/redirector/views.py                                           6      0   100%
+invenio_app_rdm/requests_ui/__init__.py                                       0      0   100%
+invenio_app_rdm/requests_ui/views/__init__.py                                 2      0   100%
+invenio_app_rdm/requests_ui/views/requests.py                               191    142    26%   60-138, 142, 152-169, 179-196, 203-286, 304-384, 403-418, 437-458, 472
+invenio_app_rdm/requests_ui/views/ui.py                                      24      0   100%
+invenio_app_rdm/tasks.py                                                     18     11    39%   21-45
+invenio_app_rdm/theme/__init__.py                                             0      0   100%
+invenio_app_rdm/theme/views.py                                               49     19    61%   63, 80-81, 92-93, 104-105, 115-130, 138-140
+invenio_app_rdm/theme/webpack.py                                              2      0   100%
+invenio_app_rdm/upgrade_scripts/__init__.py                                   0      0   100%
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py      28     24    14%   16-46, 50
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py      48     43    10%   20-86, 90
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py                46     41    11%   27-98, 102
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py                        34     29    15%   32-88, 92
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py                        64     60     6%   27-136, 140
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py                       244    231     5%   28-64, 70-148, 158-199, 209-369, 373-395
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py                        72     65    10%   30-157, 161
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py                        68     59    13%   36-148, 153
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py                        51     46    10%   28-93, 98
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py                       13      8    38%   27-35, 43
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py                      18     13    28%   27-42, 47
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py                      82     70    15%   62-201, 206
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py                     126    107    15%   41-99, 107-122, 127-154, 159-186, 191-208, 225-230, 235
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py                      94     21    78%   57-60, 78-81, 107-111, 132-136, 153-157, 170-173, 198-201, 231-235, 273
+invenio_app_rdm/users/schemas.py                                              6      0   100%
+invenio_app_rdm/users_ui/__init__.py                                          0      0   100%
+invenio_app_rdm/users_ui/searchapp.py                                         5      0   100%
+invenio_app_rdm/users_ui/views/__init__.py                                    2      0   100%
+invenio_app_rdm/users_ui/views/dashboard.py                                  18      7    61%   22-25, 35-38, 48-54
+invenio_app_rdm/users_ui/views/ui.py                                         18      4    78%   24, 29-32
+invenio_app_rdm/utils/files.py                                               66     48    27%   24-32, 37-38, 43-47, 52-64, 69, 74, 79-84, 89-90, 95-98, 107-120
+invenio_app_rdm/views.py                                                      5      2    60%   17-19
+-------------------------------------------------------------------------------------------------------
+TOTAL                                                                      3459   1694    51%
+=========================== short test summary info ============================
+FAILED tests/api/test_protect_files_rest.py::test_files_rest_endpoint_is_protected - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_task_file_integrity_report - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_invalid_template - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_invalid_addresses - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_default_template - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_file_download_with_and_without_preview_flag - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_nonexistent_file_returns_404 - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_deleted_record_file_redirects - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[True-head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[True-get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[False-head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[False-get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_content_resource_response_headers[head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_content_resource_response_headers[get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+= 1 failed, 331 passed, 1 skipped, 94 warnings, 13 errors in 123.94s (0:02:03) =
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

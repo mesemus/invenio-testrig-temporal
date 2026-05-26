@@ -1,0 +1,148 @@
+ opensearch Pulling 
+ redis Pulling 
+ postgresql Pulling 
+ redis Pulled 
+ opensearch Pulled 
+ postgresql Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-vcs/patched
+configfile: setup.cfg
+testpaths: tests, invenio_vcs
+plugins: black-ng-0.4.1, isort-4.0.0, invenio-4.0.1, pydocstyle-2.4.0, flask-1.3.0, github-actions-annotate-failures-0.4.0, cov-7.1.0, mock-3.15.1, pycodestyle-2.5.0
+collected 170 items
+tests/__init__.py ...                                                    [  1%]
+tests/conftest.py ...                                                    [  3%]
+tests/contrib_fixtures/__init__.py ...                                   [  5%]
+tests/contrib_fixtures/github.py ...                                     [  7%]
+tests/contrib_fixtures/gitlab.py ...                                     [  8%]
+tests/contrib_fixtures/patcher.py ...                                    [ 10%]
+tests/fixtures.py ...                                                    [ 12%]
+tests/test_alembic.py ...                                                [ 14%]
+tests/test_badge.py ..ss                                                 [ 16%]
+tests/test_invenio_vcs.py ....                                           [ 18%]
+tests/test_models.py 
+                                                 [ 20%]
+tests/test_provider.py 
+                                [ 31%]
+tests/test_service.py 
+                                     [ 39%]
+tests/test_tasks.py 
+                                               [ 42%]
+tests/test_views.py 
+                                                 [ 45%]
+tests/test_webhook.py 
+                                             [ 48%]
+invenio_vcs/__init__.py ...                                              [ 50%]
+invenio_vcs/alembic/1754318294_switch_to_generic_git_services.py ...     [ 52%]
+invenio_vcs/alembic/1777230124_modify_nullables_and_defaults.py ...      [ 54%]
+invenio_vcs/alembic/6abc1c58775e_create_vcs_branch.py ...                [ 55%]
+invenio_vcs/api.py ...                                                   [ 57%]
+invenio_vcs/config.py ...                                                [ 59%]
+invenio_vcs/contrib/github.py ...                                        [ 61%]
+invenio_vcs/contrib/gitlab.py ...                                        [ 62%]
+invenio_vcs/errors.py ...                                                [ 64%]
+invenio_vcs/ext.py ...                                                   [ 66%]
+invenio_vcs/generic_models.py ...                                        [ 68%]
+invenio_vcs/jobs.py ...                                                  [ 70%]
+invenio_vcs/models.py ...                                                [ 71%]
+invenio_vcs/notifications/__init__.py ...                                [ 73%]
+invenio_vcs/notifications/generators.py ...                              [ 75%]
+invenio_vcs/oauth/handlers.py ...                                        [ 77%]
+invenio_vcs/patch_info.py ...                                            [ 78%]
+invenio_vcs/providers.py ...                                             [ 80%]
+invenio_vcs/proxies.py ...                                               [ 82%]
+invenio_vcs/receivers.py ...                                             [ 84%]
+invenio_vcs/service.py ...                                               [ 85%]
+invenio_vcs/tasks.py ...                                                 [ 87%]
+invenio_vcs/upgrade_scripts/__init__.py ...                              [ 89%]
+invenio_vcs/upgrade_scripts/migrate_github_to_vcs.py ...                 [ 91%]
+invenio_vcs/utils.py ...                                                 [ 92%]
+invenio_vcs/views/__init__.py ...                                        [ 94%]
+invenio_vcs/views/badge.py ...                                           [ 96%]
+invenio_vcs/views/vcs.py ...                                             [ 98%]
+invenio_vcs/webpack.py ...                                               [100%]
+=============================== warnings summary ===============================
+tests/test_models.py::test_repository_unbound
+tests/test_provider.py::test_vcs_provider_list_repositories[github]
+tests/test_service.py::test_vcs_service_user_repositories[github]
+tests/test_tasks.py::test_real_process_release_task[github]
+tests/test_views.py::test_api_sync[github]
+tests/test_webhook.py::test_webhook_post[github]
+    self.init_app(app)
+tests/test_models.py::test_repository_unbound
+tests/test_provider.py::test_vcs_provider_list_repositories[github]
+tests/test_service.py::test_vcs_service_user_repositories[github]
+tests/test_tasks.py::test_real_process_release_task[github]
+tests/test_views.py::test_api_sync[github]
+tests/test_webhook.py::test_webhook_post[github]
+    self._set_cache(app, config)
+tests/test_models.py::test_repository_unbound
+tests/test_provider.py::test_vcs_provider_list_repositories[github]
+tests/test_service.py::test_vcs_service_user_repositories[github]
+tests/test_tasks.py::test_real_process_release_task[github]
+tests/test_views.py::test_api_sync[github]
+tests/test_webhook.py::test_webhook_post[github]
+    warnings.warn(
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                               Stmts   Miss  Cover   Missing
+invenio_vcs/__init__.py                                                3      0   100%
+invenio_vcs/alembic/6abc1c58775e_create_vcs_branch.py                 11      1    91%   38
+invenio_vcs/alembic/1754318294_switch_to_generic_git_services.py      17      0   100%
+invenio_vcs/alembic/1777230124_modify_nullables_and_defaults.py       24      0   100%
+invenio_vcs/api.py                                                    89     42    53%   43, 48, 53, 58, 63-67, 72-78, 83-86, 91, 96-100, 110-111, 118-121, 127-128, 141-150, 157-159, 176, 181, 186
+invenio_vcs/config.py                                                 40      1    98%   101
+invenio_vcs/contrib/github.py                                        203     64    68%   151-155, 180, 186, 190, 194, 198, 204, 213-226, 252, 270, 289, 326, 337, 340-341, 347-352, 356-366, 374, 382, 409, 426-457, 461-464, 480-486
+invenio_vcs/contrib/gitlab.py                                        201     45    78%   53-57, 111-119, 123, 167, 173, 177, 181, 185, 189, 246, 256-262, 292, 340, 360-362, 440, 448-452, 457-465, 472, 481, 486-491, 506
+invenio_vcs/errors.py                                                 70     25    64%   25-29, 39-40, 61-63, 73-74, 88, 98-99, 109-110, 120-121, 131, 141, 151, 161, 175-176
+invenio_vcs/ext.py                                                    57      9    84%   39, 46-47, 79-80, 90-98
+invenio_vcs/generic_models.py                                         62      6    90%   62-68
+invenio_vcs/jobs.py                                                   36     14    61%   72-83, 102-107
+invenio_vcs/models.py                                                113     10    91%   66, 190-193, 197, 233, 307, 312-315
+invenio_vcs/notifications/__init__.py                                  0      0   100%
+invenio_vcs/notifications/generators.py                               29     29     0%   10-60
+invenio_vcs/oauth/handlers.py                                         43     30    30%   34-42, 47-92
+invenio_vcs/patch_info.py                                              6      6     0%   3-60
+invenio_vcs/providers.py                                             172     41    76%   119, 140, 145, 152, 162, 167, 178, 183, 192, 203, 211, 216, 267-278, 289, 313, 317, 331, 344, 355, 359-363, 369, 390, 403, 413, 427, 442, 456, 465, 474, 486, 497, 502
+invenio_vcs/proxies.py                                                 3      0   100%
+invenio_vcs/receivers.py                                              44      8    82%   58, 74, 88, 101, 109-110, 112-113
+invenio_vcs/service.py                                               179     37    79%   66, 73, 107-116, 120-125, 134, 145, 159, 179, 198, 211-214, 293, 297, 308, 317, 325, 352, 355, 357, 372, 377, 383, 416, 424-429, 442, 445
+invenio_vcs/tasks.py                                                 110     41    63%   33-36, 41-42, 59-83, 104-108, 127-131, 159-167, 170, 187
+invenio_vcs/upgrade_scripts/__init__.py                                0      0   100%
+invenio_vcs/upgrade_scripts/migrate_github_to_vcs.py                  63     63     0%   9-313
+invenio_vcs/utils.py                                                  19      9    53%   29-32, 42-46
+invenio_vcs/views/__init__.py                                          0      0   100%
+invenio_vcs/views/badge.py                                            19     10    47%   31-52
+invenio_vcs/views/vcs.py                                             102     43    58%   31-39, 52-56, 96-118, 129-141, 188-196, 212-219
+invenio_vcs/webpack.py                                                 2      2     0%   9-11
+TOTAL                                                               1717    536    69%
+================= 168 passed, 2 skipped, 18 warnings in 29.22s =================
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

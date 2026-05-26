@@ -1,0 +1,952 @@
+running extract_messages
+extracting messages from invenio_records_resources/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/config.py (encoding="utf-8")
+extracting messages from invenio_records_resources/errors.py (encoding="utf-8")
+extracting messages from invenio_records_resources/ext.py (encoding="utf-8")
+extracting messages from invenio_records_resources/pagination.py (encoding="utf-8")
+extracting messages from invenio_records_resources/patch_info.py (encoding="utf-8")
+extracting messages from invenio_records_resources/proxies.py (encoding="utf-8")
+extracting messages from invenio_records_resources/registry.py (encoding="utf-8")
+extracting messages from invenio_records_resources/tasks.py (encoding="utf-8")
+extracting messages from invenio_records_resources/factories/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/factories/factory.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/api.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/dumpers.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/models.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/providers.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/resolver.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/transfer.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/jsonschemas/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/calculated.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/entity_reference.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/index.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/pid.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/pid_statuscheck.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/relations.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/files/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/files/field.py (encoding="utf-8")
+extracting messages from invenio_records_resources/records/systemfields/files/manager.py (encoding="utf-8")
+extracting messages from invenio_records_resources/references/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/references/grants.py (encoding="utf-8")
+extracting messages from invenio_records_resources/references/registry.py (encoding="utf-8")
+extracting messages from invenio_records_resources/references/entity_resolvers/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/references/entity_resolvers/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/references/entity_resolvers/records.py (encoding="utf-8")
+extracting messages from invenio_records_resources/references/entity_resolvers/results.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/errors.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/files/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/files/config.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/files/parser.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/files/resource.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/records/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/records/args.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/records/config.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/records/headers.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/records/resource.py (encoding="utf-8")
+extracting messages from invenio_records_resources/resources/records/utils.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/errors.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/uow.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/base/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/base/components.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/base/config.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/base/links.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/base/results.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/base/service.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/base/utils.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/boolean.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/date.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/errors.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/mappings.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/number.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/schema.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/text.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/custom_fields/validate.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/config.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/generators.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/links.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/results.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/schema.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/service.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/tasks.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/components/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/components/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/components/content.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/components/metadata.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/components/multipart.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/components/processor.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/extractors/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/extractors/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/extractors/reply_stream.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/extractors/zip.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/processors/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/processors/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/processors/image.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/processors/zip.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/constants.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/registry.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/providers/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/providers/fetch.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/providers/local.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/providers/multipart.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/files/transfer/providers/remote.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/config.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/links.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/results.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/schema.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/service.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/components/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/components/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/components/data.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/components/files.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/components/metadata.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/components/relations.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/facets/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/facets/facets.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/facets/labels.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/facets/response.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/params/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/params/base.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/params/facets.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/params/filter.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/params/pagination.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/params/querystr.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/params/sort.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/queryparser/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/queryparser/query.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/queryparser/suggest.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/records/queryparser/transformer.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/references/__init__.py (encoding="utf-8")
+extracting messages from invenio_records_resources/services/references/schema.py (encoding="utf-8")
+extracting messages from tests/__init__.py (encoding="utf-8")
+extracting messages from tests/conftest.py (encoding="utf-8")
+extracting messages from tests/test_alembic.py (encoding="utf-8")
+extracting messages from tests/test_invenio_resources.py (encoding="utf-8")
+extracting messages from tests/test_tasks.py (encoding="utf-8")
+extracting messages from tests/factories/__init__.py (encoding="utf-8")
+extracting messages from tests/factories/conftest.py (encoding="utf-8")
+extracting messages from tests/factories/test_factory.py (encoding="utf-8")
+extracting messages from tests/factories/test_service.py (encoding="utf-8")
+extracting messages from tests/mock_module/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module/api.py (encoding="utf-8")
+extracting messages from tests/mock_module/config.py (encoding="utf-8")
+extracting messages from tests/mock_module/extractor.py (encoding="utf-8")
+extracting messages from tests/mock_module/models.py (encoding="utf-8")
+extracting messages from tests/mock_module/permissions.py (encoding="utf-8")
+extracting messages from tests/mock_module/resource.py (encoding="utf-8")
+extracting messages from tests/mock_module/schemas.py (encoding="utf-8")
+extracting messages from tests/mock_module/jsonschemas/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module/mappings/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module/mappings/os-v1/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module/mappings/os-v2/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module/mappings/v7/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module_factory/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module_factory/grants.py (encoding="utf-8")
+extracting messages from tests/mock_module_factory/jsonschemas/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module_factory/mappings/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module_factory/mappings/os-v1/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module_factory/mappings/os-v2/__init__.py (encoding="utf-8")
+extracting messages from tests/mock_module_factory/mappings/v7/__init__.py (encoding="utf-8")
+extracting messages from tests/records/conftest.py (encoding="utf-8")
+extracting messages from tests/records/test_api.py (encoding="utf-8")
+extracting messages from tests/records/test_dumpers.py (encoding="utf-8")
+extracting messages from tests/records/test_systemfield_files.py (encoding="utf-8")
+extracting messages from tests/records/test_systemfield_index.py (encoding="utf-8")
+extracting messages from tests/records/test_systemfield_modelpid.py (encoding="utf-8")
+extracting messages from tests/records/test_systemfield_pid.py (encoding="utf-8")
+extracting messages from tests/records/test_systemfield_pidstatus.py (encoding="utf-8")
+extracting messages from tests/resources/conftest.py (encoding="utf-8")
+extracting messages from tests/resources/test_files_resource.py (encoding="utf-8")
+extracting messages from tests/resources/test_resource_faceting.py (encoding="utf-8")
+extracting messages from tests/resources/test_resource_links.py (encoding="utf-8")
+extracting messages from tests/resources/test_resource_pagination.py (encoding="utf-8")
+extracting messages from tests/resources/test_resource_preference.py (encoding="utf-8")
+extracting messages from tests/resources/test_resource_sorting.py (encoding="utf-8")
+extracting messages from tests/resources/test_resources.py (encoding="utf-8")
+extracting messages from tests/resources/test_resources_etag.py (encoding="utf-8")
+extracting messages from tests/resources/files/__init__.py (encoding="utf-8")
+extracting messages from tests/resources/files/conftest.py (encoding="utf-8")
+extracting messages from tests/resources/files/test_zip.py (encoding="utf-8")
+extracting messages from tests/services/conftest.py (encoding="utf-8")
+extracting messages from tests/services/test_results.py (encoding="utf-8")
+extracting messages from tests/services/test_results_expand.py (encoding="utf-8")
+extracting messages from tests/services/test_service.py (encoding="utf-8")
+extracting messages from tests/services/test_service_create.py (encoding="utf-8")
+extracting messages from tests/services/test_service_create_update.py (encoding="utf-8")
+extracting messages from tests/services/test_service_date_facet.py (encoding="utf-8")
+extracting messages from tests/services/test_service_facets.py (encoding="utf-8")
+extracting messages from tests/services/test_service_pagination.py (encoding="utf-8")
+extracting messages from tests/services/test_service_queryparser.py (encoding="utf-8")
+extracting messages from tests/services/test_service_relation_propagation.py (encoding="utf-8")
+extracting messages from tests/services/test_service_revision_id.py (encoding="utf-8")
+extracting messages from tests/services/test_service_sort.py (encoding="utf-8")
+extracting messages from tests/services/test_utils.py (encoding="utf-8")
+extracting messages from tests/services/custom_fields/test_base_cf.py (encoding="utf-8")
+extracting messages from tests/services/custom_fields/test_boolean_cf.py (encoding="utf-8")
+extracting messages from tests/services/custom_fields/test_date_cf.py (encoding="utf-8")
+extracting messages from tests/services/custom_fields/test_number_cf.py (encoding="utf-8")
+extracting messages from tests/services/custom_fields/test_schema_cf.py (encoding="utf-8")
+extracting messages from tests/services/custom_fields/test_text_cf.py (encoding="utf-8")
+extracting messages from tests/services/custom_fields/test_validate.py (encoding="utf-8")
+extracting messages from tests/services/files/conftest.py (encoding="utf-8")
+extracting messages from tests/services/files/files_utils.py (encoding="utf-8")
+extracting messages from tests/services/files/test_file_extractors.py (encoding="utf-8")
+extracting messages from tests/services/files/test_file_results.py (encoding="utf-8")
+extracting messages from tests/services/files/test_file_service.py (encoding="utf-8")
+extracting messages from tests/services/files/test_files_options.py (encoding="utf-8")
+extracting messages from tests/services/files/test_files_processing.py (encoding="utf-8")
+extracting messages from tests/services/files/test_zip.py (encoding="utf-8")
+extracting messages from tests/services/files/s3/conftest.py (encoding="utf-8")
+extracting messages from tests/services/files/s3/test_service_s3_backend.py (encoding="utf-8")
+writing PO template file to /dev/null
+ opensearch Pulling 
+ postgresql Pulling 
+ redis Pulling 
+ minio Pulling 
+ redis Pulled 
+ minio Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-minio-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-minio-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-minio-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-minio-1  Started
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched
+configfile: setup.cfg
+testpaths: docs, tests, invenio_records_resources
+plugins: isort-4.0.0, invenio-4.0.1, pydocstyle-2.4.0, flask-1.3.0, github-actions-annotate-failures-0.4.0, cov-7.1.0, mock-3.15.1, black-0.6.0, pycodestyle-2.5.0
+collected 848 items
+docs/conf.py ...                                                         [  0%]
+tests/__init__.py ...                                                    [  0%]
+tests/conftest.py ...                                                    [  1%]
+tests/factories/__init__.py ...                                          [  1%]
+tests/factories/conftest.py ...                                          [  1%]
+tests/factories/test_factory.py 
+                             [  3%]
+tests/factories/test_service.py ...                                      [  3%]
+tests/mock_module/__init__.py ...                                        [  3%]
+tests/mock_module/api.py ...                                             [  4%]
+tests/mock_module/config.py ...                                          [  4%]
+tests/mock_module/extractor.py ...                                       [  4%]
+tests/mock_module/jsonschemas/__init__.py ...                            [  5%]
+tests/mock_module/mappings/__init__.py ...                               [  5%]
+tests/mock_module/mappings/os-v1/__init__.py ...                         [  6%]
+tests/mock_module/mappings/os-v2/__init__.py ...                         [  6%]
+tests/mock_module/mappings/v7/__init__.py ...                            [  6%]
+tests/mock_module/models.py ...                                          [  7%]
+tests/mock_module/permissions.py ...                                     [  7%]
+tests/mock_module/resource.py ...                                        [  7%]
+tests/mock_module/schemas.py ...                                         [  8%]
+tests/mock_module_factory/__init__.py ...                                [  8%]
+tests/mock_module_factory/grants.py ...                                  [  8%]
+tests/mock_module_factory/jsonschemas/__init__.py ...                    [  9%]
+tests/mock_module_factory/mappings/__init__.py ...                       [  9%]
+tests/mock_module_factory/mappings/os-v1/__init__.py ...                 [  9%]
+tests/mock_module_factory/mappings/os-v2/__init__.py ...                 [ 10%]
+tests/mock_module_factory/mappings/v7/__init__.py ...                    [ 10%]
+tests/records/conftest.py ...                                            [ 10%]
+tests/records/test_api.py 
+                                         [ 11%]
+tests/records/test_dumpers.py 
+                                        [ 12%]
+tests/records/test_systemfield_files.py 
+                 [ 13%]
+tests/records/test_systemfield_index.py 
+                            [ 14%]
+tests/records/test_systemfield_modelpid.py 
+                        [ 15%]
+tests/records/test_systemfield_pid.py 
+                          [ 16%]
+tests/records/test_systemfield_pidstatus.py 
+                        [ 16%]
+tests/resources/conftest.py ...                                          [ 17%]
+tests/resources/files/__init__.py ...                                    [ 17%]
+tests/resources/files/conftest.py ...                                    [ 17%]
+tests/resources/files/test_zip.py ..::error file=workdir/tests/invenio-records-resources/patched/tests/resources/files/test_zip.py,line=154::test_extractors_listing_extract_resource%0A%0ANameError: name 'record' is not defined
+F
+                                 [ 18%]
+tests/resources/test_files_resource.py 
+                    [ 20%]
+tests/resources/test_resource_faceting.py 
+                        [ 21%]
+tests/resources/test_resource_links.py 
+                             [ 21%]
+tests/resources/test_resource_pagination.py 
+                 [ 23%]
+tests/resources/test_resource_preference.py 
+                          [ 23%]
+tests/resources/test_resource_sorting.py 
+                        [ 24%]
+tests/resources/test_resources.py 
+                                 [ 25%]
+tests/resources/test_resources_etag.py 
+                              [ 25%]
+tests/services/conftest.py ...                                           [ 25%]
+tests/services/custom_fields/test_base_cf.py ...                         [ 26%]
+tests/services/custom_fields/test_boolean_cf.py ......                   [ 27%]
+tests/services/custom_fields/test_date_cf.py ..........                  [ 28%]
+tests/services/custom_fields/test_number_cf.py ........                  [ 29%]
+tests/services/custom_fields/test_schema_cf.py 
+                       [ 29%]
+tests/services/custom_fields/test_text_cf.py ..........                  [ 30%]
+tests/services/custom_fields/test_validate.py ....                       [ 31%]
+tests/services/files/conftest.py ...                                     [ 31%]
+tests/services/files/files_utils.py ...                                  [ 31%]
+tests/services/files/s3/conftest.py ...                                  [ 32%]
+tests/services/files/s3/test_service_s3_backend.py 
+                   [ 32%]
+tests/services/files/test_file_extractors.py ..::error file=workdir/tests/invenio-records-resources/patched/tests/services/files/test_file_extractors.py,line=50::test_extractors_listing_extract_service%0A%0ANameError: name 'record' is not defined
+F
+                        [ 33%]
+tests/services/files/test_file_results.py ..ss                           [ 33%]
+tests/services/files/test_file_service.py 
+             [ 35%]
+tests/services/files/test_files_options.py 
+                       [ 36%]
+tests/services/files/test_files_processing.py 
+                       [ 36%]
+tests/services/files/test_zip.py 
+::error file=workdir/tests/invenio-records-resources/patched/tests/services/files/test_zip.py,line=98::test_zip_extraction%0A%0ANameError: name 'record' is not defined
+F.                                  [ 37%]
+tests/services/test_results.py 
+                                       [ 37%]
+tests/services/test_results_expand.py 
+                                [ 38%]
+tests/services/test_service.py 
+                                    [ 39%]
+tests/services/test_service_create.py 
+                              [ 39%]
+tests/services/test_service_create_update.py 
+                  [ 40%]
+tests/services/test_service_date_facet.py 
+              [ 42%]
+tests/services/test_service_facets.py 
+                            [ 43%]
+tests/services/test_service_pagination.py 
+                           [ 44%]
+tests/services/test_service_queryparser.py ............................. [ 47%]
+                                      [ 51%]
+tests/services/test_service_relation_propagation.py 
+                 [ 52%]
+tests/services/test_service_revision_id.py 
+                          [ 52%]
+tests/services/test_service_sort.py 
+                                [ 53%]
+tests/services/test_utils.py 
+                                         [ 53%]
+tests/test_alembic.py 
+                                                [ 53%]
+tests/test_invenio_resources.py ....                                     [ 54%]
+tests/test_tasks.py 
+                                                  [ 54%]
+invenio_records_resources/__init__.py ...                                [ 55%]
+invenio_records_resources/config.py ...                                  [ 55%]
+invenio_records_resources/errors.py ...                                  [ 55%]
+invenio_records_resources/ext.py ...                                     [ 56%]
+invenio_records_resources/factories/__init__.py ...                      [ 56%]
+invenio_records_resources/factories/factory.py ...                       [ 56%]
+invenio_records_resources/pagination.py ...                              [ 57%]
+invenio_records_resources/patch_info.py ...                              [ 57%]
+invenio_records_resources/proxies.py ...                                 [ 57%]
+invenio_records_resources/records/__init__.py ...                        [ 58%]
+invenio_records_resources/records/api.py ...                             [ 58%]
+invenio_records_resources/records/dumpers.py ...                         [ 58%]
+invenio_records_resources/records/jsonschemas/__init__.py ...            [ 59%]
+invenio_records_resources/records/models.py ...                          [ 59%]
+invenio_records_resources/records/providers.py ...                       [ 60%]
+invenio_records_resources/records/resolver.py ...                        [ 60%]
+invenio_records_resources/records/systemfields/__init__.py ...           [ 60%]
+invenio_records_resources/records/systemfields/calculated.py ...         [ 61%]
+invenio_records_resources/records/systemfields/entity_reference.py ...   [ 61%]
+invenio_records_resources/records/systemfields/files/__init__.py ...     [ 61%]
+invenio_records_resources/records/systemfields/files/field.py ...        [ 62%]
+invenio_records_resources/records/systemfields/files/manager.py ...      [ 62%]
+invenio_records_resources/records/systemfields/index.py ...              [ 62%]
+invenio_records_resources/records/systemfields/pid.py ...                [ 63%]
+invenio_records_resources/records/systemfields/pid_statuscheck.py ...    [ 63%]
+invenio_records_resources/records/systemfields/relations.py ...          [ 63%]
+invenio_records_resources/records/transfer.py ...                        [ 64%]
+invenio_records_resources/references/__init__.py ...                     [ 64%]
+invenio_records_resources/references/entity_resolvers/__init__.py ...    [ 64%]
+invenio_records_resources/references/entity_resolvers/base.py ...        [ 65%]
+invenio_records_resources/references/entity_resolvers/records.py ...     [ 65%]
+invenio_records_resources/references/entity_resolvers/results.py ...     [ 66%]
+invenio_records_resources/references/grants.py ...                       [ 66%]
+invenio_records_resources/references/registry.py ...                     [ 66%]
+invenio_records_resources/registry.py ...                                [ 67%]
+invenio_records_resources/resources/__init__.py ...                      [ 67%]
+invenio_records_resources/resources/errors.py ...                        [ 67%]
+invenio_records_resources/resources/files/__init__.py ...                [ 68%]
+invenio_records_resources/resources/files/config.py ...                  [ 68%]
+invenio_records_resources/resources/files/parser.py ...                  [ 68%]
+invenio_records_resources/resources/files/resource.py ...                [ 69%]
+invenio_records_resources/resources/records/__init__.py ...              [ 69%]
+invenio_records_resources/resources/records/args.py ...                  [ 69%]
+invenio_records_resources/resources/records/config.py ...                [ 70%]
+invenio_records_resources/resources/records/headers.py ...               [ 70%]
+invenio_records_resources/resources/records/resource.py ...              [ 70%]
+invenio_records_resources/resources/records/utils.py ...                 [ 71%]
+invenio_records_resources/services/__init__.py ...                       [ 71%]
+invenio_records_resources/services/base/__init__.py ...                  [ 72%]
+invenio_records_resources/services/base/components.py ...                [ 72%]
+invenio_records_resources/services/base/config.py ...                    [ 72%]
+invenio_records_resources/services/base/links.py ...                     [ 73%]
+invenio_records_resources/services/base/results.py ...                   [ 73%]
+invenio_records_resources/services/base/service.py ...                   [ 73%]
+invenio_records_resources/services/base/utils.py ...                     [ 74%]
+invenio_records_resources/services/custom_fields/__init__.py ...         [ 74%]
+invenio_records_resources/services/custom_fields/base.py ...             [ 74%]
+invenio_records_resources/services/custom_fields/boolean.py ...          [ 75%]
+invenio_records_resources/services/custom_fields/date.py ...             [ 75%]
+invenio_records_resources/services/custom_fields/errors.py ...           [ 75%]
+invenio_records_resources/services/custom_fields/mappings.py ...         [ 76%]
+invenio_records_resources/services/custom_fields/number.py ...           [ 76%]
+invenio_records_resources/services/custom_fields/schema.py ...           [ 77%]
+invenio_records_resources/services/custom_fields/text.py ...             [ 77%]
+invenio_records_resources/services/custom_fields/validate.py ...         [ 77%]
+invenio_records_resources/services/errors.py ...                         [ 78%]
+invenio_records_resources/services/files/__init__.py ...                 [ 78%]
+invenio_records_resources/services/files/components/__init__.py ...      [ 78%]
+invenio_records_resources/services/files/components/base.py ...          [ 79%]
+invenio_records_resources/services/files/components/content.py ...       [ 79%]
+invenio_records_resources/services/files/components/metadata.py ...      [ 79%]
+invenio_records_resources/services/files/components/multipart.py ...     [ 80%]
+invenio_records_resources/services/files/components/processor.py ...     [ 80%]
+invenio_records_resources/services/files/config.py ...                   [ 80%]
+invenio_records_resources/services/files/extractors/__init__.py ...      [ 81%]
+invenio_records_resources/services/files/extractors/base.py ...          [ 81%]
+invenio_records_resources/services/files/extractors/reply_stream.py ...  [ 81%]
+invenio_records_resources/services/files/extractors/zip.py ::error file=workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/extractors/zip.py,line=0::Black format check%0A%0A--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/extractors/zip.py	2026-05-29 07:07:57+00:00%0A+++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/extractors/zip.py	2026-05-29 07:12:10.278002+00:00%0A@@ -386,11 +386,14 @@%0A             zs = ZipStream(compress_type=ZIP_DEFLATED)%0A             # Iterate through all entries in the ZIP's central directory%0A             # Recording Stream will capture byte range accessed%0A             for info in zip_proxy.infolist:%0A                 file_key = PurePosixPath(info.filename)%0A-                if file_key.is_relative_to(directory_prefix) and file_key != directory_prefix:%0A+                if (%0A+                    file_key.is_relative_to(directory_prefix)%0A+                    and file_key != directory_prefix%0A+                ):%0A                     relative_file_key = str(file_key.relative_to(directory_prefix))%0A                     if info.is_dir():%0A                         zs.mkdir(relative_file_key)%0A                     else:%0A                         zs.add(%0A
+F.::error file=workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/extractors/zip.py,line=0::isort-check%0A%0A from flask import current_app%0A%0A from zipstream import ZIP_DEFLATED, ZipStream%0A %0A+from ...errors import FileKeyNotFoundError, InvalidFileContentError%0A from .base import FileExtractor%0A-%0A-from ...errors import FileKeyNotFoundError, InvalidFileContentError%0A from .reply_stream import ReplyStream%0A %0A 
+F           [ 82%]
+invenio_records_resources/services/files/generators.py ...               [ 82%]
+invenio_records_resources/services/files/links.py ...                    [ 83%]
+invenio_records_resources/services/files/processors/__init__.py ...      [ 83%]
+invenio_records_resources/services/files/processors/base.py ...          [ 83%]
+invenio_records_resources/services/files/processors/image.py ...         [ 84%]
+invenio_records_resources/services/files/processors/zip.py ..::error file=workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/processors/zip.py,line=0::isort-check%0A%0A %0A%0A from flask import current_app%0A %0A+from ...errors import InvalidZipException%0A from .base import FileProcessor%0A-from ...errors import InvalidZipException%0A %0A %0A class ZipProcessor(FileProcessor):
+F           [ 84%]
+invenio_records_resources/services/files/results.py ...                  [ 84%]
+invenio_records_resources/services/files/schema.py ...                   [ 85%]
+invenio_records_resources/services/files/service.py ::error file=workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/service.py,line=0::Black format check%0A%0A--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/service.py	2026-05-29 07:07:57+00:00%0A+++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/service.py	2026-05-29 07:12:12.253433+00:00%0A@@ -487,11 +487,11 @@%0A         else:%0A             raise NoExtractorFoundError(file_key)%0A %0A     def extract_container_item(self, identity, id_, file_key, path):%0A         """Extract a specific file or directory from the container of a record."""%0A-        container_stream = self.open_container_item( identity, id_, file_key, path)%0A+        container_stream = self.open_container_item(identity, id_, file_key, path)%0A         return self.file_result_container_item(%0A             self,%0A             identity,%0A             record,%0A             file_record,%0A
+F..                  [ 85%]
+invenio_records_resources/services/files/tasks.py ...                    [ 85%]
+invenio_records_resources/services/files/transfer/__init__.py ...        [ 86%]
+invenio_records_resources/services/files/transfer/base.py ...            [ 86%]
+invenio_records_resources/services/files/transfer/constants.py ...       [ 86%]
+invenio_records_resources/services/files/transfer/providers/__init__.py . [ 87%]
+                                                                       [ 87%]
+invenio_records_resources/services/files/transfer/providers/fetch.py ... [ 87%]
+                                                                         [ 87%]
+invenio_records_resources/services/files/transfer/providers/local.py ... [ 87%]
+                                                                         [ 87%]
+invenio_records_resources/services/files/transfer/providers/multipart.py . [ 88%]
+                                                                       [ 88%]
+invenio_records_resources/services/files/transfer/providers/remote.py .. [ 88%]
+                                                                        [ 88%]
+invenio_records_resources/services/files/transfer/registry.py ...        [ 89%]
+invenio_records_resources/services/records/__init__.py ...               [ 89%]
+invenio_records_resources/services/records/components/__init__.py ...    [ 89%]
+invenio_records_resources/services/records/components/base.py ...        [ 90%]
+invenio_records_resources/services/records/components/data.py ...        [ 90%]
+invenio_records_resources/services/records/components/files.py ...       [ 90%]
+invenio_records_resources/services/records/components/metadata.py ...    [ 91%]
+invenio_records_resources/services/records/components/relations.py ...   [ 91%]
+invenio_records_resources/services/records/config.py ...                 [ 91%]
+invenio_records_resources/services/records/facets/__init__.py ...        [ 92%]
+invenio_records_resources/services/records/facets/facets.py ...          [ 92%]
+invenio_records_resources/services/records/facets/labels.py ...          [ 92%]
+invenio_records_resources/services/records/facets/response.py ...        [ 93%]
+invenio_records_resources/services/records/links.py ...                  [ 93%]
+invenio_records_resources/services/records/params/__init__.py ...        [ 93%]
+invenio_records_resources/services/records/params/base.py ...            [ 94%]
+invenio_records_resources/services/records/params/facets.py ...          [ 94%]
+invenio_records_resources/services/records/params/filter.py ...          [ 95%]
+invenio_records_resources/services/records/params/pagination.py ...      [ 95%]
+invenio_records_resources/services/records/params/querystr.py ...        [ 95%]
+invenio_records_resources/services/records/params/sort.py ...            [ 96%]
+invenio_records_resources/services/records/queryparser/__init__.py ...   [ 96%]
+invenio_records_resources/services/records/queryparser/query.py ...      [ 96%]
+invenio_records_resources/services/records/queryparser/suggest.py ...    [ 97%]
+invenio_records_resources/services/records/queryparser/transformer.py .. [ 97%]
+                                                                        [ 97%]
+invenio_records_resources/services/records/results.py ...                [ 97%]
+invenio_records_resources/services/records/schema.py ...                 [ 98%]
+invenio_records_resources/services/records/service.py ...                [ 98%]
+invenio_records_resources/services/references/__init__.py ...            [ 98%]
+invenio_records_resources/services/references/schema.py ...              [ 99%]
+invenio_records_resources/services/uow.py ...                            [ 99%]
+invenio_records_resources/tasks.py ...                                   [100%]
+=================================== FAILURES ===================================
+___________________ test_extractors_listing_extract_resource ___________________
+file_service = <invenio_records_resources.services.files.service.FileService object at 0x7f6d1134e5d0>
+location = pytest-location
+record_with_zip = <invenio_records_resources.services.records.results.RecordItem object at 0x7f6d11381090>
+identity_simple = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='system_role', value='authenticated_user')}>
+text_fp = <_io.BufferedReader name='/tmp/pytest-of-runner/pytest-0/test_extractors_listing_extrac0/testfile.txt'>
+client = <FlaskClient <Flask 'invenio'>>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+    def test_extractors_listing_extract_resource(
+        file_service, location, record_with_zip, identity_simple, text_fp, client, headers
+    ):
+        """Test extraction API with a dummy extractor."""
+        recid = record_with_zip["id"]
+        # Get the file metadata
+        res = client.get(f"/mocks/{recid}/files/testzip.zip")
+        assert res.json["metadata"]["zip_toc_position"] == 236
+        res = client.get(
+            f"/mocks/{recid}/files/testzip.zip/container",
+            headers=headers,
+        )
+        assert res.status_code == 200
+        listing = res.json
+        assert listing == {
+            "entries": [
+                {
+                    "compressed_size": 24,
+                    "crc": 3057564182,
+                    "key": "a.txt",
+                    "links": {
+                        "content": f"https://127.0.0.1:5000/api/mocks/{recid}/files/testzip.zip/container/a.txt"
+                    },
+                    "mimetype": "text/plain",
+                    "size": 24,
+                },
+                {
+                    "compressed_size": 24,
+                    "crc": 3057564182,
+                    "key": "b.txt",
+                    "links": {
+                        "content": f"https://127.0.0.1:5000/api/mocks/{recid}/files/testzip.zip/container/b.txt"
+                    },
+                    "mimetype": "text/plain",
+                    "size": 24,
+                },
+                {
+                    "compressed_size": 24,
+                    "crc": 3057564182,
+                    "key": "c.txt",
+                    "links": {
+                        "content": f"https://127.0.0.1:5000/api/mocks/{recid}/files/testzip.zip/container/c.txt"
+                    },
+                    "mimetype": "text/plain",
+                    "size": 24,
+                },
+                {
+                    "compressed_size": 24,
+                    "crc": 3057564182,
+                    "key": "d.txt",
+                    "links": {
+                        "content": f"https://127.0.0.1:5000/api/mocks/{recid}/files/testzip.zip/container/d.txt"
+                    },
+                    "mimetype": "text/plain",
+                    "size": 24,
+                },
+            ],
+            "directories": [],
+            "total": 4,
+            "truncated": False,
+        }
+>       res = client.get(
+            f"/mocks/{recid}/files/testzip.zip/container/a.txt",
+            headers=headers,
+        )
+tests/resources/files/test_zip.py:154: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/werkzeug/test.py:1162: in get
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_records_resources/resources/files/resource.py:347: in extract_container_item
+    extracted = self.service.extract_container_item(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_records_resources.services.files.service.FileService object at 0x7f6d14beb8c0>
+identity = <AnonymousIdentity id="None" auth_type="None" provides={Need(method='system_role', value='any_user')}>
+id_ = '023mx-8sd08', file_key = 'testzip.zip', path = 'a.txt'
+    def extract_container_item(self, identity, id_, file_key, path):
+        """Extract a specific file or directory from the container of a record."""
+        container_stream = self.open_container_item( identity, id_, file_key, path)
+        return self.file_result_container_item(
+            self,
+            identity,
+>           record,
+            ^^^^^^
+            file_record,
+            container_stream,
+            path,
+            mimetype=getattr(container_stream, "mimetype", None),
+            size=getattr(container_stream, "size", None),
+        )
+E       NameError: name 'record' is not defined
+invenio_records_resources/services/files/service.py:496: NameError
+___________________ test_extractors_listing_extract_service ____________________
+file_service = <invenio_records_resources.services.files.service.FileService object at 0x7f6d0ca7d5b0>
+location = pytest-location
+example_record = <invenio_records_resources.services.records.results.RecordItem object at 0x7f6d10cbfe30>
+identity_simple = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='system_role', value='authenticated_user')}>
+text_fp = <_io.BufferedReader name='/tmp/pytest-of-runner/pytest-0/test_extractors_listing_extrac1/testfile.txt'>
+search_clear = <OpenSearch([{'host': 'localhost', 'port': 9200}])>
+    def test_extractors_listing_extract_service(
+        file_service, location, example_record, identity_simple, text_fp, search_clear
+    ):
+        """Test extraction API with a dummy extractor."""
+        recid = example_record["id"]
+        # Upload file
+        file_service.init_files(identity_simple, recid, [{"key": "dummy.txt"}])
+        file_service.set_file_content(identity_simple, recid, "dummy.txt", text_fp)
+        file_service.commit_file(identity_simple, recid, "dummy.txt")
+        listing = file_service.list_container(identity_simple, recid, "dummy.txt")
+        assert listing.to_dict() == {
+            "entries": [
+                {
+                    "key": "dummy.txt",
+                    "size": 123456790,
+                    "links": {
+                        "content": f"https://127.0.0.1:5000/api/mocks/{recid}/files/dummy.txt/container/dummy.txt"
+                    },
+                }
+            ],
+            "directories": [],
+            "total": 1,
+            "truncated": False,
+        }
+>       extracted = file_service.extract_container_item(
+            identity_simple, recid, "dummy.txt", "dummy.txt"
+        )
+tests/services/files/test_file_extractors.py:50: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_records_resources.services.files.service.FileService object at 0x7f6d0ca7d5b0>
+identity = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='system_role', value='authenticated_user')}>
+id_ = '1q0qg-gzt30', file_key = 'dummy.txt', path = 'dummy.txt'
+    def extract_container_item(self, identity, id_, file_key, path):
+        """Extract a specific file or directory from the container of a record."""
+        container_stream = self.open_container_item( identity, id_, file_key, path)
+        return self.file_result_container_item(
+            self,
+            identity,
+>           record,
+            ^^^^^^
+            file_record,
+            container_stream,
+            path,
+            mimetype=getattr(container_stream, "mimetype", None),
+            size=getattr(container_stream, "size", None),
+        )
+E       NameError: name 'record' is not defined
+invenio_records_resources/services/files/service.py:496: NameError
+_____________________________ test_zip_extraction ______________________________
+identity_simple = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='system_role', value='authenticated_user')}>
+file_service = <invenio_records_resources.services.files.service.FileService object at 0x7f6d154dc7c0>
+record_with_zip = <invenio_records_resources.services.records.results.RecordItem object at 0x7f6d0db85810>
+    def test_zip_extraction(identity_simple, file_service, record_with_zip):
+        recid = record_with_zip["id"]
+>       extracted = file_service.extract_container_item(
+            identity_simple, recid, "testzip.zip", "a.txt"
+        )
+tests/services/files/test_zip.py:98: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_records_resources.services.files.service.FileService object at 0x7f6d154dc7c0>
+identity = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='system_role', value='authenticated_user')}>
+id_ = 'vgbhp-pb777', file_key = 'testzip.zip', path = 'a.txt'
+    def extract_container_item(self, identity, id_, file_key, path):
+        """Extract a specific file or directory from the container of a record."""
+        container_stream = self.open_container_item( identity, id_, file_key, path)
+        return self.file_result_container_item(
+            self,
+            identity,
+>           record,
+            ^^^^^^
+            file_record,
+            container_stream,
+            path,
+            mimetype=getattr(container_stream, "mimetype", None),
+            size=getattr(container_stream, "size", None),
+        )
+E       NameError: name 'record' is not defined
+invenio_records_resources/services/files/service.py:496: NameError
+______________________________ Black format check ______________________________
+--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/extractors/zip.py	2026-05-29 07:07:57+00:00
++++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/extractors/zip.py	2026-05-29 07:12:10.278002+00:00
+@@ -386,11 +386,14 @@
+             zs = ZipStream(compress_type=ZIP_DEFLATED)
+             # Iterate through all entries in the ZIP's central directory
+             # Recording Stream will capture byte range accessed
+             for info in zip_proxy.infolist:
+                 file_key = PurePosixPath(info.filename)
+-                if file_key.is_relative_to(directory_prefix) and file_key != directory_prefix:
++                if (
++                    file_key.is_relative_to(directory_prefix)
++                    and file_key != directory_prefix
++                ):
+                     relative_file_key = str(file_key.relative_to(directory_prefix))
+                     if info.is_dir():
+                         zs.mkdir(relative_file_key)
+                     else:
+                         zs.add(
+_________________________________ isort-check __________________________________
+ from flask import current_app
+ from zipstream import ZIP_DEFLATED, ZipStream
++from ...errors import FileKeyNotFoundError, InvalidFileContentError
+ from .base import FileExtractor
+-
+-from ...errors import FileKeyNotFoundError, InvalidFileContentError
+ from .reply_stream import ReplyStream
+_________________________________ isort-check __________________________________
+ from flask import current_app
++from ...errors import InvalidZipException
+ from .base import FileProcessor
+-from ...errors import InvalidZipException
+ class ZipProcessor(FileProcessor):
+______________________________ Black format check ______________________________
+--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/service.py	2026-05-29 07:07:57+00:00
++++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/invenio_records_resources/services/files/service.py	2026-05-29 07:12:12.253433+00:00
+@@ -487,11 +487,11 @@
+         else:
+             raise NoExtractorFoundError(file_key)
+     def extract_container_item(self, identity, id_, file_key, path):
+         """Extract a specific file or directory from the container of a record."""
+-        container_stream = self.open_container_item( identity, id_, file_key, path)
++        container_stream = self.open_container_item(identity, id_, file_key, path)
+         return self.file_result_container_item(
+             self,
+             identity,
+             record,
+             file_record,
+=============================== warnings summary ===============================
+tests/factories/test_factory.py::test_gen_same_name_classes
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/.venv/lib/python3.14/site-packages/flask_sqlalchemy/model.py:144: SAWarning: This declarative base already contains a class with the same class name and module name as invenio_records_resources.factories.factory.MyRecordMetadata, and will be replaced in the string-lookup table
+    super().__init__(name, bases, d, **kwargs)
+    self.init_app(app)
+    warnings.warn(
+tests/services/files/s3/test_service_s3_backend.py::test_multipart_file_upload_s3
+    warnings.warn(
+tests/services/files/test_file_service.py::test_remote_file
+tests/services/files/test_file_service.py::test_remote_file_with_checksum_and_size
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-records-resources/patched/.venv/lib/python3.14/site-packages/invenio_files_rest/models.py:719: SAWarning: Object of type <ObjectVersion> not in session, add operation along 'Bucket.objects' will not proceed (This warning originated from the Session 'autoflush' process, which was invoked automatically in response to a user-initiated operation. Consider using ``no_autoflush`` context manager if this warning happened while initializing objects.)
+    return db.session.query(cls).filter_by(id=file_id).one_or_none()
+tests/test_alembic.py::test_alembic
+    util.warn_deprecated(
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                                       Stmts   Miss  Cover   Missing
+invenio_records_resources/__init__.py                                          3      0   100%
+invenio_records_resources/config.py                                           26      0   100%
+invenio_records_resources/errors.py                                           10      0   100%
+invenio_records_resources/ext.py                                              25      0   100%
+invenio_records_resources/factories/__init__.py                                0      0   100%
+invenio_records_resources/factories/factory.py                                91      1    99%   166
+invenio_records_resources/pagination.py                                       28      0   100%
+invenio_records_resources/patch_info.py                                        6      2    67%   859-861
+invenio_records_resources/proxies.py                                           7      0   100%
+invenio_records_resources/records/__init__.py                                  3      0   100%
+invenio_records_resources/records/api.py                                     147     18    88%   73-76, 119-126, 132, 139, 159, 236, 294-299, 312
+invenio_records_resources/records/dumpers.py                                  36      1    97%   75
+invenio_records_resources/records/jsonschemas/__init__.py                      0      0   100%
+invenio_records_resources/records/models.py                                   25      0   100%
+invenio_records_resources/records/providers.py                                 9      5    44%   28-35
+invenio_records_resources/records/resolver.py                                 23      7    70%   26, 34-45
+invenio_records_resources/records/systemfields/__init__.py                     6      0   100%
+invenio_records_resources/records/systemfields/calculated.py                  36     23    36%   21-22, 27-38, 42-46, 50-51, 56, 64-65, 69-70, 74-77
+invenio_records_resources/records/systemfields/entity_reference.py            72     58    19%   22-24, 28-31, 37-51, 55-56, 60-71, 75-79, 87-105, 109-123, 134-142
+invenio_records_resources/records/systemfields/files/__init__.py               3      0   100%
+invenio_records_resources/records/systemfields/files/field.py                106      2    98%   136, 199
+invenio_records_resources/records/systemfields/files/manager.py              289     35    88%   77, 120, 149-153, 157, 161, 188-190, 207, 236, 273, 353-361, 385, 390-400, 494, 506-507, 525, 533, 557, 571
+invenio_records_resources/records/systemfields/index.py                       11      1    91%   27
+invenio_records_resources/records/systemfields/pid.py                         81      4    95%   83, 232-233, 237
+invenio_records_resources/records/systemfields/pid_statuscheck.py             23      3    87%   62-64
+invenio_records_resources/records/systemfields/relations.py                   29     10    66%   45-46, 50-58
+invenio_records_resources/records/transfer.py                                 38      2    95%   72, 92
+invenio_records_resources/references/__init__.py                               4      0   100%
+invenio_records_resources/references/entity_resolvers/__init__.py              4      0   100%
+invenio_records_resources/references/entity_resolvers/base.py                 74     39    47%   22-35, 55-57, 61, 65, 69, 73, 78, 82-87, 97, 106, 110, 115, 134, 138, 142, 146, 156-162, 172-178, 183, 188, 201, 214, 218
+invenio_records_resources/references/entity_resolvers/records.py              35     19    46%   26-27, 31-32, 36, 40, 48-52, 67-70, 74, 78, 82, 86
+invenio_records_resources/references/entity_resolvers/results.py              34     17    50%   21-22, 26-28, 32, 36, 56-60, 65, 70, 74, 78, 82, 86
+invenio_records_resources/references/grants.py                                12      6    50%   38-39, 45-46, 50, 54
+invenio_records_resources/references/registry.py                              47     31    34%   23, 34-42, 52-57, 68-73, 83-99, 104-107
+invenio_records_resources/registry.py                                         25      3    88%   24, 38, 51
+invenio_records_resources/resources/__init__.py                                2      0   100%
+invenio_records_resources/resources/errors.py                                 46     11    76%   61, 86, 93-111
+invenio_records_resources/resources/files/__init__.py                          3      0   100%
+invenio_records_resources/resources/files/config.py                            7      0   100%
+invenio_records_resources/resources/files/parser.py                            4      0   100%
+invenio_records_resources/resources/files/resource.py                        125      5    96%   182-187, 262, 277, 353
+invenio_records_resources/resources/records/__init__.py                        4      0   100%
+invenio_records_resources/resources/records/args.py                           19      1    95%   39
+invenio_records_resources/resources/records/config.py                         17      0   100%
+invenio_records_resources/resources/records/headers.py                        10      0   100%
+invenio_records_resources/resources/records/resource.py                       55      1    98%   117
+invenio_records_resources/resources/records/utils.py                           9      0   100%
+invenio_records_resources/services/__init__.py                                 4      0   100%
+invenio_records_resources/services/base/__init__.py                            5      0   100%
+invenio_records_resources/services/base/components.py                         14      2    86%   25, 33
+invenio_records_resources/services/base/config.py                            114     67    41%   59, 68-81, 105-107, 111-116, 121, 126, 140-145, 149-154, 159, 163-164, 174-184, 194-211, 216, 221-222, 227, 232, 237, 242, 258-263, 267-282
+invenio_records_resources/services/base/links.py                             133     62    53%   44-49, 54-62, 116-118, 122-124, 129, 133-139, 147-153, 229, 237-239, 243-246, 250-253, 268-272, 276-278, 282-301
+invenio_records_resources/services/base/results.py                             5      0   100%
+invenio_records_resources/services/base/service.py                            33      1    97%   110
+invenio_records_resources/services/base/utils.py                              10      0   100%
+invenio_records_resources/services/custom_fields/__init__.py                   7      0   100%
+invenio_records_resources/services/custom_fields/base.py                      40      3    92%   31, 37, 42
+invenio_records_resources/services/custom_fields/boolean.py                   10      0   100%
+invenio_records_resources/services/custom_fields/date.py                      54      3    94%   55, 93-94
+invenio_records_resources/services/custom_fields/errors.py                    26      4    85%   22, 36, 53, 69
+invenio_records_resources/services/custom_fields/mappings.py                  57     23    60%   20, 25-41, 46-55
+invenio_records_resources/services/custom_fields/number.py                    18      0   100%
+invenio_records_resources/services/custom_fields/schema.py                    15      1    93%   33
+invenio_records_resources/services/custom_fields/text.py                      16      0   100%
+invenio_records_resources/services/custom_fields/validate.py                  21      0   100%
+invenio_records_resources/services/errors.py                                  57     14    75%   26-28, 37, 74, 87-88, 112-121, 129, 143-149
+invenio_records_resources/services/files/__init__.py                           5      0   100%
+invenio_records_resources/services/files/components/__init__.py                6      0   100%
+invenio_records_resources/services/files/components/base.py                   22      0   100%
+invenio_records_resources/services/files/components/content.py                21      7    67%   26, 36-45
+invenio_records_resources/services/files/components/metadata.py               35      1    97%   34
+invenio_records_resources/services/files/components/multipart.py              17      4    76%   33, 42, 48-49
+invenio_records_resources/services/files/components/processor.py              13      0   100%
+invenio_records_resources/services/files/config.py                            25      0   100%
+invenio_records_resources/services/files/extractors/__init__.py                1      0   100%
+invenio_records_resources/services/files/extractors/base.py                   10      1    90%   79
+invenio_records_resources/services/files/extractors/reply_stream.py           53      5    91%   83, 93, 97, 107, 111
+invenio_records_resources/services/files/extractors/zip.py                   141     48    66%   72, 77, 92, 96, 142, 189-190, 194, 198-201, 206, 212-221, 265-275, 315, 327-328, 359, 363, 383-404
+invenio_records_resources/services/files/generators.py                        23      2    91%   53, 56
+invenio_records_resources/services/files/links.py                              9      1    89%   20
+invenio_records_resources/services/files/processors/__init__.py                4      0   100%
+invenio_records_resources/services/files/processors/base.py                   16      2    88%   38, 42
+invenio_records_resources/services/files/processors/image.py                  51     19    63%   20-22, 27, 31-33, 44, 67-81, 89
+invenio_records_resources/services/files/processors/zip.py                    54      3    94%   56, 68, 86
+invenio_records_resources/services/files/results.py                          123     33    73%   54, 74, 120, 192-194, 220-227, 232, 236-264
+invenio_records_resources/services/files/schema.py                            75      2    97%   51, 55
+invenio_records_resources/services/files/service.py                          158     14    91%   77, 164, 361-366, 450-455, 476, 488, 514, 520
+invenio_records_resources/services/files/tasks.py                             89     20    78%   67-81, 96, 115, 124-130
+invenio_records_resources/services/files/transfer/__init__.py                  7      0   100%
+invenio_records_resources/services/files/transfer/base.py                     50      5    90%   82, 90-95, 101-102
+invenio_records_resources/services/files/transfer/constants.py                 4      0   100%
+invenio_records_resources/services/files/transfer/providers/__init__.py        5      0   100%
+invenio_records_resources/services/files/transfer/providers/fetch.py          38      1    97%   58
+invenio_records_resources/services/files/transfer/providers/local.py          10      1    90%   30
+invenio_records_resources/services/files/transfer/providers/multipart.py     125     13    90%   59, 84, 93, 98, 127-128, 149, 170, 197, 200, 247, 314-315
+invenio_records_resources/services/files/transfer/providers/remote.py         34      1    97%   48
+invenio_records_resources/services/files/transfer/registry.py                 25      4    84%   33, 45, 67, 69
+invenio_records_resources/services/records/__init__.py                         5      0   100%
+invenio_records_resources/services/records/components/__init__.py              6      0   100%
+invenio_records_resources/services/records/components/base.py                 12      0   100%
+invenio_records_resources/services/records/components/data.py                 12      8    33%   21, 30-38
+invenio_records_resources/services/records/components/files.py                59      4    93%   43, 48, 56, 60
+invenio_records_resources/services/records/components/metadata.py              6      0   100%
+invenio_records_resources/services/records/components/relations.py             8      0   100%
+invenio_records_resources/services/records/config.py                          36      0   100%
+invenio_records_resources/services/records/facets/__init__.py                  4      0   100%
+invenio_records_resources/services/records/facets/facets.py                  279     37    87%   62, 68-79, 210, 222-237, 362, 479, 491-492, 504-505, 625, 662, 664, 666, 674, 713-714, 726, 731, 733, 763, 797-800
+invenio_records_resources/services/records/facets/labels.py                   10      6    40%   19-20, 24-31
+invenio_records_resources/services/records/facets/response.py                 30     10    67%   60-71, 84-87
+invenio_records_resources/services/records/links.py                           23      5    78%   23-25, 49-56
+invenio_records_resources/services/records/params/__init__.py                  7      0   100%
+invenio_records_resources/services/records/params/base.py                      4      0   100%
+invenio_records_resources/services/records/params/facets.py                   58      0   100%
+invenio_records_resources/services/records/params/filter.py                   17     10    41%   21-23, 28, 34-41
+invenio_records_resources/services/records/params/pagination.py               15      0   100%
+invenio_records_resources/services/records/params/querystr.py                 21      0   100%
+invenio_records_resources/services/records/params/sort.py                     26      1    96%   31
+invenio_records_resources/services/records/queryparser/__init__.py             4      0   100%
+invenio_records_resources/services/records/queryparser/query.py               46      2    96%   141-142
+invenio_records_resources/services/records/queryparser/suggest.py             45     30    33%   73-77, 101, 111-137, 144-156
+invenio_records_resources/services/records/queryparser/transformer.py         73     16    78%   43, 60, 86, 90-96, 122-127, 132, 152-153
+invenio_records_resources/services/records/results.py                        276     67    76%   89-90, 102, 195-196, 219-220, 292, 345, 354, 362, 381-384, 394, 431-433, 476, 491-493, 499, 524-545, 549-583
+invenio_records_resources/services/records/schema.py                          58      2    97%   75, 80
+invenio_records_resources/services/records/service.py                        211     13    94%   138, 142, 403-404, 468, 549-558, 672-673, 685-687
+invenio_records_resources/services/references/__init__.py                      2      0   100%
+invenio_records_resources/services/references/schema.py                       19     10    47%   27-28, 40-45, 67-72
+invenio_records_resources/services/uow.py                                     70     11    84%   150, 196, 204-206, 210, 235-237, 245, 249
+invenio_records_resources/tasks.py                                            31      2    94%   30-31
+TOTAL                                                                       5030    906    82%
+=========================== short test summary info ============================
+FAILED tests/resources/files/test_zip.py::test_extractors_listing_extract_resource - NameError: name 'record' is not defined
+FAILED tests/services/files/test_file_extractors.py::test_extractors_listing_extract_service - NameError: name 'record' is not defined
+FAILED tests/services/files/test_zip.py::test_zip_extraction - NameError: name 'record' is not defined
+FAILED invenio_records_resources/services/files/extractors/zip.py::black
+FAILED invenio_records_resources/services/files/extractors/zip.py::ISORT
+FAILED invenio_records_resources/services/files/processors/zip.py::ISORT
+FAILED invenio_records_resources/services/files/service.py::black
+======= 7 failed, 839 passed, 2 skipped, 81 warnings in 91.75s (0:01:31) =======
+ Container docker_services_cli-minio-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-minio-1  Stopped
+ Container docker_services_cli-minio-1  Removing
+ Container docker_services_cli-minio-1  Removed
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

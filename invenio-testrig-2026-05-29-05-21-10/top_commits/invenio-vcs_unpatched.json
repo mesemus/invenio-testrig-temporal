@@ -1,0 +1,78 @@
+[
+  {
+    "hash": "cf7b871",
+    "message": "release: v0.1.1"
+  },
+  {
+    "hash": "d27518c",
+    "message": "fix(gitlab): better error handling for 404 errors; adjust method to reduce request count"
+  },
+  {
+    "hash": "129d2ce",
+    "message": "release: v0.1.0"
+  },
+  {
+    "hash": "3599b2b",
+    "message": "fix(gitlab): ignore missing default branches"
+  },
+  {
+    "hash": "7c8d86c",
+    "message": "feat(providers): support filtering repo visibility for GH/GL"
+  },
+  {
+    "hash": "a398c6a",
+    "message": "fix(tasks): use correct type (`RemoteToken` class) during `disconnect_provider` task"
+  },
+  {
+    "hash": "400b668",
+    "message": "fix(access): add `any_user` permission when extracting `self.user_identity`"
+  },
+  {
+    "hash": "8fbc5b0",
+    "message": "fix(webhook): add user ID validation"
+  },
+  {
+    "hash": "dff2213",
+    "message": "feat(tasks): mark release task as `PROCESSING` before generic method"
+  },
+  {
+    "hash": "dfe6939",
+    "message": "release: v0.0.1"
+  },
+  {
+    "hash": "cf8434f",
+    "message": "temp(tests): remove doc test"
+  },
+  {
+    "hash": "452e2c1",
+    "message": "feat: supplementary changes since layers were merged"
+  },
+  {
+    "hash": "709811c",
+    "message": "tests: compat for VCS"
+  },
+  {
+    "hash": "c949de9",
+    "message": "feat: views layer"
+  },
+  {
+    "hash": "03158cb",
+    "message": "feat: service layer"
+  },
+  {
+    "hash": "732bded",
+    "message": "feat: provider layer"
+  },
+  {
+    "hash": "9a36fb2",
+    "message": "feat: data layer"
+  },
+  {
+    "hash": "466522d",
+    "message": "init: set up base invenio-vcs repository, without important code"
+  },
+  {
+    "hash": "f8d2c06",
+    "message": "Initial commit"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "f8032a44",
+    "message": "fix(mshp-req): display discussion link on communiy header correctly [+]"
+  },
+  {
+    "hash": "69add959",
+    "message": "fix(inv): use appropriate link in invitation notification"
+  },
+  {
+    "hash": "40473b20",
+    "message": "feat(mshp-req): notify upon each membership request action"
+  },
+  {
+    "hash": "79d3f47d",
+    "message": "feat(inv): use backend self_html for frontend invitation link"
+  },
+  {
+    "hash": "fb1ea985",
+    "message": "feat: generalize error message for AlreadyMemberError"
+  },
+  {
+    "hash": "b9308752",
+    "message": "feat(inv): cancel invitations from community invitations search"
+  },
+  {
+    "hash": "62d30894",
+    "message": "feat(mshp-req): display membership requests on community dashboard"
+  },
+  {
+    "hash": "e166aa29",
+    "message": "build(deps-dev): bump minimatch"
+  },
+  {
+    "hash": "8dd6c907",
+    "message": "build(deps-dev): bump lodash"
+  },
+  {
+    "hash": "639b5c94",
+    "message": "fix(mshp-req): enforce action permissions"
+  },
+  {
+    "hash": "3acca976",
+    "message": "feat(mshp-req): accept,decline,cancel,upate role of membership requests [+]"
+  },
+  {
+    "hash": "c7bdfb7d",
+    "message": "refactor: allow overriding members service components"
+  },
+  {
+    "hash": "1ee47ecc",
+    "message": "fix(community-themes): only request theme CSS for themed communities"
+  },
+  {
+    "hash": "757f2fe3",
+    "message": "fix(mshp-req): generate proper self_html link for requests JSON API"
+  },
+  {
+    "hash": "674084ba",
+    "message": "feat(mshp-req)!: search membership requests - modifies mapping!"
+  },
+  {
+    "hash": "eb9b0164",
+    "message": "feat: add request.type to communitymembers indices + refactor for clarity"
+  },
+  {
+    "hash": "f3669531",
+    "message": "fix(deps): bump invenio-requests since tests assume v12.3.x at least"
+  },
+  {
+    "hash": "9b23ec95",
+    "message": "feat(mshp-req): add permission to search membership requests"
+  },
+  {
+    "hash": "52e2decc",
+    "message": "feat(mshp-req): don't show community membership request in community requests"
+  },
+  {
+    "hash": "d9eae8fc",
+    "message": ":package: release: v26.1.1"
+  },
+  {
+    "hash": "1d6b50c1",
+    "message": "fix(inv): show discussion for invitation requests by generating self_html"
+  },
+  {
+    "hash": "954ba3f6",
+    "message": "\ud83d\udce6 release: v26.1.0"
+  },
+  {
+    "hash": "64ec5cd3",
+    "message": "feat(moderation): handle `actor_id` and `note` in user block callback"
+  },
+  {
+    "hash": "f0ce5b6e",
+    "message": "fix(components): handle tombstone `removed_by` value"
+  },
+  {
+    "hash": "8dd60aef",
+    "message": "\ud83d\udce6 release: v26.0.1"
+  },
+  {
+    "hash": "a24a6758",
+    "message": "i18n: replace .format() with %-style"
+  },
+  {
+    "hash": "db9bb4a7",
+    "message": "release: v26.0.0"
+  },
+  {
+    "hash": "c05205b2",
+    "message": "fix(collections): rename endpoint for community collections trees"
+  },
+  {
+    "hash": "f9ce365c",
+    "message": "collections: add feature flag to enable/disable collections"
+  },
+  {
+    "hash": "2543646d",
+    "message": "collections: add template for UI"
+  },
+  {
+    "hash": "f4f8606e",
+    "message": "feat(communities): add CollectionsPermissionPolicy and support namespace_id in generators"
+  },
+  {
+    "hash": "fd561e32",
+    "message": "collections: remove collections CRDU UI"
+  },
+  {
+    "hash": "2cb75d14",
+    "message": "collections: improve modals"
+  },
+  {
+    "hash": "5d492ed1",
+    "message": "collections: add limits to categories and collections"
+  },
+  {
+    "hash": "80aebef8",
+    "message": "collections: Rework the UI to match the browse page"
+  },
+  {
+    "hash": "2ddd597b",
+    "message": "feat: adds collection CRUD ui"
+  },
+  {
+    "hash": "c94adef4",
+    "message": "InvitationsModal: De-emphasize search by email"
+  },
+  {
+    "hash": "eb5bdbae",
+    "message": "chore(mshp-req): tweak cancel membership request test"
+  },
+  {
+    "hash": "8af3d94b",
+    "message": "feat(mshp-req): extract and redirect to self_html of membership request on frontend"
+  },
+  {
+    "hash": "696715d2",
+    "message": "feat(mshp-req): generate self_html link for MembershipRequest"
+  },
+  {
+    "hash": "348cb162",
+    "message": "release: v25.0.0"
+  },
+  {
+    "hash": "f6fe44df",
+    "message": "change(setup): upgrade invenio-vocabularies"
+  },
+  {
+    "hash": "f06a26f4",
+    "message": "release: v24.0.1"
+  },
+  {
+    "hash": "73139b23",
+    "message": "fix(alembic): correct `down_revision` of group notifications migration"
+  },
+  {
+    "hash": "a3f67a07",
+    "message": "feat(mshp-req): only show membership request/discussion button if feature enabled [+]"
+  },
+  {
+    "hash": "7d4ae17b",
+    "message": "feat(mshp-req): show button of membership discussion on header if applicable"
+  },
+  {
+    "hash": "ae4f32a1",
+    "message": "feat(mshp-req): update can_request_membership permission"
+  },
+  {
+    "hash": "3e5c4073",
+    "message": "feat(mshp-req): default communities to be closed to membership requests"
+  },
+  {
+    "hash": "ee404874",
+    "message": "release: v24.0.0"
+  },
+  {
+    "hash": "d539476a",
+    "message": "groups: add group notifications"
+  }
+]

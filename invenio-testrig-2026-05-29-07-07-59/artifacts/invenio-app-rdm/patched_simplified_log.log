@@ -1,0 +1,1433 @@
+ opensearch Pulling 
+ redis Pulling 
+ postgresql Pulling 
+ rabbitmq Pulling 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched
+configfile: setup.cfg
+testpaths: tests, invenio_app_rdm
+plugins: Faker-40.19.1, isort-4.0.0, invenio-4.0.1, pydocstyle-2.4.0, flask-1.3.0, github-actions-annotate-failures-0.4.0, cov-7.1.0, time-machine-2.19.0, black-0.6.0, pycodestyle-2.5.0
+collected 352 items
+tests/__init__.py ...                                                    [  0%]
+tests/api/__init__.py ...                                                [  1%]
+tests/api/conftest.py ...                                                [  2%]
+tests/api/test_protect_files_rest.py ..::error file=workdir/tests/invenio-app-rdm/patched/tests/api/test_protect_files_rest.py,line=56::test_files_rest_endpoint_is_protected%0A%0ATypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+F                                 [  3%]
+tests/api/test_record_api.py 
+s
+                                    [  5%]
+tests/api/test_stats_api.py 
+                                          [  6%]
+tests/conftest.py ...                                                    [  7%]
+tests/fixtures/__init__.py ...                                           [  8%]
+tests/fixtures/conftest.py ...                                           [  9%]
+tests/fixtures/test_cli.py 
+                                           [  9%]
+tests/fixtures/test_fixtures.py 
+                                     [ 11%]
+tests/mock_module/__init__.py ...                                        [ 11%]
+tests/mock_module/views.py ...                                           [ 12%]
+tests/redirector/__init__.py ...                                         [ 13%]
+tests/redirector/conftest.py ...                                         [ 14%]
+tests/redirector/test_redirector.py 
+                                  [ 15%]
+tests/test_migrate_13_0_to_14_0.py 
+                                   [ 16%]
+tests/test_tasks.py ..E
+EEE                                               [ 17%]
+tests/test_utils.py ......                                               [ 19%]
+tests/test_version.py ...                                                [ 20%]
+tests/test_views.py ...                                                  [ 21%]
+tests/ui/__init__.py ...                                                 [ 22%]
+tests/ui/conftest.py ...                                                 [ 23%]
+tests/ui/test_deposits.py 
+                                           [ 24%]
+tests/ui/test_export_formats.py 
+                                      [ 25%]
+tests/ui/test_file_download.py ..E
+E
+E                                     [ 26%]
+tests/ui/test_filters.py 
+                                            [ 27%]
+tests/ui/test_robotstxt.py 
+                                           [ 28%]
+tests/ui/test_signposting_ui.py ..E
+EEEEE
+                               [ 31%]
+tests/ui/test_sitemaps.py 
+                                           [ 32%]
+tests/ui/test_stats_ui.py 
+                                           [ 33%]
+invenio_app_rdm/__init__.py ...                                          [ 34%]
+invenio_app_rdm/administration/__init__.py ...                           [ 35%]
+invenio_app_rdm/administration/audit_logs/__init__.py ...                [ 36%]
+invenio_app_rdm/administration/audit_logs/audit_logs.py ...              [ 36%]
+invenio_app_rdm/administration/domains/__init__.py ...                   [ 37%]
+invenio_app_rdm/administration/domains/domains.py ...                    [ 38%]
+invenio_app_rdm/administration/moderation/__init__.py ...                [ 39%]
+invenio_app_rdm/administration/moderation/requests.py ...                [ 40%]
+invenio_app_rdm/administration/records/__init__.py ...                   [ 41%]
+invenio_app_rdm/administration/records/records.py ...                    [ 42%]
+invenio_app_rdm/administration/roles/__init__.py ...                     [ 42%]
+invenio_app_rdm/administration/roles/roles.py ...                        [ 43%]
+invenio_app_rdm/administration/user_moderation/__init__.py ...           [ 44%]
+invenio_app_rdm/administration/user_moderation/user_moderation.py ...    [ 45%]
+invenio_app_rdm/administration/users/__init__.py ...                     [ 46%]
+invenio_app_rdm/administration/users/permissions.py ...                  [ 47%]
+invenio_app_rdm/administration/users/users.py ...                        [ 48%]
+invenio_app_rdm/administration/views/__init__.py ...                     [ 48%]
+invenio_app_rdm/administration/views/ui.py ...                           [ 49%]
+invenio_app_rdm/cli.py ...                                               [ 50%]
+invenio_app_rdm/communities_ui/__init__.py ...                           [ 51%]
+invenio_app_rdm/communities_ui/searchapp.py ...                          [ 52%]
+invenio_app_rdm/communities_ui/sitemap.py ...                            [ 53%]
+invenio_app_rdm/communities_ui/views/__init__.py ...                     [ 53%]
+invenio_app_rdm/communities_ui/views/communities.py ...                  [ 54%]
+invenio_app_rdm/communities_ui/views/ui.py ...                           [ 55%]
+invenio_app_rdm/config.py ...                                            [ 56%]
+invenio_app_rdm/ext.py ...                                               [ 57%]
+invenio_app_rdm/fixtures/__init__.py ...                                 [ 58%]
+invenio_app_rdm/fixtures/oai_sets.py ...                                 [ 59%]
+invenio_app_rdm/fixtures/pages.py ...                                    [ 59%]
+invenio_app_rdm/patch_info.py ...                                        [ 60%]
+invenio_app_rdm/records_ui/__init__.py ...                               [ 61%]
+invenio_app_rdm/records_ui/previewer/__init__.py ...                     [ 62%]
+invenio_app_rdm/records_ui/previewer/iiif_simple.py ...                  [ 63%]
+invenio_app_rdm/records_ui/previewer/previewable_zip.py ::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py,line=0::Black format check%0A%0A--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 07:07:51+00:00%0A+++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 07:13:27.814677+00:00%0A@@ -115,13 +115,13 @@%0A %0A %0A def can_preview(file):%0A     """Return True if filetype can be previewed."""%0A     return (%0A-            file.is_local()%0A-            and file.has_extensions(".zip")%0A-            and not isinstance(file, PreviewContainerItem)  # we are top level file%0A+        file.is_local()%0A+        and file.has_extensions(".zip")%0A+        and not isinstance(file, PreviewContainerItem)  # we are top level file%0A     )%0A %0A %0A def preview(file):%0A     """Return the appropriate template and pass the file and an embed flag."""%0A
+F::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py::pydocstyle-check%0A%0A/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:44 in private nested function `create_parent_hierarchy`:%0A        D202: No blank lines allowed after function docstring (found 1)%0A/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:127 in public function `preview`:%0A        D202: No blank lines allowed after function docstring (found 1)
+F::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py,line=0::isort-check%0A%0A """Simple ZIP archive previewer."""%0A%0A %0A import sys%0A-from flask import render_template, current_app%0A+%0A+from flask import current_app, render_template%0A from invenio_access.permissions import system_identity%0A from invenio_base import invenio_url_for%0A from invenio_previewer.proxies import current_previewer
+F              [ 64%]
+invenio_app_rdm/records_ui/searchapp.py ...                              [ 65%]
+invenio_app_rdm/records_ui/sitemap.py ...                                [ 65%]
+invenio_app_rdm/records_ui/utils.py ...                                  [ 66%]
+invenio_app_rdm/records_ui/views/__init__.py ...                         [ 67%]
+invenio_app_rdm/records_ui/views/decorators.py ..::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/decorators.py,line=0::isort-check%0A%0A %0A%0A """Routes for record-related pages provided by Invenio-App-RDM."""%0A %0A+from functools import wraps%0A+%0A from flask import current_app, g, make_response, redirect, request, session, url_for%0A from flask_login import login_required%0A-from functools import wraps%0A from invenio_base import invenio_url_for%0A from invenio_communities.communities.resources.serializer import (%0A     UICommunityJSONSerializer,
+F                       [ 68%]
+invenio_app_rdm/records_ui/views/deposits.py ...                         [ 69%]
+invenio_app_rdm/records_ui/views/filters.py ...                          [ 70%]
+invenio_app_rdm/records_ui/views/records.py ::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py,line=0::Black format check%0A%0A--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 07:07:51+00:00%0A+++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 07:13:29.943276+00:00%0A@@ -194,14 +194,20 @@%0A         record_pid_value,%0A         path,%0A         extracted_file_size,%0A         record=None,%0A         url=None,%0A-        is_iframe=False%0A+        is_iframe=False,%0A     ):%0A         """Create a new PreviewFile."""%0A-        super().__init__(file_item=file_item, record_pid_value=record_pid_value, record=record, url=url, is_iframe=is_iframe )%0A+        super().__init__(%0A+            file_item=file_item,%0A+            record_pid_value=record_pid_value,%0A+            record=record,%0A+            url=url,%0A+            is_iframe=is_iframe,%0A+        )%0A         self.path = path%0A         self.size = extracted_file_size%0A         self.container_item_filename = basename(self.path)%0A         self.uri = url or url_for(%0A             "invenio_app_rdm_records.record_container_item_download",%0A
+F..                          [ 71%]
+invenio_app_rdm/redirector/__init__.py ...                               [ 71%]
+invenio_app_rdm/redirector/resource.py ...                               [ 72%]
+invenio_app_rdm/redirector/views.py ...                                  [ 73%]
+invenio_app_rdm/requests_ui/__init__.py ...                              [ 74%]
+invenio_app_rdm/requests_ui/views/__init__.py ...                        [ 75%]
+invenio_app_rdm/requests_ui/views/requests.py ...                        [ 76%]
+invenio_app_rdm/requests_ui/views/ui.py ...                              [ 76%]
+invenio_app_rdm/tasks.py ...                                             [ 77%]
+invenio_app_rdm/theme/__init__.py ...                                    [ 78%]
+invenio_app_rdm/theme/views.py ...                                       [ 79%]
+invenio_app_rdm/theme/webpack.py ...                                     [ 80%]
+invenio_app_rdm/upgrade_scripts/__init__.py ...                          [ 81%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py . [ 81%]
+                                                                       [ 82%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py . [ 82%]
+                                                                       [ 82%]
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py ...              [ 83%]
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py ...              [ 84%]
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py ...              [ 85%]
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py ...              [ 86%]
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py ...        [ 87%]
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py ...                [ 88%]
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py ...                [ 88%]
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py ...                [ 89%]
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py ...                [ 90%]
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py ...                [ 91%]
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py ...                [ 92%]
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py ...               [ 93%]
+invenio_app_rdm/users/schemas.py ...                                     [ 94%]
+invenio_app_rdm/users_ui/__init__.py ...                                 [ 94%]
+invenio_app_rdm/users_ui/searchapp.py ...                                [ 95%]
+invenio_app_rdm/users_ui/views/__init__.py ...                           [ 96%]
+invenio_app_rdm/users_ui/views/dashboard.py ...                          [ 97%]
+invenio_app_rdm/users_ui/views/ui.py ...                                 [ 98%]
+invenio_app_rdm/utils/files.py ...                                       [ 99%]
+invenio_app_rdm/views.py ...                                             [100%]
+==================================== ERRORS ====================================
+______________ ERROR at setup of test_task_file_integrity_report _______________
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f87f31130>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f880ee2b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f8525e080>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'cptye-61z49', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f8582d440>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f87670fb0>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 07:12:36,500] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed
+[2026-05-29 07:12:36,554] DEBUG in ext: Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 07:12:37,630] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed
+[2026-05-29 07:12:37,682] DEBUG in ext: Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed
+___________ ERROR at setup of test_integrity_report_invalid_template ___________
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f87f31130>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f880ee2b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f8525e080>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'cxh9q-04y77', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f857f7880>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f87ad3f50>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+__________ ERROR at setup of test_integrity_report_invalid_addresses ___________
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f87f31130>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f880ee2b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f8525e080>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'na3xg-1c787', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f857f4450>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f874eef90>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+___________ ERROR at setup of test_integrity_report_default_template ___________
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f87f31130>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f880ee2b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f8525e080>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'st2ey-3zf05', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f85686610>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f8723fb30>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+______ ERROR at setup of test_file_download_with_and_without_preview_flag ______
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f842a0b90>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f842a0190>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 1>, 'user2': <User 2>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f848e2490>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'gn0p5-van08', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f84606660>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f8416ee70>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 07:12:51,470] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed
+[2026-05-29 07:12:51,522] DEBUG in ext: Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed
+_____________ ERROR at setup of test_nonexistent_file_returns_404 ______________
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f842a0b90>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f842a0190>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 3>, 'user2': <User 4>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f848e2490>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'mktpr-gme35', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f8413a250>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f84193590>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+_____________ ERROR at setup of test_deleted_record_file_redirects _____________
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f842a0b90>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f842a0190>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 5>, 'user2': <User 6>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f848e2490>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'skj5e-akx68', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f842ba110>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f8405adb0>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[True-head] ____
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f82aaa5d0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f82aaa530>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 1>, 'user2': <User 2>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f830fdd60>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'r2gsd-80423', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f828eeca0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f828e8410>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 07:13:02,612] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed
+[2026-05-29 07:13:02,665] DEBUG in ext: Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed
+____ ERROR at setup of test_link_in_landing_page_response_headers[True-get] ____
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f82aaa5d0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f82aaa530>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 3>, 'user2': <User 4>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f830fdd60>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'ywyez-rfa89', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f82f0dd00>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f829abd70>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[False-head] ___
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f82aaa5d0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f82aaa530>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 5>, 'user2': <User 6>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f830fdd60>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '3c91z-ryc26', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f82995670>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f8282bb30>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[False-get] ____
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f82aaa5d0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f82aaa530>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 7>, 'user2': <User 8>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f830fdd60>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'zpck8-jj475', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f828833d0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f82868fb0>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+____ ERROR at setup of test_link_in_content_resource_response_headers[head] ____
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f82aaa5d0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f82aaa530>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 9>, 'user2': <User 10>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f830fdd60>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '16cc2-ndr17', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f82994c70>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f82a0d370>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+____ ERROR at setup of test_link_in_content_resource_response_headers[get] _____
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f82aaa5d0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f82aaa530>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 11>, 'user2': <User 12>}
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f830fdd60>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '2e74k-9ww06', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7f3f832b9530>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7f3f82861f70>, kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+=================================== FAILURES ===================================
+____________________ test_files_rest_endpoint_is_protected _____________________
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7f3f8a281fd0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7f3f8a34ae00>])
+client_with_login = <FlaskClient <Flask 'invenio'>>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+es_clear = <OpenSearch([{'host': 'localhost', 'port': 9200}])>
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+    def test_files_rest_endpoint_is_protected(
+        running_app, client_with_login, headers, es_clear, minimal_record
+    ):
+        client = client_with_login
+        # Create draft with file
+        minimal_record["files"] = {"enabled": True}
+        recid = create_draft(client, minimal_record, headers)
+        init_file(client, recid, headers)
+>       upload_file(client, recid)
+tests/api/test_protect_files_rest.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/api/test_protect_files_rest.py:30: in upload_file
+    return client.put(
+venv/lib/python3.14/site-packages/werkzeug/test.py:1172: in put
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/invenio_records_resources/resources/files/resource.py:95: in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/invenio_records_resources/resources/files/resource.py:305: in update_content
+    item = self.service.set_file_content(
+venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7f3f8cc291d0>
+identity = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='system_role', value='any_user'), Need(method='id', value=1)}>
+id_ = 'bwq2c-1cq63', file_key = 'test.pdf'
+stream = <werkzeug.wsgi.LimitedStream object at 0x7f3f8a2dfee0>
+content_length = 8, uow = <invenio_db.uow.UnitOfWork object at 0x7f3f89e38120>
+kwargs = {}
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:338: TypeError
+------------------------------ Captured log setup ------------------------------
+  self.init_app(app)
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed
+  warnings.warn(
+  warnings.warn(
+  result = self._write_client.setex(
+  self.redis.setex(key, ittl, value)
+  warn(
+______________________________ Black format check ______________________________
+--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 07:07:51+00:00
++++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 07:13:27.814677+00:00
+@@ -115,13 +115,13 @@
+ def can_preview(file):
+     """Return True if filetype can be previewed."""
+     return (
+-            file.is_local()
+-            and file.has_extensions(".zip")
+-            and not isinstance(file, PreviewContainerItem)  # we are top level file
++        file.is_local()
++        and file.has_extensions(".zip")
++        and not isinstance(file, PreviewContainerItem)  # we are top level file
+     )
+ def preview(file):
+     """Return the appropriate template and pass the file and an embed flag."""
+_______________________________ pydocstyle-check _______________________________
+/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:44 in private nested function `create_parent_hierarchy`:
+        D202: No blank lines allowed after function docstring (found 1)
+/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:127 in public function `preview`:
+        D202: No blank lines allowed after function docstring (found 1)
+_________________________________ isort-check __________________________________
+ """Simple ZIP archive previewer."""
+ import sys
+-from flask import render_template, current_app
++
++from flask import current_app, render_template
+ from invenio_access.permissions import system_identity
+ from invenio_base import invenio_url_for
+ from invenio_previewer.proxies import current_previewer
+_________________________________ isort-check __________________________________
+ """Routes for record-related pages provided by Invenio-App-RDM."""
++from functools import wraps
++
+ from flask import current_app, g, make_response, redirect, request, session, url_for
+ from flask_login import login_required
+-from functools import wraps
+ from invenio_base import invenio_url_for
+ from invenio_communities.communities.resources.serializer import (
+     UICommunityJSONSerializer,
+______________________________ Black format check ______________________________
+--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 07:07:51+00:00
++++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 07:13:29.943276+00:00
+@@ -194,14 +194,20 @@
+         record_pid_value,
+         path,
+         extracted_file_size,
+         record=None,
+         url=None,
+-        is_iframe=False
++        is_iframe=False,
+     ):
+         """Create a new PreviewFile."""
+-        super().__init__(file_item=file_item, record_pid_value=record_pid_value, record=record, url=url, is_iframe=is_iframe )
++        super().__init__(
++            file_item=file_item,
++            record_pid_value=record_pid_value,
++            record=record,
++            url=url,
++            is_iframe=is_iframe,
++        )
+         self.path = path
+         self.size = extracted_file_size
+         self.container_item_filename = basename(self.path)
+         self.uri = url or url_for(
+             "invenio_app_rdm_records.record_container_item_download",
+=============================== warnings summary ===============================
+venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py:76
+    warn(
+tests/api/test_record_api.py::test_record_read_non_existing_pid
+tests/api/test_stats_api.py::test_ui_event_emission
+tests/fixtures/test_cli.py::test_create_fixtures
+tests/fixtures/test_fixtures.py::test_load_oai_sets
+tests/redirector/test_redirector.py::test_redirector
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+tests/test_tasks.py::test_task_file_integrity_report
+    self.init_app(app)
+    warnings.warn(
+tests/api/test_record_api.py::test_record_read_non_existing_pid
+tests/api/test_record_api.py::test_record_draft_create_and_read
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/api/test_record_api.py::test_record_search
+    warn(
+tests/api/test_record_api.py::test_record_draft_create_and_read
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/redirector/test_redirector.py::test_redirector
+tests/ui/test_deposits.py::test_resource_types
+tests/ui/test_file_download.py::test_file_download_with_and_without_preview_flag
+tests/ui/test_file_download.py::test_nonexistent_file_returns_404
+    result = self._write_client.setex(
+    self.redis.setex(key, ittl, value)
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+tests/ui/test_export_formats.py::test_export_formats
+tests/ui/test_signposting_ui.py::test_link_in_metadata_resource_response_headers[head]
+tests/ui/test_signposting_ui.py::test_link_in_metadata_resource_response_headers[get]
+tests/ui/test_sitemaps.py::test_sitemap_section_of_records
+tests/ui/test_stats_ui.py::test_record_view_events
+tests/ui/test_stats_ui.py::test_record_view_statistics
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py:335: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py:193: SAWarning: nested transaction already deassociated from connection
+    self.session.commit()
+tests/fixtures/test_fixtures.py::test_load_pages
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_pages/records/models.py:58: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py:496: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py:443: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py:164: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                                      Stmts   Miss  Cover   Missing
+invenio_app_rdm/__init__.py                                                   2      0   100%
+invenio_app_rdm/administration/__init__.py                                    0      0   100%
+invenio_app_rdm/administration/audit_logs/__init__.py                         2      0   100%
+invenio_app_rdm/administration/audit_logs/audit_logs.py                      28      0   100%
+invenio_app_rdm/administration/domains/__init__.py                            2      0   100%
+invenio_app_rdm/administration/domains/domains.py                            40      0   100%
+invenio_app_rdm/administration/moderation/__init__.py                         2      0   100%
+invenio_app_rdm/administration/moderation/requests.py                        78     22    72%   62-65, 70-76, 85, 120-126, 130-153
+invenio_app_rdm/administration/records/__init__.py                            2      0   100%
+invenio_app_rdm/administration/records/records.py                            61      8    87%   72, 77-79, 83-85, 89, 148
+invenio_app_rdm/administration/roles/__init__.py                              2      0   100%
+invenio_app_rdm/administration/roles/roles.py                                46      3    93%   46-48
+invenio_app_rdm/administration/user_moderation/__init__.py                    2      0   100%
+invenio_app_rdm/administration/user_moderation/user_moderation.py            63     11    83%   94-97, 102-108, 117, 155-161
+invenio_app_rdm/administration/users/__init__.py                              2      0   100%
+invenio_app_rdm/administration/users/permissions.py                           9      6    33%   18-24
+invenio_app_rdm/administration/users/users.py                                59      4    93%   65-67, 124
+invenio_app_rdm/administration/views/__init__.py                              2      0   100%
+invenio_app_rdm/administration/views/ui.py                                    4      0   100%
+invenio_app_rdm/cli.py                                                       45     22    51%   41-45, 64-95
+invenio_app_rdm/communities_ui/__init__.py                                    0      0   100%
+invenio_app_rdm/communities_ui/searchapp.py                                   5      0   100%
+invenio_app_rdm/communities_ui/sitemap.py                                    13      0   100%
+invenio_app_rdm/communities_ui/views/__init__.py                              2      0   100%
+invenio_app_rdm/communities_ui/views/communities.py                          63     43    32%   38-41, 57-112, 127-134, 149-164, 179-196
+invenio_app_rdm/communities_ui/views/ui.py                                   45     17    62%   43-65
+invenio_app_rdm/config.py                                                   326      3    99%   302-304, 334
+invenio_app_rdm/ext.py                                                       43     12    72%   22-25, 44, 50-58, 63, 112-117
+invenio_app_rdm/fixtures/__init__.py                                         21      6    71%   23-28
+invenio_app_rdm/fixtures/oai_sets.py                                          6      0   100%
+invenio_app_rdm/fixtures/pages.py                                            35      1    97%   49
+invenio_app_rdm/patch_info.py                                                 6      2    67%   2536-2538
+invenio_app_rdm/records_ui/__init__.py                                        0      0   100%
+invenio_app_rdm/records_ui/previewer/__init__.py                              0      0   100%
+invenio_app_rdm/records_ui/previewer/iiif_simple.py                          14      7    50%   31-32, 41-46
+invenio_app_rdm/records_ui/previewer/previewable_zip.py                      56     42    25%   29-34, 41-114, 119, 129-137
+invenio_app_rdm/records_ui/searchapp.py                                       6      0   100%
+invenio_app_rdm/records_ui/sitemap.py                                        10      0   100%
+invenio_app_rdm/records_ui/utils.py                                          83     43    48%   40-51, 80-85, 93, 107-119, 132, 165-184, 189-222
+invenio_app_rdm/records_ui/views/__init__.py                                 59      0   100%
+invenio_app_rdm/records_ui/views/decorators.py                              282    113    60%   49, 54, 62-65, 76-92, 121-123, 148, 160-170, 193, 199-202, 223-250, 270-290, 309-323, 339-342, 348-352, 370-373, 379-383, 395-405, 419-427, 440-443, 469-477, 496-508, 545-549, 566-572
+invenio_app_rdm/records_ui/views/deposits.py                                245    153    38%   64-140, 145-146, 217-223, 234-237, 255-258, 262-265, 269-272, 276-279, 283-286, 290, 294, 298, 305, 313, 317, 323-328, 333-345, 357-376, 392-407, 436-442, 448, 453-472, 483-501, 538-625, 652-653
+invenio_app_rdm/records_ui/views/filters.py                                 125     70    44%   32-35, 40-48, 53, 67-68, 73-86, 93-94, 99-100, 105-121, 135, 152, 162, 185-215, 229-234
+invenio_app_rdm/records_ui/views/records.py                                 259    139    46%   90-105, 121-144, 158-169, 173, 180-181, 185, 202-206, 218-219, 223-229, 259, 264, 284, 293-328, 393, 424-445, 457-477, 482-486, 494-507, 517-522, 529-549, 559-567, 573, 579, 587, 592, 604-624, 638-656
+invenio_app_rdm/redirector/__init__.py                                        0      0   100%
+invenio_app_rdm/redirector/resource.py                                       29      1    97%   94
+invenio_app_rdm/redirector/views.py                                           6      0   100%
+invenio_app_rdm/requests_ui/__init__.py                                       0      0   100%
+invenio_app_rdm/requests_ui/views/__init__.py                                 2      0   100%
+invenio_app_rdm/requests_ui/views/requests.py                               191    142    26%   60-138, 142, 152-169, 179-196, 203-286, 304-384, 403-418, 437-458, 472
+invenio_app_rdm/requests_ui/views/ui.py                                      24      0   100%
+invenio_app_rdm/tasks.py                                                     18     11    39%   21-45
+invenio_app_rdm/theme/__init__.py                                             0      0   100%
+invenio_app_rdm/theme/views.py                                               49     19    61%   63, 80-81, 92-93, 104-105, 115-130, 138-140
+invenio_app_rdm/theme/webpack.py                                              2      0   100%
+invenio_app_rdm/upgrade_scripts/__init__.py                                   0      0   100%
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py      28     24    14%   16-46, 50
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py      48     43    10%   20-86, 90
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py                46     41    11%   27-98, 102
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py                        34     29    15%   32-88, 92
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py                        64     60     6%   27-136, 140
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py                       244    231     5%   28-64, 70-148, 158-199, 209-369, 373-395
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py                        72     65    10%   30-157, 161
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py                        68     59    13%   36-148, 153
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py                        51     46    10%   28-93, 98
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py                       13      8    38%   27-35, 43
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py                      18     13    28%   27-42, 47
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py                      82     70    15%   62-201, 206
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py                     126    107    15%   41-99, 107-122, 127-154, 159-186, 191-208, 225-230, 235
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py                      94     21    78%   57-60, 78-81, 107-111, 132-136, 153-157, 170-173, 198-201, 231-235, 273
+invenio_app_rdm/users/schemas.py                                              6      0   100%
+invenio_app_rdm/users_ui/__init__.py                                          0      0   100%
+invenio_app_rdm/users_ui/searchapp.py                                         5      0   100%
+invenio_app_rdm/users_ui/views/__init__.py                                    2      0   100%
+invenio_app_rdm/users_ui/views/dashboard.py                                  18      7    61%   22-25, 35-38, 48-54
+invenio_app_rdm/users_ui/views/ui.py                                         18      4    78%   24, 29-32
+invenio_app_rdm/utils/files.py                                               66     48    27%   24-32, 37-38, 43-47, 52-64, 69, 74, 79-84, 89-90, 95-98, 107-120
+invenio_app_rdm/views.py                                                      5      2    60%   17-19
+TOTAL                                                                      3584   1778    50%
+=========================== short test summary info ============================
+FAILED tests/api/test_protect_files_rest.py::test_files_rest_endpoint_is_protected - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+FAILED invenio_app_rdm/records_ui/previewer/previewable_zip.py::black
+FAILED invenio_app_rdm/records_ui/previewer/previewable_zip.py::PYDOCSTYLE
+FAILED invenio_app_rdm/records_ui/previewer/previewable_zip.py::ISORT
+FAILED invenio_app_rdm/records_ui/views/decorators.py::ISORT
+FAILED invenio_app_rdm/records_ui/views/records.py::black
+ERROR tests/test_tasks.py::test_task_file_integrity_report - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_invalid_template - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_invalid_addresses - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_default_template - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_file_download_with_and_without_preview_flag - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_nonexistent_file_returns_404 - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_deleted_record_file_redirects - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[True-head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[True-get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[False-head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[False-get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_content_resource_response_headers[head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_content_resource_response_headers[get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+= 6 failed, 332 passed, 1 skipped, 94 warnings, 13 errors in 119.91s (0:01:59) =
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

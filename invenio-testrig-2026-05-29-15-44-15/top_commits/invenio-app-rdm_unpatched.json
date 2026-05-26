@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "63fe8fc5",
+    "message": "release: v14.0.0b11.dev1"
+  },
+  {
+    "hash": "ac985d3b",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "55a60527",
+    "message": "release: v14.0.0b11.dev0"
+  },
+  {
+    "hash": "ce43f302",
+    "message": "chore(setup): bump dependencies"
+  },
+  {
+    "hash": "fe020162",
+    "message": "feat: UI support for zip content previewing"
+  },
+  {
+    "hash": "61003945",
+    "message": "fix(alembic): script for preparing migration from 13 -> 14"
+  },
+  {
+    "hash": "4b5c56dd",
+    "message": "deposits: switch to standard get syntax"
+  },
+  {
+    "hash": "1a70d527",
+    "message": "deposit: add default values for custom fields on deposit form"
+  },
+  {
+    "hash": "e9abda02",
+    "message": "fix(profiler): remove CSP headers for profiler result pages"
+  },
+  {
+    "hash": "1069cd30",
+    "message": "fix(profiler): register menu item for the multi-profiler"
+  },
+  {
+    "hash": "d0137a74",
+    "message": "fix(profiler): override the MultiProfiler base template"
+  },
+  {
+    "hash": "9f2f403e",
+    "message": "feat(profiler): integrate Flask-MultiProfiler"
+  },
+  {
+    "hash": "62aeb51c",
+    "message": "fix: linting warning"
+  },
+  {
+    "hash": "8b158a38",
+    "message": "feat(users): implement role management in user details"
+  },
+  {
+    "hash": "85290c99",
+    "message": "fix(records-ui): namespace url filter"
+  },
+  {
+    "hash": "4691f1b0",
+    "message": "chore(url): use invenio_url_for for consistency in mshp-req and inv code"
+  },
+  {
+    "hash": "419a8a45",
+    "message": "feat(mshp-req+inv): show invitation & mshp-req pages from user & community sides [+]"
+  },
+  {
+    "hash": "4cf1c437",
+    "message": "fix(urls): use `invenio_url_for()` instead of hard-coded URLs"
+  },
+  {
+    "hash": "effecfd4",
+    "message": "feat: make resouce type badge clickable"
+  },
+  {
+    "hash": "96f9d528",
+    "message": "fix(tombstone): return not-found page + log exception for PIDDeletedError"
+  },
+  {
+    "hash": "ca469660",
+    "message": "config: remove hardcoded publisher and use THEME_SITENAME"
+  },
+  {
+    "hash": "bbe9c7ef",
+    "message": "frontpage: Add aria-label to 'More' search button"
+  },
+  {
+    "hash": "dff032e0",
+    "message": "fix(upgrade_scripts): use correct indexer for drafts"
+  },
+  {
+    "hash": "4f02af2f",
+    "message": "fix: wrap overflowing MathJax content in rich text"
+  },
+  {
+    "hash": "c930d928",
+    "message": "users: use invenio_url_for for deposit URL"
+  },
+  {
+    "hash": "69d0b2c0",
+    "message": "users: fix hardcoded deposit URL in uploads dashboard"
+  },
+  {
+    "hash": "743b8a70",
+    "message": "\ud83d\udce6 release: v14.0.0b10.dev7"
+  },
+  {
+    "hash": "ffb7a753",
+    "message": "feat(administration): allow blocking with removal reason"
+  },
+  {
+    "hash": "428388fb",
+    "message": "style: fix alignment of sort by on uploads"
+  },
+  {
+    "hash": "f1333245",
+    "message": "fix: display user dashboard header for community topic requests as before"
+  },
+  {
+    "hash": "df1e1b69",
+    "message": "feat(auditlogs): hide auditlogs button when the feature is disabled"
+  },
+  {
+    "hash": "71356bb9",
+    "message": "\ud83d\udce6 release: v14.0.0b10.dev6"
+  },
+  {
+    "hash": "0ce4237c",
+    "message": "feat: use new RDMSubCommunity request class"
+  },
+  {
+    "hash": "52cb4502",
+    "message": "fix(administration): set correct permissions for user dashboard"
+  },
+  {
+    "hash": "8492fd1a",
+    "message": "\ud83d\udce6 release: v14.0.0b10.dev5"
+  },
+  {
+    "hash": "2fde849b",
+    "message": "chore: refactor logic to rdm-records and improve user_quota msg"
+  },
+  {
+    "hash": "764fe11b",
+    "message": "fix: display of range input on Chrome"
+  },
+  {
+    "hash": "2c0d5495",
+    "message": "deposit: add evaluate_quota_increase"
+  },
+  {
+    "hash": "a4f45578",
+    "message": "deposit: calculate additional quota storage for user"
+  },
+  {
+    "hash": "3ad3b661",
+    "message": "assets: added override for progress bar"
+  },
+  {
+    "hash": "187b7c23",
+    "message": "deposit: pass more information about quota to deposit form"
+  },
+  {
+    "hash": "60385b4e",
+    "message": "chore: deprecate FILES_REST in favour of RDM_FILES"
+  },
+  {
+    "hash": "53fe860e",
+    "message": "feat: add template for quota increase requests"
+  },
+  {
+    "hash": "d96bb730",
+    "message": "release: v14.0.0b10.dev4"
+  },
+  {
+    "hash": "3dd9701a",
+    "message": "fix(tasks): correct collection task registration"
+  },
+  {
+    "hash": "9cac6850",
+    "message": "fix: collection logo size"
+  },
+  {
+    "hash": "58eaca06",
+    "message": "release: v14.0.0b10.dev3"
+  },
+  {
+    "hash": "f46029c1",
+    "message": "feat(communities-browse): show subcommunities section only if community allows"
+  },
+  {
+    "hash": "a0f34dba",
+    "message": "chore: run isort"
+  },
+  {
+    "hash": "37e50bb9",
+    "message": "release: v14.0.0b10.dev2"
+  }
+]

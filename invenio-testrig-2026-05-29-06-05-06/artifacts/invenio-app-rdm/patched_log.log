@@ -1,0 +1,2294 @@
+ postgresql Pulling 
+ redis Pulling 
+ opensearch Pulling 
+ rabbitmq Pulling 
+ b0a0cf830b12 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ cb628c265f09 Pulling fs layer 
+ 9739ced65621 Waiting 
+ ae3bb1b347a4 Waiting 
+ f8406d9c00ea Waiting 
+ c199bff16b05 Waiting 
+ e0d55fdb4d15 Waiting 
+ c1cb13b19080 Waiting 
+ 873532e5f8c7 Waiting 
+ 050d9f8c3b1c Waiting 
+ 710e142705f8 Waiting 
+ cb628c265f09 Waiting 
+ 91d2729fa4d5 Waiting 
+ f9dd052e142d Pulling fs layer 
+ e8c6d4883897 Pulling fs layer 
+ f9dd052e142d Waiting 
+ 648eb81b3252 Pulling fs layer 
+ eb77aa907276 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 0ffa8f8aba1e Pulling fs layer 
+ 2e81b9cb93cd Pulling fs layer 
+ e8c6d4883897 Waiting 
+ 4f4fb700ef54 Waiting 
+ 648eb81b3252 Waiting 
+ 2e81b9cb93cd Waiting 
+ 0ffa8f8aba1e Waiting 
+ 068fedd6b0f1 Pulling fs layer 
+ 23c4f420408e Pulling fs layer 
+ 281993ab1a86 Pulling fs layer 
+ ec2307f4d05c Pulling fs layer 
+ 068fedd6b0f1 Waiting 
+ 6f26ab5b45cd Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 23c4f420408e Waiting 
+ 0251943f3cb8 Pulling fs layer 
+ 281993ab1a86 Waiting 
+ ec2307f4d05c Waiting 
+ 4f4fb700ef54 Waiting 
+ 6f26ab5b45cd Waiting 
+ 0251943f3cb8 Waiting 
+ 20043066d3d5 Pulling fs layer 
+ 3fadc669ef11 Pulling fs layer 
+ 7084ac8f4ab6 Pulling fs layer 
+ 20043066d3d5 Waiting 
+ beb0d870d438 Pulling fs layer 
+ d63c4408fdb7 Pulling fs layer 
+ 3fadc669ef11 Waiting 
+ efa05c660812 Pulling fs layer 
+ f4e7f62f4b80 Pulling fs layer 
+ 5e1c03b67a78 Pulling fs layer 
+ 14e6209d5fa8 Pulling fs layer 
+ d686b50ce172 Pulling fs layer 
+ 7084ac8f4ab6 Waiting 
+ beb0d870d438 Waiting 
+ d63c4408fdb7 Waiting 
+ efa05c660812 Waiting 
+ 14e6209d5fa8 Waiting 
+ f4e7f62f4b80 Waiting 
+ 5e1c03b67a78 Waiting 
+ d686b50ce172 Waiting 
+ dda3d8fbd5ed Verifying Checksum 
+ dda3d8fbd5ed Download complete 
+ 283a477db7bb Downloading [>                                                  ]  48.51kB/4.533MB
+ b0a0cf830b12 Downloading [>                                                  ]  294.2kB/29.15MB
+ 283a477db7bb Verifying Checksum 
+ 283a477db7bb Download complete 
+ 91d2729fa4d5 Downloading [>                                                  ]  15.75kB/1.45MB
+ 91d2729fa4d5 Verifying Checksum 
+ 91d2729fa4d5 Download complete 
+ 9739ced65621 Downloading [>                                                  ]  81.26kB/8.069MB
+ ae3bb1b347a4 Downloading [>                                                  ]  15.72kB/1.196MB
+ 9739ced65621 Verifying Checksum 
+ 9739ced65621 Download complete 
+ ae3bb1b347a4 Download complete 
+ b0a0cf830b12 Downloading [=========================================>         ]  24.18MB/29.15MB
+ b0a0cf830b12 Verifying Checksum 
+ b0a0cf830b12 Download complete 
+ c199bff16b05 Downloading [==================================================>]  3.145kB/3.145kB
+ c199bff16b05 Download complete 
+ f8406d9c00ea Download complete 
+ b0a0cf830b12 Extracting [>                                                  ]  294.9kB/29.15MB
+ 873532e5f8c7 Downloading [==================================================>]     128B/128B
+ 873532e5f8c7 Download complete 
+ c1cb13b19080 Downloading [=================>                                 ]  3.503kB/9.925kB
+ c1cb13b19080 Download complete 
+ e0d55fdb4d15 Downloading [>                                                  ]  538.9kB/109MB
+ 050d9f8c3b1c Downloading [==================================================>]     169B/169B
+ 050d9f8c3b1c Verifying Checksum 
+ 050d9f8c3b1c Download complete 
+ 710e142705f8 Downloading [================================>                  ]   3.48kB/5.421kB
+ 710e142705f8 Downloading [==================================================>]  5.421kB/5.421kB
+ 710e142705f8 Verifying Checksum 
+ 710e142705f8 Download complete 
+ cb628c265f09 Downloading [==================================================>]     184B/184B
+ cb628c265f09 Verifying Checksum 
+ cb628c265f09 Download complete 
+ f9dd052e142d Downloading [>                                                  ]  523.6kB/52.33MB
+ b0a0cf830b12 Extracting [========>                                          ]  4.719MB/29.15MB
+ e8c6d4883897 Downloading [>                                                  ]  48.51kB/4.398MB
+ e0d55fdb4d15 Downloading [============>                                      ]  28.32MB/109MB
+ e8c6d4883897 Verifying Checksum 
+ e8c6d4883897 Download complete 
+ 648eb81b3252 Downloading [==================================================>]  1.561kB/1.561kB
+ 648eb81b3252 Verifying Checksum 
+ 648eb81b3252 Download complete 
+ f9dd052e142d Downloading [==========================>                        ]  27.26MB/52.33MB
+ b0a0cf830b12 Extracting [==============>                                    ]  8.552MB/29.15MB
+ e0d55fdb4d15 Downloading [========================>                          ]  54.44MB/109MB
+ eb77aa907276 Downloading [>                                                  ]  535.4kB/907.7MB
+ f9dd052e142d Verifying Checksum 
+ f9dd052e142d Download complete 
+ e0d55fdb4d15 Downloading [======================================>            ]   84.3MB/109MB
+ b0a0cf830b12 Extracting [================>                                  ]  9.732MB/29.15MB
+ eb77aa907276 Downloading [=>                                                 ]   18.2MB/907.7MB
+ f9dd052e142d Extracting [>                                                  ]  524.3kB/52.33MB
+ 4f4fb700ef54 Downloading [==================================================>]      32B/32B
+ 4f4fb700ef54 Verifying Checksum 
+ 4f4fb700ef54 Download complete 
+ 0ffa8f8aba1e Downloading [==================================================>]     226B/226B
+ 0ffa8f8aba1e Verifying Checksum 
+ 0ffa8f8aba1e Download complete 
+ e0d55fdb4d15 Verifying Checksum 
+ e0d55fdb4d15 Download complete 
+ 2e81b9cb93cd Downloading [==================================================>]  1.859kB/1.859kB
+ 2e81b9cb93cd Verifying Checksum 
+ 2e81b9cb93cd Download complete 
+ eb77aa907276 Downloading [==>                                                ]  42.74MB/907.7MB
+ b0a0cf830b12 Extracting [===================>                               ]   11.5MB/29.15MB
+ 068fedd6b0f1 Downloading [>                                                  ]  294.3kB/28.23MB
+ f9dd052e142d Extracting [=>                                                 ]  1.049MB/52.33MB
+ 23c4f420408e Downloading [==================================================>]  1.101kB/1.101kB
+ 23c4f420408e Verifying Checksum 
+ 23c4f420408e Download complete 
+ 281993ab1a86 Downloading [==================================================>]     876B/876B
+ 281993ab1a86 Verifying Checksum 
+ 281993ab1a86 Download complete 
+ eb77aa907276 Downloading [===>                                               ]  68.83MB/907.7MB
+ ec2307f4d05c Downloading [>                                                  ]  163.2kB/15.35MB
+ b0a0cf830b12 Extracting [========================>                          ]  14.45MB/29.15MB
+ 068fedd6b0f1 Downloading [========================================>          ]     23MB/28.23MB
+ f9dd052e142d Extracting [===>                                               ]  3.146MB/52.33MB
+ 068fedd6b0f1 Verifying Checksum 
+ 068fedd6b0f1 Download complete 
+ eb77aa907276 Downloading [=====>                                             ]  91.72MB/907.7MB
+ 6f26ab5b45cd Downloading [==================================================>]      97B/97B
+ ec2307f4d05c Verifying Checksum 
+ ec2307f4d05c Download complete 
+ 6f26ab5b45cd Verifying Checksum 
+ 6f26ab5b45cd Download complete 
+ b0a0cf830b12 Extracting [============================>                      ]  16.81MB/29.15MB
+ 068fedd6b0f1 Extracting [>                                                  ]  294.9kB/28.23MB
+ 4f4fb700ef54 Downloading [==================================================>]      32B/32B
+ 0251943f3cb8 Downloading [==================================================>]     598B/598B
+ 4f4fb700ef54 Verifying Checksum 
+ 4f4fb700ef54 Download complete 
+ 0251943f3cb8 Verifying Checksum 
+ 0251943f3cb8 Download complete 
+ eb77aa907276 Downloading [======>                                            ]  117.9MB/907.7MB
+ 3fadc669ef11 Downloading [>                                                  ]  441.7kB/43.48MB
+ 20043066d3d5 Downloading [>                                                  ]  310.6kB/29.72MB
+ b0a0cf830b12 Extracting [===================================>               ]  20.94MB/29.15MB
+ 068fedd6b0f1 Extracting [=====>                                             ]  2.949MB/28.23MB
+ f9dd052e142d Extracting [====>                                              ]  4.719MB/52.33MB
+ eb77aa907276 Downloading [=======>                                           ]  142.5MB/907.7MB
+ 3fadc669ef11 Downloading [============>                                      ]  11.06MB/43.48MB
+ 20043066d3d5 Downloading [========================>                          ]  14.32MB/29.72MB
+ 068fedd6b0f1 Extracting [========>                                          ]  5.014MB/28.23MB
+ b0a0cf830b12 Extracting [=======================================>           ]   23.3MB/29.15MB
+ 20043066d3d5 Verifying Checksum 
+ 20043066d3d5 Download complete 
+ eb77aa907276 Downloading [========>                                          ]  162.8MB/907.7MB
+ 3fadc669ef11 Downloading [=========================================>         ]  35.83MB/43.48MB
+ 7084ac8f4ab6 Downloading [>                                                  ]  81.26kB/7.468MB
+ 3fadc669ef11 Verifying Checksum 
+ 3fadc669ef11 Download complete 
+ 20043066d3d5 Extracting [>                                                  ]  327.7kB/29.72MB
+ 068fedd6b0f1 Extracting [===========>                                       ]  6.488MB/28.23MB
+ b0a0cf830b12 Extracting [=========================================>         ]  24.48MB/29.15MB
+ f9dd052e142d Extracting [=====>                                             ]  5.243MB/52.33MB
+ beb0d870d438 Downloading [==================>                                ]   3.48kB/9.462kB
+ beb0d870d438 Downloading [==================================================>]  9.462kB/9.462kB
+ beb0d870d438 Verifying Checksum 
+ beb0d870d438 Download complete 
+ eb77aa907276 Downloading [==========>                                        ]  186.3MB/907.7MB
+ 7084ac8f4ab6 Downloading [================>                                  ]  2.457MB/7.468MB
+ 068fedd6b0f1 Extracting [==============>                                    ]  8.258MB/28.23MB
+ 20043066d3d5 Extracting [===>                                               ]  1.966MB/29.72MB
+ d63c4408fdb7 Downloading [>                                                  ]  228.7kB/21.31MB
+ 7084ac8f4ab6 Verifying Checksum 
+ 7084ac8f4ab6 Download complete 
+ f9dd052e142d Extracting [======>                                            ]  6.816MB/52.33MB
+ eb77aa907276 Downloading [===========>                                       ]  209.3MB/907.7MB
+ efa05c660812 Downloading [==================================================>]     189B/189B
+ efa05c660812 Verifying Checksum 
+ efa05c660812 Download complete 
+ d63c4408fdb7 Downloading [========>                                          ]   3.44MB/21.31MB
+ 068fedd6b0f1 Extracting [================>                                  ]  9.437MB/28.23MB
+ 20043066d3d5 Extracting [=======>                                           ]   4.26MB/29.72MB
+ f4e7f62f4b80 Downloading [==================================================>]     109B/109B
+ f4e7f62f4b80 Verifying Checksum 
+ f4e7f62f4b80 Download complete 
+ f9dd052e142d Extracting [========>                                          ]  8.913MB/52.33MB
+ eb77aa907276 Downloading [============>                                      ]  230.7MB/907.7MB
+ b0a0cf830b12 Extracting [==========================================>        ]  24.77MB/29.15MB
+ 5e1c03b67a78 Downloading [==================================================>]     620B/620B
+ 5e1c03b67a78 Verifying Checksum 
+ 5e1c03b67a78 Download complete 
+ d63c4408fdb7 Downloading [===========================================>       ]  18.35MB/21.31MB
+ d63c4408fdb7 Verifying Checksum 
+ d63c4408fdb7 Download complete 
+ 068fedd6b0f1 Extracting [==================>                                ]  10.62MB/28.23MB
+ eb77aa907276 Downloading [==============>                                    ]  254.7MB/907.7MB
+ 20043066d3d5 Extracting [==========>                                        ]  6.226MB/29.72MB
+ f9dd052e142d Extracting [==========>                                        ]  11.01MB/52.33MB
+ 14e6209d5fa8 Downloading [==================================================>]     833B/833B
+ 14e6209d5fa8 Verifying Checksum 
+ 14e6209d5fa8 Download complete 
+ b0a0cf830b12 Extracting [=============================================>     ]  26.25MB/29.15MB
+ d686b50ce172 Downloading [>                                                  ]  130.4kB/12.47MB
+ 068fedd6b0f1 Extracting [=====================>                             ]  12.39MB/28.23MB
+ eb77aa907276 Downloading [===============>                                   ]  278.2MB/907.7MB
+ f9dd052e142d Extracting [=============>                                     ]  13.63MB/52.33MB
+ d686b50ce172 Downloading [==============================================>    ]  11.53MB/12.47MB
+ d686b50ce172 Verifying Checksum 
+ d686b50ce172 Download complete 
+ 20043066d3d5 Extracting [=============>                                     ]  8.192MB/29.72MB
+ 068fedd6b0f1 Extracting [==========================>                        ]  14.75MB/28.23MB
+ b0a0cf830b12 Extracting [===============================================>   ]  27.72MB/29.15MB
+ eb77aa907276 Downloading [================>                                  ]  305.4MB/907.7MB
+ f9dd052e142d Extracting [===============>                                   ]  16.25MB/52.33MB
+ 20043066d3d5 Extracting [===============>                                   ]  9.503MB/29.72MB
+ eb77aa907276 Downloading [==================>                                ]  333.8MB/907.7MB
+ 068fedd6b0f1 Extracting [===============================>                   ]  17.69MB/28.23MB
+ b0a0cf830b12 Extracting [================================================>  ]  28.02MB/29.15MB
+ f9dd052e142d Extracting [==================>                                ]  18.87MB/52.33MB
+ 20043066d3d5 Extracting [===================>                               ]  11.47MB/29.72MB
+ eb77aa907276 Downloading [===================>                               ]  361.5MB/907.7MB
+ 068fedd6b0f1 Extracting [====================================>              ]  20.64MB/28.23MB
+ f9dd052e142d Extracting [====================>                              ]   21.5MB/52.33MB
+ 20043066d3d5 Extracting [========================>                          ]  14.42MB/29.72MB
+ eb77aa907276 Downloading [=====================>                             ]  388.7MB/907.7MB
+ 068fedd6b0f1 Extracting [=========================================>         ]   23.3MB/28.23MB
+ f9dd052e142d Extracting [=======================>                           ]  24.64MB/52.33MB
+ 20043066d3d5 Extracting [=============================>                     ]  17.37MB/29.72MB
+ eb77aa907276 Downloading [======================>                            ]    417MB/907.7MB
+ f9dd052e142d Extracting [=========================>                         ]  26.74MB/52.33MB
+ eb77aa907276 Downloading [========================>                          ]    448MB/907.7MB
+ 20043066d3d5 Extracting [================================>                  ]  19.33MB/29.72MB
+ f9dd052e142d Extracting [==========================>                        ]  27.79MB/52.33MB
+ b0a0cf830b12 Extracting [================================================>  ]  28.31MB/29.15MB
+ 068fedd6b0f1 Extracting [==========================================>        ]  23.89MB/28.23MB
+ eb77aa907276 Downloading [==========================>                        ]  476.8MB/907.7MB
+ 20043066d3d5 Extracting [==================================>                ]  20.64MB/29.72MB
+ f9dd052e142d Extracting [===========================>                       ]  28.84MB/52.33MB
+ 068fedd6b0f1 Extracting [=============================================>     ]  25.95MB/28.23MB
+ b0a0cf830b12 Extracting [=================================================> ]   28.9MB/29.15MB
+ eb77aa907276 Downloading [===========================>                       ]  507.8MB/907.7MB
+ 20043066d3d5 Extracting [======================================>            ]  22.94MB/29.72MB
+ b0a0cf830b12 Extracting [==================================================>]  29.15MB/29.15MB
+ 20043066d3d5 Extracting [========================================>          ]  24.25MB/29.72MB
+ eb77aa907276 Downloading [=============================>                     ]  532.9MB/907.7MB
+ b0a0cf830b12 Pull complete 
+ 068fedd6b0f1 Extracting [===============================================>   ]  26.84MB/28.23MB
+ f9dd052e142d Extracting [============================>                      ]  29.88MB/52.33MB
+ dda3d8fbd5ed Extracting [==================================================>]  1.165kB/1.165kB
+ dda3d8fbd5ed Extracting [==================================================>]  1.165kB/1.165kB
+ eb77aa907276 Downloading [==============================>                    ]  556.9MB/907.7MB
+ 20043066d3d5 Extracting [==========================================>        ]  25.23MB/29.72MB
+ 068fedd6b0f1 Extracting [================================================>  ]  27.13MB/28.23MB
+ eb77aa907276 Downloading [================================>                  ]  588.4MB/907.7MB
+ f9dd052e142d Extracting [=============================>                     ]  30.41MB/52.33MB
+ eb77aa907276 Downloading [==================================>                ]  618.3MB/907.7MB
+ 20043066d3d5 Extracting [==========================================>        ]  25.56MB/29.72MB
+ eb77aa907276 Downloading [===================================>               ]  644.5MB/907.7MB
+ f9dd052e142d Extracting [===============================>                   ]  33.03MB/52.33MB
+ 20043066d3d5 Extracting [==============================================>    ]  27.85MB/29.72MB
+ eb77aa907276 Downloading [====================================>              ]  664.8MB/907.7MB
+ 068fedd6b0f1 Extracting [================================================>  ]  27.43MB/28.23MB
+ f9dd052e142d Extracting [=================================>                 ]   34.6MB/52.33MB
+ 20043066d3d5 Extracting [===============================================>   ]  28.51MB/29.72MB
+ eb77aa907276 Downloading [======================================>            ]  692.6MB/907.7MB
+ f9dd052e142d Extracting [==================================>                ]  36.18MB/52.33MB
+ eb77aa907276 Downloading [=======================================>           ]  721.9MB/907.7MB
+ 068fedd6b0f1 Extracting [==================================================>]  28.23MB/28.23MB
+ 20043066d3d5 Extracting [=================================================> ]  29.49MB/29.72MB
+ eb77aa907276 Downloading [=========================================>         ]  750.2MB/907.7MB
+ eb77aa907276 Downloading [=========================================>         ]  751.8MB/907.7MB
+ f9dd052e142d Extracting [====================================>              ]  37.75MB/52.33MB
+ 20043066d3d5 Extracting [==================================================>]  29.72MB/29.72MB
+ eb77aa907276 Downloading [===========================================>       ]  781.7MB/907.7MB
+ f9dd052e142d Extracting [======================================>            ]  39.85MB/52.33MB
+ eb77aa907276 Downloading [============================================>      ]  811.6MB/907.7MB
+ f9dd052e142d Extracting [========================================>          ]  42.47MB/52.33MB
+ eb77aa907276 Downloading [==============================================>    ]    843MB/907.7MB
+ f9dd052e142d Extracting [===========================================>       ]  45.09MB/52.33MB
+ eb77aa907276 Downloading [===============================================>   ]  871.3MB/907.7MB
+ f9dd052e142d Extracting [===========================================>       ]  45.61MB/52.33MB
+ eb77aa907276 Downloading [================================================>  ]  888.9MB/907.7MB
+ f9dd052e142d Extracting [============================================>      ]  46.14MB/52.33MB
+ 068fedd6b0f1 Pull complete 
+ eb77aa907276 Downloading [=================================================> ]  904.4MB/907.7MB
+ f9dd052e142d Extracting [=============================================>     ]  47.19MB/52.33MB
+ eb77aa907276 Verifying Checksum 
+ eb77aa907276 Download complete 
+ 23c4f420408e Extracting [==================================================>]  1.101kB/1.101kB
+ 23c4f420408e Extracting [==================================================>]  1.101kB/1.101kB
+ f9dd052e142d Extracting [==============================================>    ]  48.76MB/52.33MB
+ 20043066d3d5 Pull complete 
+ f9dd052e142d Extracting [=================================================> ]  51.38MB/52.33MB
+ 3fadc669ef11 Extracting [>                                                  ]  458.8kB/43.48MB
+ f9dd052e142d Extracting [=================================================> ]   51.9MB/52.33MB
+ f9dd052e142d Extracting [==================================================>]  52.33MB/52.33MB
+ 3fadc669ef11 Extracting [=========>                                         ]  8.258MB/43.48MB
+ f9dd052e142d Pull complete 
+ e8c6d4883897 Extracting [>                                                  ]  65.54kB/4.398MB
+ 3fadc669ef11 Extracting [==============>                                    ]  12.85MB/43.48MB
+ e8c6d4883897 Extracting [==>                                                ]  262.1kB/4.398MB
+ 3fadc669ef11 Extracting [====================>                              ]  17.43MB/43.48MB
+ e8c6d4883897 Extracting [========>                                          ]  720.9kB/4.398MB
+ 3fadc669ef11 Extracting [======================>                            ]  19.73MB/43.48MB
+ e8c6d4883897 Extracting [=====================>                             ]  1.901MB/4.398MB
+ 3fadc669ef11 Extracting [=========================>                         ]  22.02MB/43.48MB
+ e8c6d4883897 Extracting [=========================>                         ]  2.228MB/4.398MB
+ 3fadc669ef11 Extracting [=================================>                 ]   28.9MB/43.48MB
+ e8c6d4883897 Extracting [============================>                      ]   2.49MB/4.398MB
+ 3fadc669ef11 Extracting [=================================>                 ]  29.36MB/43.48MB
+ 3fadc669ef11 Extracting [==================================>                ]  29.82MB/43.48MB
+ e8c6d4883897 Extracting [=============================>                     ]  2.556MB/4.398MB
+ 3fadc669ef11 Extracting [=====================================>             ]  32.57MB/43.48MB
+ e8c6d4883897 Extracting [==============================>                    ]  2.687MB/4.398MB
+ 3fadc669ef11 Extracting [==========================================>        ]   36.7MB/43.48MB
+ e8c6d4883897 Extracting [===============================>                   ]  2.753MB/4.398MB
+ 3fadc669ef11 Extracting [==========================================>        ]  37.16MB/43.48MB
+ e8c6d4883897 Extracting [================================>                  ]  2.884MB/4.398MB
+ 3fadc669ef11 Extracting [==============================================>    ]  40.37MB/43.48MB
+ e8c6d4883897 Extracting [=======================================>           ]  3.473MB/4.398MB
+ 3fadc669ef11 Extracting [==================================================>]  43.48MB/43.48MB
+ e8c6d4883897 Extracting [==================================================>]  4.398MB/4.398MB
+ dda3d8fbd5ed Pull complete 
+ 3fadc669ef11 Pull complete 
+ e8c6d4883897 Pull complete 
+ 23c4f420408e Pull complete 
+ 283a477db7bb Extracting [>                                                  ]  65.54kB/4.533MB
+ 648eb81b3252 Extracting [==================================================>]  1.561kB/1.561kB
+ 648eb81b3252 Extracting [==================================================>]  1.561kB/1.561kB
+ 281993ab1a86 Extracting [==================================================>]     876B/876B
+ 281993ab1a86 Extracting [==================================================>]     876B/876B
+ 7084ac8f4ab6 Extracting [>                                                  ]   98.3kB/7.468MB
+ 281993ab1a86 Pull complete 
+ ec2307f4d05c Extracting [>                                                  ]  163.8kB/15.35MB
+ 648eb81b3252 Pull complete 
+ 283a477db7bb Extracting [==================================>                ]  3.146MB/4.533MB
+ eb77aa907276 Extracting [>                                                  ]  557.1kB/907.7MB
+ 7084ac8f4ab6 Extracting [=====>                                             ]  884.7kB/7.468MB
+ ec2307f4d05c Extracting [==============>                                    ]  4.424MB/15.35MB
+ 283a477db7bb Extracting [==================================================>]  4.533MB/4.533MB
+ eb77aa907276 Extracting [>                                                  ]   9.47MB/907.7MB
+ 7084ac8f4ab6 Extracting [=======================>                           ]  3.441MB/7.468MB
+ ec2307f4d05c Extracting [===========================>                       ]  8.356MB/15.35MB
+ eb77aa907276 Extracting [=>                                                 ]  21.17MB/907.7MB
+ 283a477db7bb Pull complete 
+ 91d2729fa4d5 Extracting [=>                                                 ]  32.77kB/1.45MB
+ 7084ac8f4ab6 Extracting [===============================================>   ]  7.078MB/7.468MB
+ 7084ac8f4ab6 Extracting [==================================================>]  7.468MB/7.468MB
+ ec2307f4d05c Extracting [==========================================>        ]  13.11MB/15.35MB
+ 7084ac8f4ab6 Pull complete 
+ beb0d870d438 Extracting [==================================================>]  9.462kB/9.462kB
+ beb0d870d438 Extracting [==================================================>]  9.462kB/9.462kB
+ 91d2729fa4d5 Extracting [==================================================>]   1.45MB/1.45MB
+ 91d2729fa4d5 Pull complete 
+ 9739ced65621 Extracting [>                                                  ]   98.3kB/8.069MB
+ ec2307f4d05c Extracting [==================================================>]  15.35MB/15.35MB
+ eb77aa907276 Extracting [=>                                                 ]  30.64MB/907.7MB
+ ec2307f4d05c Pull complete 
+ beb0d870d438 Pull complete 
+ 6f26ab5b45cd Extracting [==================================================>]      97B/97B
+ 6f26ab5b45cd Extracting [==================================================>]      97B/97B
+ 6f26ab5b45cd Pull complete 
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Pull complete 
+ 0251943f3cb8 Extracting [==================================================>]     598B/598B
+ 0251943f3cb8 Extracting [==================================================>]     598B/598B
+ 0251943f3cb8 Pull complete 
+ 9739ced65621 Extracting [=================>                                 ]  2.753MB/8.069MB
+ redis Pulled 
+ d63c4408fdb7 Extracting [>                                                  ]  229.4kB/21.31MB
+ eb77aa907276 Extracting [==>                                                ]  42.34MB/907.7MB
+ 9739ced65621 Extracting [========================>                          ]  3.932MB/8.069MB
+ d63c4408fdb7 Extracting [=======>                                           ]  3.211MB/21.31MB
+ eb77aa907276 Extracting [===>                                               ]  59.05MB/907.7MB
+ 9739ced65621 Extracting [=================================>                 ]  5.407MB/8.069MB
+ eb77aa907276 Extracting [====>                                              ]  73.53MB/907.7MB
+ d63c4408fdb7 Extracting [=================>                                 ]  7.569MB/21.31MB
+ 9739ced65621 Extracting [========================================>          ]  6.586MB/8.069MB
+ d63c4408fdb7 Extracting [======================>                            ]  9.634MB/21.31MB
+ eb77aa907276 Extracting [====>                                              ]  81.89MB/907.7MB
+ 9739ced65621 Extracting [==================================================>]  8.069MB/8.069MB
+ 9739ced65621 Pull complete 
+ ae3bb1b347a4 Extracting [=>                                                 ]  32.77kB/1.196MB
+ d63c4408fdb7 Extracting [=============================>                     ]  12.62MB/21.31MB
+ eb77aa907276 Extracting [====>                                              ]  90.24MB/907.7MB
+ ae3bb1b347a4 Extracting [==================================================>]  1.196MB/1.196MB
+ ae3bb1b347a4 Extracting [==================================================>]  1.196MB/1.196MB
+ d63c4408fdb7 Extracting [==================================>                ]  14.68MB/21.31MB
+ ae3bb1b347a4 Pull complete 
+ f8406d9c00ea Extracting [==================================================>]     116B/116B
+ f8406d9c00ea Extracting [==================================================>]     116B/116B
+ eb77aa907276 Extracting [=====>                                             ]  95.81MB/907.7MB
+ f8406d9c00ea Pull complete 
+ c199bff16b05 Extracting [==================================================>]  3.145kB/3.145kB
+ c199bff16b05 Extracting [==================================================>]  3.145kB/3.145kB
+ c199bff16b05 Pull complete 
+ d63c4408fdb7 Extracting [=====================================>             ]  15.83MB/21.31MB
+ eb77aa907276 Extracting [=====>                                             ]  101.9MB/907.7MB
+ e0d55fdb4d15 Extracting [>                                                  ]  557.1kB/109MB
+ d63c4408fdb7 Extracting [========================================>          ]   17.2MB/21.31MB
+ eb77aa907276 Extracting [=====>                                             ]  108.1MB/907.7MB
+ e0d55fdb4d15 Extracting [==>                                                ]  4.456MB/109MB
+ d63c4408fdb7 Extracting [===========================================>       ]  18.58MB/21.31MB
+ eb77aa907276 Extracting [======>                                            ]  114.2MB/907.7MB
+ e0d55fdb4d15 Extracting [===>                                               ]  8.356MB/109MB
+ eb77aa907276 Extracting [======>                                            ]  120.3MB/907.7MB
+ d63c4408fdb7 Extracting [================================================>  ]  20.64MB/21.31MB
+ e0d55fdb4d15 Extracting [=====>                                             ]  11.14MB/109MB
+ eb77aa907276 Extracting [======>                                            ]  126.5MB/907.7MB
+ e0d55fdb4d15 Extracting [======>                                            ]  14.48MB/109MB
+ eb77aa907276 Extracting [=======>                                           ]  132.6MB/907.7MB
+ d63c4408fdb7 Extracting [================================================>  ]  20.87MB/21.31MB
+ e0d55fdb4d15 Extracting [========>                                          ]  17.83MB/109MB
+ d63c4408fdb7 Extracting [==================================================>]  21.31MB/21.31MB
+ eb77aa907276 Extracting [=======>                                           ]  137.6MB/907.7MB
+ d63c4408fdb7 Pull complete 
+ efa05c660812 Extracting [==================================================>]     189B/189B
+ efa05c660812 Extracting [==================================================>]     189B/189B
+ e0d55fdb4d15 Extracting [=========>                                         ]  20.05MB/109MB
+ eb77aa907276 Extracting [=======>                                           ]  141.5MB/907.7MB
+ efa05c660812 Pull complete 
+ f4e7f62f4b80 Extracting [==================================================>]     109B/109B
+ f4e7f62f4b80 Extracting [==================================================>]     109B/109B
+ eb77aa907276 Extracting [========>                                          ]  145.9MB/907.7MB
+ f4e7f62f4b80 Pull complete 
+ 5e1c03b67a78 Extracting [==================================================>]     620B/620B
+ 5e1c03b67a78 Extracting [==================================================>]     620B/620B
+ e0d55fdb4d15 Extracting [==========>                                        ]  23.95MB/109MB
+ 5e1c03b67a78 Pull complete 
+ 14e6209d5fa8 Extracting [==================================================>]     833B/833B
+ 14e6209d5fa8 Extracting [==================================================>]     833B/833B
+ eb77aa907276 Extracting [========>                                          ]  153.2MB/907.7MB
+ 14e6209d5fa8 Pull complete 
+ d686b50ce172 Extracting [>                                                  ]  131.1kB/12.47MB
+ e0d55fdb4d15 Extracting [===========>                                       ]  25.62MB/109MB
+ eb77aa907276 Extracting [========>                                          ]  158.2MB/907.7MB
+ d686b50ce172 Extracting [==============>                                    ]   3.67MB/12.47MB
+ e0d55fdb4d15 Extracting [==============>                                    ]  30.64MB/109MB
+ eb77aa907276 Extracting [=========>                                         ]    166MB/907.7MB
+ d686b50ce172 Extracting [=======================>                           ]  5.767MB/12.47MB
+ e0d55fdb4d15 Extracting [================>                                  ]  36.21MB/109MB
+ eb77aa907276 Extracting [=========>                                         ]  178.8MB/907.7MB
+ d686b50ce172 Extracting [==========================>                        ]  6.554MB/12.47MB
+ e0d55fdb4d15 Extracting [===================>                               ]  42.34MB/109MB
+ eb77aa907276 Extracting [==========>                                        ]  191.6MB/907.7MB
+ d686b50ce172 Extracting [===========================>                       ]  6.816MB/12.47MB
+ e0d55fdb4d15 Extracting [======================>                            ]  48.46MB/109MB
+ eb77aa907276 Extracting [===========>                                       ]  205.6MB/907.7MB
+ d686b50ce172 Extracting [==================================>                ]  8.651MB/12.47MB
+ e0d55fdb4d15 Extracting [========================>                          ]  52.36MB/109MB
+ eb77aa907276 Extracting [===========>                                       ]  213.4MB/907.7MB
+ d686b50ce172 Extracting [=======================================>           ]  9.961MB/12.47MB
+ e0d55fdb4d15 Extracting [=========================>                         ]  55.15MB/109MB
+ eb77aa907276 Extracting [============>                                      ]  222.8MB/907.7MB
+ d686b50ce172 Extracting [===========================================>       ]  10.88MB/12.47MB
+ e0d55fdb4d15 Extracting [===========================>                       ]  59.05MB/109MB
+ eb77aa907276 Extracting [============>                                      ]  230.1MB/907.7MB
+ d686b50ce172 Extracting [=================================================> ]  12.45MB/12.47MB
+ d686b50ce172 Extracting [==================================================>]  12.47MB/12.47MB
+ eb77aa907276 Extracting [=============>                                     ]  236.7MB/907.7MB
+ e0d55fdb4d15 Extracting [=============================>                     ]  65.18MB/109MB
+ eb77aa907276 Extracting [=============>                                     ]  242.3MB/907.7MB
+ e0d55fdb4d15 Extracting [================================>                  ]  71.86MB/109MB
+ eb77aa907276 Extracting [=============>                                     ]  252.9MB/907.7MB
+ e0d55fdb4d15 Extracting [===================================>               ]  77.99MB/109MB
+ eb77aa907276 Extracting [==============>                                    ]  264.6MB/907.7MB
+ e0d55fdb4d15 Extracting [======================================>            ]  84.67MB/109MB
+ eb77aa907276 Extracting [===============>                                   ]  279.6MB/907.7MB
+ e0d55fdb4d15 Extracting [=========================================>         ]  91.36MB/109MB
+ eb77aa907276 Extracting [================>                                  ]  296.4MB/907.7MB
+ e0d55fdb4d15 Extracting [==========================================>        ]  93.03MB/109MB
+ eb77aa907276 Extracting [=================>                                 ]  313.1MB/907.7MB
+ e0d55fdb4d15 Extracting [============================================>      ]  96.37MB/109MB
+ eb77aa907276 Extracting [==================>                                ]  330.3MB/907.7MB
+ d686b50ce172 Pull complete 
+ e0d55fdb4d15 Extracting [============================================>      ]  96.93MB/109MB
+ rabbitmq Pulled 
+ eb77aa907276 Extracting [===================>                               ]  346.5MB/907.7MB
+ e0d55fdb4d15 Extracting [=============================================>     ]  99.16MB/109MB
+ eb77aa907276 Extracting [===================>                               ]  360.4MB/907.7MB
+ e0d55fdb4d15 Extracting [==============================================>    ]  101.9MB/109MB
+ eb77aa907276 Extracting [====================>                              ]  366.5MB/907.7MB
+ e0d55fdb4d15 Extracting [===============================================>   ]  103.6MB/109MB
+ eb77aa907276 Extracting [====================>                              ]  372.7MB/907.7MB
+ e0d55fdb4d15 Extracting [================================================>  ]  105.3MB/109MB
+ eb77aa907276 Extracting [=====================>                             ]  387.2MB/907.7MB
+ e0d55fdb4d15 Extracting [=================================================> ]    107MB/109MB
+ eb77aa907276 Extracting [======================>                            ]    405MB/907.7MB
+ eb77aa907276 Extracting [=======================>                           ]  428.9MB/907.7MB
+ eb77aa907276 Extracting [========================>                          ]  452.9MB/907.7MB
+ e0d55fdb4d15 Extracting [=================================================> ]  107.5MB/109MB
+ eb77aa907276 Extracting [==========================>                        ]  476.3MB/907.7MB
+ e0d55fdb4d15 Extracting [=================================================> ]  108.6MB/109MB
+ eb77aa907276 Extracting [===========================>                       ]  499.1MB/907.7MB
+ e0d55fdb4d15 Extracting [==================================================>]    109MB/109MB
+ eb77aa907276 Extracting [============================>                      ]  520.3MB/907.7MB
+ eb77aa907276 Extracting [==============================>                    ]  547.6MB/907.7MB
+ eb77aa907276 Extracting [===============================>                   ]  573.8MB/907.7MB
+ eb77aa907276 Extracting [================================>                  ]  598.3MB/907.7MB
+ eb77aa907276 Extracting [==================================>                ]  622.2MB/907.7MB
+ eb77aa907276 Extracting [===================================>               ]  649.5MB/907.7MB
+ eb77aa907276 Extracting [=====================================>             ]  676.8MB/907.7MB
+ eb77aa907276 Extracting [======================================>            ]  701.3MB/907.7MB
+ eb77aa907276 Extracting [=======================================>           ]  725.3MB/907.7MB
+ eb77aa907276 Extracting [=========================================>         ]  748.1MB/907.7MB
+ e0d55fdb4d15 Pull complete 
+ c1cb13b19080 Extracting [==================================================>]  9.925kB/9.925kB
+ c1cb13b19080 Extracting [==================================================>]  9.925kB/9.925kB
+ eb77aa907276 Extracting [==========================================>        ]  764.3MB/907.7MB
+ eb77aa907276 Extracting [===========================================>       ]    786MB/907.7MB
+ c1cb13b19080 Pull complete 
+ 873532e5f8c7 Extracting [==================================================>]     128B/128B
+ 873532e5f8c7 Extracting [==================================================>]     128B/128B
+ eb77aa907276 Extracting [============================================>      ]  800.5MB/907.7MB
+ 873532e5f8c7 Pull complete 
+ 050d9f8c3b1c Extracting [==================================================>]     169B/169B
+ 050d9f8c3b1c Extracting [==================================================>]     169B/169B
+ 050d9f8c3b1c Pull complete 
+ 710e142705f8 Extracting [==================================================>]  5.421kB/5.421kB
+ 710e142705f8 Extracting [==================================================>]  5.421kB/5.421kB
+ eb77aa907276 Extracting [=============================================>     ]  819.4MB/907.7MB
+ 710e142705f8 Pull complete 
+ cb628c265f09 Extracting [==================================================>]     184B/184B
+ cb628c265f09 Extracting [==================================================>]     184B/184B
+ cb628c265f09 Pull complete 
+ postgresql Pulled 
+ eb77aa907276 Extracting [==============================================>    ]  838.9MB/907.7MB
+ eb77aa907276 Extracting [===============================================>   ]  859.5MB/907.7MB
+ eb77aa907276 Extracting [================================================>  ]  880.7MB/907.7MB
+ eb77aa907276 Extracting [=================================================> ]  903.5MB/907.7MB
+ eb77aa907276 Extracting [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Pull complete 
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Pull complete 
+ 0ffa8f8aba1e Extracting [==================================================>]     226B/226B
+ 0ffa8f8aba1e Extracting [==================================================>]     226B/226B
+ 0ffa8f8aba1e Pull complete 
+ 2e81b9cb93cd Extracting [==================================================>]  1.859kB/1.859kB
+ 2e81b9cb93cd Extracting [==================================================>]  1.859kB/1.859kB
+ 2e81b9cb93cd Pull complete 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched
+configfile: setup.cfg
+testpaths: tests, invenio_app_rdm
+plugins: Faker-40.19.1, isort-4.0.0, invenio-4.0.1, pydocstyle-2.4.0, flask-1.3.0, github-actions-annotate-failures-0.4.0, cov-7.1.0, time-machine-2.19.0, black-0.6.0, pycodestyle-2.5.0
+collected 352 items
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py,line=76::subject_nested is deprecated. Use subject_combined instead.
+
+tests/__init__.py ...                                                    [  0%]
+tests/api/__init__.py ...                                                [  1%]
+tests/api/conftest.py ...                                                [  2%]
+tests/api/test_protect_files_rest.py ..::error file=workdir/tests/invenio-app-rdm/patched/tests/api/test_protect_files_rest.py,line=56::test_files_rest_endpoint_is_protected%0A%0ATypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+F                                 [  3%]
+tests/api/test_record_api.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+s.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=497::`es_clear` fixture is deprecated, use `search_clear` instead.
+                                    [  5%]
+tests/api/test_stats_api.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                          [  6%]
+tests/conftest.py ...                                                    [  7%]
+tests/fixtures/__init__.py ...                                           [  8%]
+tests/fixtures/conftest.py ...                                           [  9%]
+tests/fixtures/test_cli.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [  9%]
+tests/fixtures/test_fixtures.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_pages/records/models.py,line=58::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+                                     [ 11%]
+tests/mock_module/__init__.py ...                                        [ 11%]
+tests/mock_module/views.py ...                                           [ 12%]
+tests/redirector/__init__.py ...                                         [ 13%]
+tests/redirector/conftest.py ...                                         [ 14%]
+tests/redirector/test_redirector.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                  [ 15%]
+tests/test_migrate_13_0_to_14_0.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=496::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=443::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py,line=164::nested transaction already deassociated from connection
+                                   [ 16%]
+tests/test_tasks.py ..E::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+EEE                                               [ 17%]
+tests/test_utils.py ......                                               [ 19%]
+tests/test_version.py ...                                                [ 20%]
+tests/test_views.py ...                                                  [ 21%]
+tests/ui/__init__.py ...                                                 [ 22%]
+tests/ui/conftest.py ...                                                 [ 23%]
+tests/ui/test_deposits.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.                                           [ 24%]
+tests/ui/test_export_formats.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                      [ 25%]
+tests/ui/test_file_download.py ..E::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+E::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=77::Remember me support has been removed.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+E                                     [ 26%]
+tests/ui/test_filters.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+.                                            [ 27%]
+tests/ui/test_robotstxt.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 28%]
+tests/ui/test_signposting_ui.py ..E::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+EEEEE.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                               [ 31%]
+tests/ui/test_sitemaps.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 32%]
+tests/ui/test_stats_ui.py ...::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py,line=171::It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+.::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py,line=335::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py,line=70::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+::warning file=workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py,line=59::Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+                                           [ 33%]
+invenio_app_rdm/__init__.py ...                                          [ 34%]
+invenio_app_rdm/administration/__init__.py ...                           [ 35%]
+invenio_app_rdm/administration/audit_logs/__init__.py ...                [ 36%]
+invenio_app_rdm/administration/audit_logs/audit_logs.py ...              [ 36%]
+invenio_app_rdm/administration/domains/__init__.py ...                   [ 37%]
+invenio_app_rdm/administration/domains/domains.py ...                    [ 38%]
+invenio_app_rdm/administration/moderation/__init__.py ...                [ 39%]
+invenio_app_rdm/administration/moderation/requests.py ...                [ 40%]
+invenio_app_rdm/administration/records/__init__.py ...                   [ 41%]
+invenio_app_rdm/administration/records/records.py ...                    [ 42%]
+invenio_app_rdm/administration/roles/__init__.py ...                     [ 42%]
+invenio_app_rdm/administration/roles/roles.py ...                        [ 43%]
+invenio_app_rdm/administration/user_moderation/__init__.py ...           [ 44%]
+invenio_app_rdm/administration/user_moderation/user_moderation.py ...    [ 45%]
+invenio_app_rdm/administration/users/__init__.py ...                     [ 46%]
+invenio_app_rdm/administration/users/permissions.py ...                  [ 47%]
+invenio_app_rdm/administration/users/users.py ...                        [ 48%]
+invenio_app_rdm/administration/views/__init__.py ...                     [ 48%]
+invenio_app_rdm/administration/views/ui.py ...                           [ 49%]
+invenio_app_rdm/cli.py ...                                               [ 50%]
+invenio_app_rdm/communities_ui/__init__.py ...                           [ 51%]
+invenio_app_rdm/communities_ui/searchapp.py ...                          [ 52%]
+invenio_app_rdm/communities_ui/sitemap.py ...                            [ 53%]
+invenio_app_rdm/communities_ui/views/__init__.py ...                     [ 53%]
+invenio_app_rdm/communities_ui/views/communities.py ...                  [ 54%]
+invenio_app_rdm/communities_ui/views/ui.py ...                           [ 55%]
+invenio_app_rdm/config.py ...                                            [ 56%]
+invenio_app_rdm/ext.py ...                                               [ 57%]
+invenio_app_rdm/fixtures/__init__.py ...                                 [ 58%]
+invenio_app_rdm/fixtures/oai_sets.py ...                                 [ 59%]
+invenio_app_rdm/fixtures/pages.py ...                                    [ 59%]
+invenio_app_rdm/patch_info.py ...                                        [ 60%]
+invenio_app_rdm/records_ui/__init__.py ...                               [ 61%]
+invenio_app_rdm/records_ui/previewer/__init__.py ...                     [ 62%]
+invenio_app_rdm/records_ui/previewer/iiif_simple.py ...                  [ 63%]
+invenio_app_rdm/records_ui/previewer/previewable_zip.py ::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py,line=0::Black format check%0A%0A--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 06:05:01+00:00%0A+++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 06:11:21.502451+00:00%0A@@ -115,13 +115,13 @@%0A %0A %0A def can_preview(file):%0A     """Return True if filetype can be previewed."""%0A     return (%0A-            file.is_local()%0A-            and file.has_extensions(".zip")%0A-            and not isinstance(file, PreviewContainerItem)  # we are top level file%0A+        file.is_local()%0A+        and file.has_extensions(".zip")%0A+        and not isinstance(file, PreviewContainerItem)  # we are top level file%0A     )%0A %0A %0A def preview(file):%0A     """Return the appropriate template and pass the file and an embed flag."""%0A
+F::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py::pydocstyle-check%0A%0A/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:44 in private nested function `create_parent_hierarchy`:%0A        D202: No blank lines allowed after function docstring (found 1)%0A/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:127 in public function `preview`:%0A        D202: No blank lines allowed after function docstring (found 1)
+F::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py,line=0::isort-check%0A%0A """Simple ZIP archive previewer."""%0A%0A %0A import sys%0A-from flask import render_template, current_app%0A+%0A+from flask import current_app, render_template%0A from invenio_access.permissions import system_identity%0A from invenio_base import invenio_url_for%0A from invenio_previewer.proxies import current_previewer
+F              [ 64%]
+invenio_app_rdm/records_ui/searchapp.py ...                              [ 65%]
+invenio_app_rdm/records_ui/sitemap.py ...                                [ 65%]
+invenio_app_rdm/records_ui/utils.py ...                                  [ 66%]
+invenio_app_rdm/records_ui/views/__init__.py ...                         [ 67%]
+invenio_app_rdm/records_ui/views/decorators.py ..::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/decorators.py,line=0::isort-check%0A%0A %0A%0A """Routes for record-related pages provided by Invenio-App-RDM."""%0A %0A+from functools import wraps%0A+%0A from flask import current_app, g, make_response, redirect, request, session, url_for%0A from flask_login import login_required%0A-from functools import wraps%0A from invenio_base import invenio_url_for%0A from invenio_communities.communities.resources.serializer import (%0A     UICommunityJSONSerializer,
+F                       [ 68%]
+invenio_app_rdm/records_ui/views/deposits.py ...                         [ 69%]
+invenio_app_rdm/records_ui/views/filters.py ...                          [ 70%]
+invenio_app_rdm/records_ui/views/records.py ::error file=workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py,line=0::Black format check%0A%0A--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 06:05:01+00:00%0A+++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 06:11:23.609909+00:00%0A@@ -194,14 +194,20 @@%0A         record_pid_value,%0A         path,%0A         extracted_file_size,%0A         record=None,%0A         url=None,%0A-        is_iframe=False%0A+        is_iframe=False,%0A     ):%0A         """Create a new PreviewFile."""%0A-        super().__init__(file_item=file_item, record_pid_value=record_pid_value, record=record, url=url, is_iframe=is_iframe )%0A+        super().__init__(%0A+            file_item=file_item,%0A+            record_pid_value=record_pid_value,%0A+            record=record,%0A+            url=url,%0A+            is_iframe=is_iframe,%0A+        )%0A         self.path = path%0A         self.size = extracted_file_size%0A         self.container_item_filename = basename(self.path)%0A         self.uri = url or url_for(%0A             "invenio_app_rdm_records.record_container_item_download",%0A
+F..                          [ 71%]
+invenio_app_rdm/redirector/__init__.py ...                               [ 71%]
+invenio_app_rdm/redirector/resource.py ...                               [ 72%]
+invenio_app_rdm/redirector/views.py ...                                  [ 73%]
+invenio_app_rdm/requests_ui/__init__.py ...                              [ 74%]
+invenio_app_rdm/requests_ui/views/__init__.py ...                        [ 75%]
+invenio_app_rdm/requests_ui/views/requests.py ...                        [ 76%]
+invenio_app_rdm/requests_ui/views/ui.py ...                              [ 76%]
+invenio_app_rdm/tasks.py ...                                             [ 77%]
+invenio_app_rdm/theme/__init__.py ...                                    [ 78%]
+invenio_app_rdm/theme/views.py ...                                       [ 79%]
+invenio_app_rdm/theme/webpack.py ...                                     [ 80%]
+invenio_app_rdm/upgrade_scripts/__init__.py ...                          [ 81%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py . [ 81%]
+..                                                                       [ 82%]
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py . [ 82%]
+..                                                                       [ 82%]
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py ...              [ 83%]
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py ...              [ 84%]
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py ...              [ 85%]
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py ...              [ 86%]
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py ...        [ 87%]
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py ...                [ 88%]
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py ...                [ 88%]
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py ...                [ 89%]
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py ...                [ 90%]
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py ...                [ 91%]
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py ...                [ 92%]
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py ...               [ 93%]
+invenio_app_rdm/users/schemas.py ...                                     [ 94%]
+invenio_app_rdm/users_ui/__init__.py ...                                 [ 94%]
+invenio_app_rdm/users_ui/searchapp.py ...                                [ 95%]
+invenio_app_rdm/users_ui/views/__init__.py ...                           [ 96%]
+invenio_app_rdm/users_ui/views/dashboard.py ...                          [ 97%]
+invenio_app_rdm/users_ui/views/ui.py ...                                 [ 98%]
+invenio_app_rdm/utils/files.py ...                                       [ 99%]
+invenio_app_rdm/views.py ...                                             [100%]
+
+==================================== ERRORS ====================================
+______________ ERROR at setup of test_task_file_integrity_report _______________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd98f2bb10>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd98f2b4d0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd9871cfa0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'akt8c-5gb29', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd98c19580>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd9a5a66f0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:10:30,029] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:10:30,083] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:10:31,128] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:10:31,182] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+___________ ERROR at setup of test_integrity_report_invalid_template ___________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd98f2bb10>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd98f2b4d0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd9871cfa0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'mpy19-5zh47', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd98c1a890>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd9a7288f0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+__________ ERROR at setup of test_integrity_report_invalid_addresses ___________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd98f2bb10>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd98f2b4d0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd9871cfa0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'ybk2a-ejb80', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd98919440>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd9a7054f0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___________ ERROR at setup of test_integrity_report_default_template ___________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd98f2bb10>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd98f2b4d0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    @pytest.fixture
+    def draft_with_file_instance(running_app, minimal_record):
+        """Create draft with file and return (Draft, FileInstance)."""
+        minimal_record["files"] = {"enabled": True}
+    
+        record_service = current_rdm_records.records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(system_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            }
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/test_tasks.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd9871cfa0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'cr086-2yd02', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd988abb50>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd9a6dd2b0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+______ ERROR at setup of test_file_download_with_and_without_preview_flag ______
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd974858b0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd97485810>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 1>, 'user2': <User 2>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd97ce0aa0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'kk0qj-7y238', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd9756f8d0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd974c7cb0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:10:44,933] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:10:44,984] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+_____________ ERROR at setup of test_nonexistent_file_returns_404 ______________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd974858b0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd97485810>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 3>, 'user2': <User 4>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd97ce0aa0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '88yvb-qyv58', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd975204f0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd9738d8b0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+_____________ ERROR at setup of test_deleted_record_file_redirects _____________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd974858b0>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd97485810>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 5>, 'user2': <User 6>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd97ce0aa0>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '05mb0-a7z50', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd978a0e00>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd973cbef0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[True-head] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd95f73250>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd95f731b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 1>, 'user2': <User 2>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd964a5f90>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'cj5a2-ww079', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd9629bc40>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd95e311f0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+---------------------------- Captured stderr setup -----------------------------
+Loading config for entry point invenio_app_rdm.config
+[2026-05-29 06:10:56,085] DEBUG in entrypoint: Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Loading config for entry point invenio_app_rdm.config
+Flask-DebugToolbar extension not installed.
+[2026-05-29 06:10:56,137] DEBUG in ext: Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+Flask-DebugToolbar extension not installed.
+------------------------------ Captured log setup ------------------------------
+DEBUG    invenio:entrypoint.py:45 Loading config for entry point invenio_app_rdm.config
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+____ ERROR at setup of test_link_in_landing_page_response_headers[True-get] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd95f73250>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd95f731b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 3>, 'user2': <User 4>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd964a5f90>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '4dxrs-p6066', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd9629ad90>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd95cf1df0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[False-head] ___
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd95f73250>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd95f731b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 5>, 'user2': <User 6>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd964a5f90>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'z9b43-tcf21', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd95d65e40>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd95d63ad0>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+___ ERROR at setup of test_link_in_landing_page_response_headers[False-get] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd95f73250>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd95f731b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 7>, 'user2': <User 8>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd964a5f90>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '9cvh0-00130', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd95d6e390>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd95b99250>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+____ ERROR at setup of test_link_in_content_resource_response_headers[head] ____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd95f73250>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd95f731b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 9>, 'user2': <User 10>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd964a5f90>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = '7hn39-6hp26', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd95e4f4c0>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd95b9b590>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+____ ERROR at setup of test_link_in_content_resource_response_headers[get] _____
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd95f73250>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd95f731b0>])
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+users = {'user1': <User 11>, 'user2': <User 12>}
+
+    @pytest.fixture()
+    def draft_with_file(running_app, minimal_record, users):
+        """Create a draft with a file."""
+        minimal_record["files"] = {"enabled": True}
+    
+        # Use a user's identity to make sure the record has an owner
+        user_identity = Identity(users["user1"].id)
+        user_identity.provides.add(any_user)
+        user_identity.provides.add(authenticated_user)
+        record_service = current_rdm_records_service
+        file_service = record_service.draft_files
+    
+        draft = record_service.create(user_identity, minimal_record)
+        file_to_initialise = [
+            {
+                "key": "article.txt",
+                "checksum": "md5:c785060c866796cc2a1708c997154c8e",
+                "size": 17,  # 2kB
+                "metadata": {
+                    "description": "Published article PDF.",
+                },
+            },
+        ]
+        file_service.init_files(system_identity, draft.id, file_to_initialise)
+        content = BytesIO(b"test file content")
+>       file_service.set_file_content(
+            system_identity,
+            draft.id,
+            file_to_initialise[0]["key"],
+            content,
+            content.getbuffer().nbytes,
+        )
+
+tests/ui/conftest.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbd964a5f90>
+identity = <Identity id="system" auth_type="None" provides={Need(method='system_role', value='system_process')}>
+id_ = 'j7prp-apj11', file_key = 'article.txt'
+stream = <_io.BytesIO object at 0x7fbd95ba7510>, content_length = 17
+uow = <invenio_db.uow.UnitOfWork object at 0x7fbd95c5ea50>, kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+=================================== FAILURES ===================================
+____________________ test_files_rest_endpoint_is_protected _____________________
+
+running_app = RunningApp(app=<Flask 'invenio'>, location=pytest-location, resource_type_item=<invenio_records_resources.services.rec...m object at 0x7fbd9d589370>, <invenio_records_resources.services.records.results.RecordItem object at 0x7fbd9d5a8f30>])
+client_with_login = <FlaskClient <Flask 'invenio'>>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+es_clear = <OpenSearch([{'host': 'localhost', 'port': 9200}])>
+minimal_record = {'access': {'files': 'public', 'record': 'public'}, 'files': {'enabled': True}, 'metadata': {'creators': [{'person_or_...': 'personal'}}], 'publication_date': '2020-06-01', 'resource_type': {'id': 'image-photo'}, 'title': 'A Romans story'}}
+
+    def test_files_rest_endpoint_is_protected(
+        running_app, client_with_login, headers, es_clear, minimal_record
+    ):
+        client = client_with_login
+    
+        # Create draft with file
+        minimal_record["files"] = {"enabled": True}
+        recid = create_draft(client, minimal_record, headers)
+        init_file(client, recid, headers)
+>       upload_file(client, recid)
+
+tests/api/test_protect_files_rest.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/api/test_protect_files_rest.py:30: in upload_file
+    return client.put(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1172: in put
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/invenio_records_resources/resources/files/resource.py:88: in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/invenio_records_resources/resources/files/resource.py:287: in update_content
+    item = self.service.set_file_content(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_rdm_records.services.files.service.RDMFileService object at 0x7fbdaef47890>
+identity = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='system_role', value='authenticated_user')}>
+id_ = 'hze6j-tv755', file_key = 'test.pdf'
+stream = <werkzeug.wsgi.LimitedStream object at 0x7fbd9e520df0>
+content_length = 8, uow = <invenio_db.uow.UnitOfWork object at 0x7fbd9d26b520>
+kwargs = {}
+
+    @unit_of_work()
+    def set_file_content(
+        self, identity, id_, file_key, stream, content_length=None, uow=None, **kwargs
+    ):
+        """Save file content.
+    
+        :raises FileKeyNotFoundError: If the record has no file for the ``file_key``
+        """
+>       record = self._get_record(
+            id_,
+            identity,
+            "set_content_files",
+            file_key=file_key,
+            stream=stream,
+            content_length=content_length,
+            **kwargs,
+        )
+E       TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/service.py:314: TypeError
+------------------------------ Captured log setup ------------------------------
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+  self.init_app(app)
+
+DEBUG    invenio:ext.py:176 Flask-DebugToolbar extension not installed.
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py:171: UserWarning: It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+  warnings.warn(
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_oauth2server/ext.py:332: RuntimeWarning: You are overriding the default OAuthlib "URL encoded" set of valid characters. Make sure that the characters defined in oauthlib.common.urlencoded are indeed limitting your needs.
+  warnings.warn(
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py:70: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+  result = self._write_client.setex(
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py:77: DeprecationWarning: Remember me support has been removed.
+  warnings.warn("Remember me support has been removed.", DeprecationWarning)
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py:59: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+  self.redis.setex(key, ittl, value)
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:497: DeprecationWarning: `es_clear` fixture is deprecated, use `search_clear` instead.
+  warn(
+______________________________ Black format check ______________________________
+--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 06:05:01+00:00
++++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py	2026-05-29 06:11:21.502451+00:00
+@@ -115,13 +115,13 @@
+ 
+ 
+ def can_preview(file):
+     """Return True if filetype can be previewed."""
+     return (
+-            file.is_local()
+-            and file.has_extensions(".zip")
+-            and not isinstance(file, PreviewContainerItem)  # we are top level file
++        file.is_local()
++        and file.has_extensions(".zip")
++        and not isinstance(file, PreviewContainerItem)  # we are top level file
+     )
+ 
+ 
+ def preview(file):
+     """Return the appropriate template and pass the file and an embed flag."""
+
+_______________________________ pydocstyle-check _______________________________
+/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:44 in private nested function `create_parent_hierarchy`:
+        D202: No blank lines allowed after function docstring (found 1)
+/home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/previewer/previewable_zip.py:127 in public function `preview`:
+        D202: No blank lines allowed after function docstring (found 1)
+_________________________________ isort-check __________________________________
+ """Simple ZIP archive previewer."""
+
+ 
+ import sys
+-from flask import render_template, current_app
++
++from flask import current_app, render_template
+ from invenio_access.permissions import system_identity
+ from invenio_base import invenio_url_for
+ from invenio_previewer.proxies import current_previewer
+_________________________________ isort-check __________________________________
+ 
+
+ """Routes for record-related pages provided by Invenio-App-RDM."""
+ 
++from functools import wraps
++
+ from flask import current_app, g, make_response, redirect, request, session, url_for
+ from flask_login import login_required
+-from functools import wraps
+ from invenio_base import invenio_url_for
+ from invenio_communities.communities.resources.serializer import (
+     UICommunityJSONSerializer,
+______________________________ Black format check ______________________________
+--- /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 06:05:01+00:00
++++ /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/records_ui/views/records.py	2026-05-29 06:11:23.609909+00:00
+@@ -194,14 +194,20 @@
+         record_pid_value,
+         path,
+         extracted_file_size,
+         record=None,
+         url=None,
+-        is_iframe=False
++        is_iframe=False,
+     ):
+         """Create a new PreviewFile."""
+-        super().__init__(file_item=file_item, record_pid_value=record_pid_value, record=record, url=url, is_iframe=is_iframe )
++        super().__init__(
++            file_item=file_item,
++            record_pid_value=record_pid_value,
++            record=record,
++            url=url,
++            is_iframe=is_iframe,
++        )
+         self.path = path
+         self.size = extracted_file_size
+         self.container_item_filename = basename(self.path)
+         self.uri = url or url_for(
+             "invenio_app_rdm_records.record_container_item_download",
+
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py:76
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py:76: DeprecationWarning: subject_nested is deprecated. Use subject_combined instead.
+    warn(
+
+tests/api/test_record_api.py::test_record_read_non_existing_pid
+tests/api/test_stats_api.py::test_ui_event_emission
+tests/fixtures/test_cli.py::test_create_fixtures
+tests/fixtures/test_fixtures.py::test_load_oai_sets
+tests/redirector/test_redirector.py::test_redirector
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+tests/test_tasks.py::test_task_file_integrity_report
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+    self.init_app(app)
+
+tests/api/test_record_api.py: 1 warning
+tests/api/test_stats_api.py: 1 warning
+tests/fixtures/test_cli.py: 1 warning
+tests/fixtures/test_fixtures.py: 1 warning
+tests/redirector/test_redirector.py: 2 warnings
+tests/test_migrate_13_0_to_14_0.py: 2 warnings
+tests/test_tasks.py: 2 warnings
+tests/ui/test_deposits.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_file_download.py: 1 warning
+tests/ui/test_filters.py: 1 warning
+tests/ui/test_robotstxt.py: 1 warning
+tests/ui/test_signposting_ui.py: 1 warning
+tests/ui/test_sitemaps.py: 1 warning
+tests/ui/test_stats_ui.py: 1 warning
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/ext.py:171: UserWarning: It looks like you are manually setting `SQLALCHEMY_ENGINE_OPTIONS` without specifying a UTC timezone value for PostgreSQL. To avoid unexpected behaviour, InvenioDB won't add an override to these options to set the time zone to UTC. Please note that PostgreSQL databases used with Invenio must be in UTC. If your database or connection is configured with a non-UTC timezone, please change this before continuing to avoid unexpected behaviour.
+    warnings.warn(
+
+tests/api/test_record_api.py::test_record_read_non_existing_pid
+tests/api/test_record_api.py::test_record_draft_create_and_read
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/api/test_record_api.py::test_record_search
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:497: DeprecationWarning: `es_clear` fixture is deprecated, use `search_clear` instead.
+    warn(
+
+tests/api/test_record_api.py::test_record_draft_create_and_read
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/redirector/test_redirector.py::test_redirector
+tests/ui/test_deposits.py::test_resource_types
+tests/ui/test_file_download.py::test_file_download_with_and_without_preview_flag
+tests/ui/test_file_download.py::test_nonexistent_file_returns_404
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/flask_security/utils.py:77: DeprecationWarning: Remember me support has been removed.
+    warnings.warn("Remember me support has been removed.", DeprecationWarning)
+
+tests/api/test_record_api.py: 4 warnings
+tests/api/test_stats_api.py: 1 warning
+tests/fixtures/test_cli.py: 1 warning
+tests/test_migrate_13_0_to_14_0.py: 1 warning
+tests/ui/test_deposits.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_file_download.py: 1 warning
+tests/ui/test_robotstxt.py: 1 warning
+tests/ui/test_sitemaps.py: 1 warning
+tests/ui/test_stats_ui.py: 2 warnings
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/cachelib/redis_base.py:70: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+    result = self._write_client.setex(
+
+tests/api/test_record_api.py: 6 warnings
+tests/api/test_stats_api.py: 1 warning
+tests/redirector/test_redirector.py: 1 warning
+tests/ui/test_deposits.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_file_download.py: 2 warnings
+tests/ui/test_robotstxt.py: 1 warning
+tests/ui/test_signposting_ui.py: 2 warnings
+tests/ui/test_stats_ui.py: 4 warnings
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/simplekv/memory/redisstore.py:59: DeprecationWarning: Call to deprecated setex. (Use 'set' instead.) -- Deprecated since version 2.6.12.
+    self.redis.setex(key, ittl, value)
+
+tests/api/test_record_api.py::test_record_draft_publish
+tests/api/test_record_api.py::test_read_record_with_redirected_pid
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+tests/ui/test_export_formats.py::test_export_formats
+tests/ui/test_signposting_ui.py::test_link_in_metadata_resource_response_headers[head]
+tests/ui/test_signposting_ui.py::test_link_in_metadata_resource_response_headers[get]
+tests/ui/test_sitemaps.py::test_sitemap_section_of_records
+tests/ui/test_stats_ui.py::test_record_view_events
+tests/ui/test_stats_ui.py::test_record_view_statistics
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py:335: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/api/test_record_api.py: 2 warnings
+tests/fixtures/test_fixtures.py: 1 warning
+tests/test_migrate_13_0_to_14_0.py: 1 warning
+tests/ui/test_export_formats.py: 1 warning
+tests/ui/test_signposting_ui.py: 2 warnings
+tests/ui/test_sitemaps.py: 1 warning
+tests/ui/test_stats_ui.py: 2 warnings
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_db/uow.py:193: SAWarning: nested transaction already deassociated from connection
+    self.session.commit()
+
+tests/fixtures/test_fixtures.py::test_load_pages
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_pages/records/models.py:58: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py:496: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/.venv/lib/python3.14/site-packages/invenio_records/api.py:443: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/test_migrate_13_0_to_14_0.py::TestMigration13To14::test_migration
+  /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-app-rdm/patched/invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py:164: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                                                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------
+invenio_app_rdm/__init__.py                                                   2      0   100%
+invenio_app_rdm/administration/__init__.py                                    0      0   100%
+invenio_app_rdm/administration/audit_logs/__init__.py                         2      0   100%
+invenio_app_rdm/administration/audit_logs/audit_logs.py                      28      0   100%
+invenio_app_rdm/administration/domains/__init__.py                            2      0   100%
+invenio_app_rdm/administration/domains/domains.py                            40      0   100%
+invenio_app_rdm/administration/moderation/__init__.py                         2      0   100%
+invenio_app_rdm/administration/moderation/requests.py                        78     22    72%   62-65, 70-76, 85, 120-126, 130-153
+invenio_app_rdm/administration/records/__init__.py                            2      0   100%
+invenio_app_rdm/administration/records/records.py                            61      8    87%   72, 77-79, 83-85, 89, 148
+invenio_app_rdm/administration/roles/__init__.py                              2      0   100%
+invenio_app_rdm/administration/roles/roles.py                                46      3    93%   46-48
+invenio_app_rdm/administration/user_moderation/__init__.py                    2      0   100%
+invenio_app_rdm/administration/user_moderation/user_moderation.py            63     11    83%   94-97, 102-108, 117, 155-161
+invenio_app_rdm/administration/users/__init__.py                              2      0   100%
+invenio_app_rdm/administration/users/permissions.py                           9      6    33%   18-24
+invenio_app_rdm/administration/users/users.py                                59      4    93%   65-67, 124
+invenio_app_rdm/administration/views/__init__.py                              2      0   100%
+invenio_app_rdm/administration/views/ui.py                                    4      0   100%
+invenio_app_rdm/cli.py                                                       45     22    51%   41-45, 64-95
+invenio_app_rdm/communities_ui/__init__.py                                    0      0   100%
+invenio_app_rdm/communities_ui/searchapp.py                                   5      0   100%
+invenio_app_rdm/communities_ui/sitemap.py                                    13      0   100%
+invenio_app_rdm/communities_ui/views/__init__.py                              2      0   100%
+invenio_app_rdm/communities_ui/views/communities.py                          63     43    32%   38-41, 57-112, 127-134, 149-164, 179-196
+invenio_app_rdm/communities_ui/views/ui.py                                   45     17    62%   43-65
+invenio_app_rdm/config.py                                                   326      3    99%   302-304, 334
+invenio_app_rdm/ext.py                                                       43     12    72%   22-25, 44, 50-58, 63, 112-117
+invenio_app_rdm/fixtures/__init__.py                                         21      6    71%   23-28
+invenio_app_rdm/fixtures/oai_sets.py                                          6      0   100%
+invenio_app_rdm/fixtures/pages.py                                            35      1    97%   49
+invenio_app_rdm/patch_info.py                                                 6      2    67%   2536-2538
+invenio_app_rdm/records_ui/__init__.py                                        0      0   100%
+invenio_app_rdm/records_ui/previewer/__init__.py                              0      0   100%
+invenio_app_rdm/records_ui/previewer/iiif_simple.py                          14      7    50%   31-32, 41-46
+invenio_app_rdm/records_ui/previewer/previewable_zip.py                      56     42    25%   29-34, 41-114, 119, 129-137
+invenio_app_rdm/records_ui/searchapp.py                                       6      0   100%
+invenio_app_rdm/records_ui/sitemap.py                                        10      0   100%
+invenio_app_rdm/records_ui/utils.py                                          83     43    48%   40-51, 80-85, 93, 107-119, 132, 165-184, 189-222
+invenio_app_rdm/records_ui/views/__init__.py                                 59      0   100%
+invenio_app_rdm/records_ui/views/decorators.py                              282    113    60%   49, 54, 62-65, 76-92, 121-123, 148, 160-170, 193, 199-202, 223-250, 270-290, 309-323, 339-342, 348-352, 370-373, 379-383, 395-405, 419-427, 440-443, 469-477, 496-508, 545-549, 566-572
+invenio_app_rdm/records_ui/views/deposits.py                                245    153    38%   64-140, 145-146, 217-223, 234-237, 255-258, 262-265, 269-272, 276-279, 283-286, 290, 294, 298, 305, 313, 317, 323-328, 333-345, 357-376, 392-407, 436-442, 448, 453-472, 483-501, 538-625, 652-653
+invenio_app_rdm/records_ui/views/filters.py                                 125     70    44%   32-35, 40-48, 53, 67-68, 73-86, 93-94, 99-100, 105-121, 135, 152, 162, 185-215, 229-234
+invenio_app_rdm/records_ui/views/records.py                                 259    139    46%   90-105, 121-144, 158-169, 173, 180-181, 185, 202-206, 218-219, 223-229, 259, 264, 284, 293-328, 393, 424-445, 457-477, 482-486, 494-507, 517-522, 529-549, 559-567, 573, 579, 587, 592, 604-624, 638-656
+invenio_app_rdm/redirector/__init__.py                                        0      0   100%
+invenio_app_rdm/redirector/resource.py                                       29      1    97%   94
+invenio_app_rdm/redirector/views.py                                           6      0   100%
+invenio_app_rdm/requests_ui/__init__.py                                       0      0   100%
+invenio_app_rdm/requests_ui/views/__init__.py                                 2      0   100%
+invenio_app_rdm/requests_ui/views/requests.py                               191    142    26%   60-138, 142, 152-169, 179-196, 203-286, 304-384, 403-418, 437-458, 472
+invenio_app_rdm/requests_ui/views/ui.py                                      24      0   100%
+invenio_app_rdm/tasks.py                                                     18     11    39%   21-45
+invenio_app_rdm/theme/__init__.py                                             0      0   100%
+invenio_app_rdm/theme/views.py                                               49     19    61%   63, 80-81, 92-93, 104-105, 115-130, 138-140
+invenio_app_rdm/theme/webpack.py                                              2      0   100%
+invenio_app_rdm/upgrade_scripts/__init__.py                                   0      0   100%
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py      28     24    14%   16-46, 50
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py      48     43    10%   20-86, 90
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py                46     41    11%   27-98, 102
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py                        34     29    15%   32-88, 92
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py                        64     60     6%   27-136, 140
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py                       244    231     5%   28-64, 70-148, 158-199, 209-369, 373-395
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py                        72     65    10%   30-157, 161
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py                        68     59    13%   36-148, 153
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py                        51     46    10%   28-93, 98
+invenio_app_rdm/upgrade_scripts/migrate_9_0_to_10_0.py                       13      8    38%   27-35, 43
+invenio_app_rdm/upgrade_scripts/migrate_10_0_to_11_0.py                      18     13    28%   27-42, 47
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py                      82     70    15%   62-201, 206
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py                     126    107    15%   41-99, 107-122, 127-154, 159-186, 191-208, 225-230, 235
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py                      94     21    78%   57-60, 78-81, 107-111, 132-136, 153-157, 170-173, 198-201, 231-235, 273
+invenio_app_rdm/users/schemas.py                                              6      0   100%
+invenio_app_rdm/users_ui/__init__.py                                          0      0   100%
+invenio_app_rdm/users_ui/searchapp.py                                         5      0   100%
+invenio_app_rdm/users_ui/views/__init__.py                                    2      0   100%
+invenio_app_rdm/users_ui/views/dashboard.py                                  18      7    61%   22-25, 35-38, 48-54
+invenio_app_rdm/users_ui/views/ui.py                                         18      4    78%   24, 29-32
+invenio_app_rdm/utils/files.py                                               66     48    27%   24-32, 37-38, 43-47, 52-64, 69, 74, 79-84, 89-90, 95-98, 107-120
+invenio_app_rdm/views.py                                                      5      2    60%   17-19
+-------------------------------------------------------------------------------------------------------
+TOTAL                                                                      3584   1778    50%
+=========================== short test summary info ============================
+FAILED tests/api/test_protect_files_rest.py::test_files_rest_endpoint_is_protected - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+FAILED invenio_app_rdm/records_ui/previewer/previewable_zip.py::black
+FAILED invenio_app_rdm/records_ui/previewer/previewable_zip.py::PYDOCSTYLE
+FAILED invenio_app_rdm/records_ui/previewer/previewable_zip.py::ISORT
+FAILED invenio_app_rdm/records_ui/views/decorators.py::ISORT
+FAILED invenio_app_rdm/records_ui/views/records.py::black
+ERROR tests/test_tasks.py::test_task_file_integrity_report - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_invalid_template - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_invalid_addresses - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/test_tasks.py::test_integrity_report_default_template - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_file_download_with_and_without_preview_flag - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_nonexistent_file_returns_404 - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_file_download.py::test_deleted_record_file_redirects - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[True-head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[True-get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[False-head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_landing_page_response_headers[False-get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_content_resource_response_headers[head] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+ERROR tests/ui/test_signposting_ui.py::test_link_in_content_resource_response_headers[get] - TypeError: RDMFileService._get_record() got an unexpected keyword argument 'stream'
+= 6 failed, 332 passed, 1 skipped, 94 warnings, 13 errors in 120.60s (0:02:00) =
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

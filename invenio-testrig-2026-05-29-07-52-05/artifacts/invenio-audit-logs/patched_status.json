@@ -1,0 +1,139 @@
+{
+  "dependencies": [],
+  "package": {
+    "github_entry": {
+      "_extra": {},
+      "default_branch": null,
+      "exclude": [
+        "invenio-xrootd",
+        "invenio-swh"
+      ],
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "include": [
+        "invenio-.*",
+        "pytest-invenio",
+        "citeproc-py-styles"
+      ],
+      "install": [],
+      "org": "inveniosoftware",
+      "package_map": {},
+      "slow_packages": {
+        "invenio-rdm-records": [
+          "tests/resources/test_iiif_image_api.py",
+          "tests/resources/test_resources_review.py",
+          "tests/services/test_rdm_service.py"
+        ]
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    "patched_reference": null,
+    "patches": [],
+    "reference": {
+      "actual_version": "1.1.0",
+      "base": null,
+      "branch": "v1.1.0",
+      "commit": "ca8b537da0cedc08eceabd4465777896a244a765",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-audit-logs",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-audit-logs"
+    },
+    "unpatched_reference": {
+      "actual_version": "2.0.0",
+      "base": null,
+      "branch": null,
+      "commit": "1376d8c91e90377d0066c5ea193ac92f0331acea",
+      "commits_from_version": [
+        "7c619988ecc683d9cef9a70a0ada3d7d353808ad",
+        "27e2804890e743930021c889ad4a3cdcf210ca50",
+        "d2fdf3226b98f65395afd53a45c97fe1833e1bca",
+        "74988866d44e877048fba2519c77b72f095c3184",
+        "129404fe9a0addcd3e9bb7170ae5157ab4d5f044",
+        "1e697d1237effa451ff20247b55b74758aa78211",
+        "93ff9fbceae194d01c225fcb5efa32e9f943b744",
+        "cc4dfd5937910fa0e8fdb6ba077eb62685d7daa4",
+        "2f0b21c6ac491d60ddae92b5f02b2ee6936e2365",
+        "03002bb00f514366c78447ab1147b89e91ff3a61",
+        "98bfe73521cc2bfe0656bdac859eec3b3041fe45",
+        "edabf7de08031f907f92085e8ceb552cdfbe5c60",
+        "f1526dc97612ecfdbe972d4a7386c13305bed2f6",
+        "08f2cb8008a50828bdaccd625df783e382713bce",
+        "a91a97d98d8b99cfdeeae9c2d92e0af17a845f29",
+        "7da9715e1e8fcf0cb4c54f61e9d4af760084d379",
+        "57cc6c0797543718288530a7068423af7591e7a4",
+        "119198aeb561adbdfb84ef004e27dc0fd5ef8ec6",
+        "0c891da94dcac95999c6e6eac5ca2620bd67e00c",
+        "d61378937f527c0cb97d4e6f970d41f07b6f90b9",
+        "b30bd139a4224a3c285ccb261cf5a05a3932d2e0",
+        "5cc6833d89a5d7837012e9ee5322a5ad92e2b137",
+        "f48edc9e878c25577f0feae602b20f7b9fe1f95b",
+        "a9bf451ad144c42562cefc6bf3986741cc8949d1",
+        "23001dde25545a5452159498af6e09da6cc5af71",
+        "6f81a57e085087683a8111c92d7f5d32c06522c0",
+        "20d13bedb691eeb8c2e0ffcdf449548d9ed76dbd",
+        "784bcb5cc3789e74efe95f6362babb7f118f4c30",
+        "cbf93fb44bdf6895b5d3badb94ed74f457394ab8",
+        "ba3cb16cbc2600647e0d52cc6913ff79d7242677",
+        "4ff20586390632e87a4512934cefcd76c73a761d",
+        "8adcecf2c25ab2840b8ebc9529ffd0c6a81a12ff",
+        "db4fee2c5994b550d6b4ddbd2b12cbd4a38637a9",
+        "3682a59d05b286385d26113e1c79b429123706a4",
+        "d3a03de49a2f258e16f79f0d59271c86fa6fcce5",
+        "aea8af70282ff68637c64bd1335a5371bfc8b5dc",
+        "5f64987b430185003ad9337a7d2d74557d3339e0",
+        "e3980eff051d18afd9107fe158f5945efe0e7574",
+        "c20d30b3a95e68edd7c76087b08176eeb5184b8c",
+        "fd9e4a6ffd0312fe19dbdc0ec334a0494d749666",
+        "85b7c3137f45a50343d5eaeddab2051f2b40faa5",
+        "f6ce9c02b07cedd59a81417767f03ff278a84473",
+        "9710460ae6b0f3b762b89cdc6a1763aae7e2fd29",
+        "6a1090e7a981a1da8cc9e520e4e4aaab289fd84e",
+        "f517813b68ac6052aefcff23ebe85ef8085f9361",
+        "cc85d100909c8b2c64f805f00ddf5934bfd5a6d1",
+        "e6d60a3d4f35e468d1132a81520ab502d629d15f",
+        "27a0287a59b6dadf7d9c0689bb562391e4518a1e",
+        "18c71e559f2adae6f14681fcf66b6326407c6a8d",
+        "7b6a00c1eb52c0b0fe2c53366b17618ea377fc40",
+        "63796f9e672cac97882dfde40c05649506b81d6d",
+        "38be73c5305e80b616b63bc7c33904639cd8255c",
+        "164142fc9336047f72589327ccf68bed2a631c27",
+        "20506d1587ec99cfdfa9562b12e0c124a1baa24a",
+        "9ca0df930c3ba6ae7ec13c1301f27a6c3b104b7c",
+        "9e2d60fb3168b0c7910faa6fbdf6f4fbe3302cce",
+        "01e8313cac60ba3f512d27f500371747036751f2",
+        "3fea675610c85cabdeee90380305652230f50237",
+        "ca8b537da0cedc08eceabd4465777896a244a765",
+        "f6a96d4a2bcdb2f4be90db400117616ad1ab21b9",
+        "e0ef59c9e173c6e0fcfbbf3a6aa820ebe6e760f3",
+        "54c4ce6529b12345ceb5d14d54437c20fde268ff",
+        "292a10727b824f9d42a14facbe7994631f708865",
+        "b9fb44d27ded5bcf070aaf0360adece63a4980be",
+        "1376d8c91e90377d0066c5ea193ac92f0331acea"
+      ],
+      "org": "inveniosoftware",
+      "package": "invenio-audit-logs",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-audit-logs"
+    }
+  },
+  "status": "skipped"
+}

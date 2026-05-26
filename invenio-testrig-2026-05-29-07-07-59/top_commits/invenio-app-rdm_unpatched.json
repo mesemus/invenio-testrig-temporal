@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "85290c99",
+    "message": "fix(records-ui): namespace url filter"
+  },
+  {
+    "hash": "4691f1b0",
+    "message": "chore(url): use invenio_url_for for consistency in mshp-req and inv code"
+  },
+  {
+    "hash": "419a8a45",
+    "message": "feat(mshp-req+inv): show invitation & mshp-req pages from user & community sides [+]"
+  },
+  {
+    "hash": "4cf1c437",
+    "message": "fix(urls): use `invenio_url_for()` instead of hard-coded URLs"
+  },
+  {
+    "hash": "effecfd4",
+    "message": "feat: make resouce type badge clickable"
+  },
+  {
+    "hash": "96f9d528",
+    "message": "fix(tombstone): return not-found page + log exception for PIDDeletedError"
+  },
+  {
+    "hash": "ca469660",
+    "message": "config: remove hardcoded publisher and use THEME_SITENAME"
+  },
+  {
+    "hash": "bbe9c7ef",
+    "message": "frontpage: Add aria-label to 'More' search button"
+  },
+  {
+    "hash": "dff032e0",
+    "message": "fix(upgrade_scripts): use correct indexer for drafts"
+  },
+  {
+    "hash": "4f02af2f",
+    "message": "fix: wrap overflowing MathJax content in rich text"
+  },
+  {
+    "hash": "c930d928",
+    "message": "users: use invenio_url_for for deposit URL"
+  },
+  {
+    "hash": "69d0b2c0",
+    "message": "users: fix hardcoded deposit URL in uploads dashboard"
+  },
+  {
+    "hash": "743b8a70",
+    "message": "\ud83d\udce6 release: v14.0.0b10.dev7"
+  },
+  {
+    "hash": "ffb7a753",
+    "message": "feat(administration): allow blocking with removal reason"
+  },
+  {
+    "hash": "428388fb",
+    "message": "style: fix alignment of sort by on uploads"
+  },
+  {
+    "hash": "f1333245",
+    "message": "fix: display user dashboard header for community topic requests as before"
+  },
+  {
+    "hash": "df1e1b69",
+    "message": "feat(auditlogs): hide auditlogs button when the feature is disabled"
+  },
+  {
+    "hash": "71356bb9",
+    "message": "\ud83d\udce6 release: v14.0.0b10.dev6"
+  },
+  {
+    "hash": "0ce4237c",
+    "message": "feat: use new RDMSubCommunity request class"
+  },
+  {
+    "hash": "52cb4502",
+    "message": "fix(administration): set correct permissions for user dashboard"
+  },
+  {
+    "hash": "8492fd1a",
+    "message": "\ud83d\udce6 release: v14.0.0b10.dev5"
+  },
+  {
+    "hash": "2fde849b",
+    "message": "chore: refactor logic to rdm-records and improve user_quota msg"
+  },
+  {
+    "hash": "764fe11b",
+    "message": "fix: display of range input on Chrome"
+  },
+  {
+    "hash": "2c0d5495",
+    "message": "deposit: add evaluate_quota_increase"
+  },
+  {
+    "hash": "a4f45578",
+    "message": "deposit: calculate additional quota storage for user"
+  },
+  {
+    "hash": "3ad3b661",
+    "message": "assets: added override for progress bar"
+  },
+  {
+    "hash": "187b7c23",
+    "message": "deposit: pass more information about quota to deposit form"
+  },
+  {
+    "hash": "60385b4e",
+    "message": "chore: deprecate FILES_REST in favour of RDM_FILES"
+  },
+  {
+    "hash": "53fe860e",
+    "message": "feat: add template for quota increase requests"
+  },
+  {
+    "hash": "d96bb730",
+    "message": "release: v14.0.0b10.dev4"
+  },
+  {
+    "hash": "3dd9701a",
+    "message": "fix(tasks): correct collection task registration"
+  },
+  {
+    "hash": "9cac6850",
+    "message": "fix: collection logo size"
+  },
+  {
+    "hash": "58eaca06",
+    "message": "release: v14.0.0b10.dev3"
+  },
+  {
+    "hash": "f46029c1",
+    "message": "feat(communities-browse): show subcommunities section only if community allows"
+  },
+  {
+    "hash": "a0f34dba",
+    "message": "chore: run isort"
+  },
+  {
+    "hash": "37e50bb9",
+    "message": "release: v14.0.0b10.dev2"
+  },
+  {
+    "hash": "61d2381b",
+    "message": "fix(views-ui): fix wrong import for collections service"
+  },
+  {
+    "hash": "4f616c15",
+    "message": "release: v14.0.0b10.dev1"
+  },
+  {
+    "hash": "918c447d",
+    "message": "fix(views): set correct collections service reference"
+  },
+  {
+    "hash": "1792a726",
+    "message": "release: v14.0.0b10.dev0"
+  },
+  {
+    "hash": "8a66b4ef",
+    "message": "chore: upgrade major dependencies"
+  },
+  {
+    "hash": "6206c06d",
+    "message": "feat(manage): Add view audit logs option to manage menu   * Add manage button to record tombstone page   * Add UI overridable functionality to manage button"
+  },
+  {
+    "hash": "bb6468d0",
+    "message": "feat(audit_logs): Allow diff view for access audit logs"
+  },
+  {
+    "hash": "26d9aa91",
+    "message": "fix(RevisionsDiffViewer.js): Use better diff algo & diff from metadata"
+  },
+  {
+    "hash": "1bdab2f1",
+    "message": "fix: allow rendering request page without file permissions"
+  },
+  {
+    "hash": "9d7c2153",
+    "message": "fix: templates for guest and user access"
+  },
+  {
+    "hash": "68dcde17",
+    "message": "fix: detail url from the dashboard"
+  },
+  {
+    "hash": "74312c0b",
+    "message": "ui(translations): addition to fix incorrect pluralization in react-invenio-forms"
+  },
+  {
+    "hash": "1042d0a1",
+    "message": "feat(mshp-req): add icon to membership request in listing"
+  },
+  {
+    "hash": "04a522c2",
+    "message": "refactor(invitation-req): user user_dashboard.html common to mbshp req"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "hash": "00ece822",
+    "message": "feat(stats): allow excluding file download stats from previewer"
+  },
+  {
+    "hash": "5eb09d81",
+    "message": "fix: make community modal on deposit form close"
+  },
+  {
+    "hash": "cc794aca",
+    "message": "fix(vcs): extract license ID when returning"
+  },
+  {
+    "hash": "3b772d89",
+    "message": "fix: add `policy_id` to request metadata of file modification (#2310)"
+  },
+  {
+    "hash": "e5e80895",
+    "message": "\ud83d\udce6 release: v28.6.1"
+  },
+  {
+    "hash": "a4fbd190",
+    "message": "fix(metadata): fix `CustomFieldsComponent` subclass overrides"
+  },
+  {
+    "hash": "c61c4d49",
+    "message": "fix(metadata): use UTC date instead of datetime for publication_date"
+  },
+  {
+    "hash": "7ce897f7",
+    "message": "\ud83d\udce6 release: v28.6.0"
+  },
+  {
+    "hash": "1b68dc94",
+    "message": "fix(serializers): avoid request context in access status description"
+  },
+  {
+    "hash": "1b360893",
+    "message": "@tmorrell vcs: have fallback publisher value be THEME_SITENAME"
+  },
+  {
+    "hash": "27cd4893",
+    "message": "vcs: have fallback publisher value be THEME_SITENAME"
+  },
+  {
+    "hash": "690f09b5",
+    "message": "metadata: auto-populate `publication_date` on new versions"
+  },
+  {
+    "hash": "f580e0b9",
+    "message": "fix: Add max lenght to version field to prevent mis-rendering"
+  },
+  {
+    "hash": "36b5431a",
+    "message": "fix(doi link): show appropriate DOI link in test(any) environment"
+  },
+  {
+    "hash": "7abddfe3",
+    "message": "fix: add funder to marcxml"
+  },
+  {
+    "hash": "acfe8d3d",
+    "message": "tests: add test for name only funder"
+  },
+  {
+    "hash": "b7137697",
+    "message": "fix: add funder ror to datacite serialization"
+  },
+  {
+    "hash": "9736326c",
+    "message": "\ud83d\udce6 release: v28.5.0"
+  },
+  {
+    "hash": "7378ec7d",
+    "message": "feat(moderation): handle `actor_id` and `note` in user block callback"
+  },
+  {
+    "hash": "0c7fb7f5",
+    "message": "release: v28.4.0"
+  },
+  {
+    "hash": "d77ea581",
+    "message": "fix(vcs): add license as custom if not matched as a vocabulary"
+  },
+  {
+    "hash": "df7e2b89",
+    "message": "fix(vcs): avoid failing on unrecognised license; include warning messages in notification"
+  },
+  {
+    "hash": "bb74b02e",
+    "message": "feat: add optional record parameter to support per-community PID assignment (#2279)"
+  },
+  {
+    "hash": "3b6b9577",
+    "message": "fix(config): reuse community records search params config"
+  },
+  {
+    "hash": "45095f32",
+    "message": "fix: use translation to customise msg instead of config"
+  },
+  {
+    "hash": "7e0bc939",
+    "message": "fix: missing proptype"
+  },
+  {
+    "hash": "4f7ed0e4",
+    "message": "fix: using only depositable resource type for fake data * in case fake data ends up with resource type that is not * depositable, relations check will fail and therefore the * test using the fake data"
+  },
+  {
+    "hash": "0a18fc93",
+    "message": "fix: add preview button to publish modal"
+  },
+  {
+    "hash": "d6953573",
+    "message": "\ud83d\udce6 release: v28.3.1"
+  },
+  {
+    "hash": "7bdb146c",
+    "message": "fix: display DOI validation errors in deposit form"
+  },
+  {
+    "hash": "0d8de532",
+    "message": "\ud83d\udce6 release: v28.3.0"
+  },
+  {
+    "hash": "b03a860d",
+    "message": "feat: add new RDMSubCommunity request class"
+  },
+  {
+    "hash": "50934b84",
+    "message": "fix: remove duplicate definition of collections service proxy"
+  },
+  {
+    "hash": "afc9603d",
+    "message": "\ud83d\udce6 release: v28.2.0"
+  },
+  {
+    "hash": "5f89c158",
+    "message": "chore: formatting and pydocstyle"
+  },
+  {
+    "hash": "92f6275b",
+    "message": "fix: quota increase missing values in storage service"
+  },
+  {
+    "hash": "f96fdb67",
+    "message": "fix: verify quota increase in policy"
+  },
+  {
+    "hash": "35e8cbb3",
+    "message": "chore: refactor logic to only be in storage service"
+  },
+  {
+    "hash": "a3a578ec",
+    "message": "fix: use real quota info rather than hardcoded numbers"
+  },
+  {
+    "hash": "f7581121",
+    "message": "chore: deprecate FILES_REST in favour of RDM_FILES"
+  },
+  {
+    "hash": "75655588",
+    "message": "feat(storage-quota): settings integration"
+  },
+  {
+    "hash": "ba68279b",
+    "message": "assets: added template and component for storage settings"
+  },
+  {
+    "hash": "a7abee9a",
+    "message": "feat(backend): add quota increase request backend"
+  },
+  {
+    "hash": "e73a890b",
+    "message": "feat: add deposit form quota manager"
+  },
+  {
+    "hash": "a9d5d39a",
+    "message": "release: v28.1.0"
+  },
+  {
+    "hash": "9285c57c",
+    "message": "fix: switch to accordion data-label"
+  },
+  {
+    "hash": "153ef385",
+    "message": "release: v28.0.0"
+  },
+  {
+    "hash": "e30022f3",
+    "message": "fix: user access request routing"
+  },
+  {
+    "hash": "6e332772",
+    "message": "fix(tests): enable community collections"
+  },
+  {
+    "hash": "83a35857",
+    "message": "chore: upgrade invenio-communities"
+  }
+]

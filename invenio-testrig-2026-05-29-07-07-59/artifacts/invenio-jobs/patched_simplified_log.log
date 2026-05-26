@@ -1,0 +1,172 @@
+ elasticsearch Pulling 
+ postgresql Pulling 
+ redis Pulling 
+ rabbitmq Pulling 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ elasticsearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-elasticsearch-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-elasticsearch-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-elasticsearch-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-elasticsearch-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/invenio-testrig-temporal/invenio-testrig-temporal/workdir/tests/invenio-jobs/patched
+configfile: setup.cfg
+testpaths: docs, tests, invenio_jobs
+plugins: isort-4.0.0, invenio-4.0.1, pydocstyle-2.4.0, flask-1.3.0, github-actions-annotate-failures-0.4.0, cov-7.1.0, black-0.6.0, pycodestyle-2.5.0
+collected 194 items
+docs/conf.py ...                                                         [  1%]
+tests/conftest.py ...                                                    [  3%]
+tests/mock_module/__init__.py ...                                        [  4%]
+tests/mock_module/jobs.py ...                                            [  6%]
+tests/mock_module/tasks.py ...                                           [  7%]
+tests/resources/test_resources.py ...s....s                              [ 12%]
+tests/test_alembic.py ..s                                                [ 13%]
+tests/test_cli.py 
+                                                   [ 15%]
+tests/test_deprecated.py ...                                             [ 17%]
+tests/test_invenio_jobs.py ....                                          [ 19%]
+tests/test_services_job_logs.py 
+                                    [ 22%]
+tests/test_services_subtasks.py 
+                            [ 28%]
+tests/test_utils.py ...                                                  [ 30%]
+invenio_jobs/__init__.py ...                                             [ 31%]
+invenio_jobs/administration/__init__.py ...                              [ 33%]
+invenio_jobs/administration/jobs.py ...                                  [ 35%]
+invenio_jobs/administration/runs.py ...                                  [ 36%]
+invenio_jobs/alembic/1753948224_add_subtasks_columns_to_jobs_run.py ...  [ 38%]
+invenio_jobs/alembic/1757597048_add_run_args_column_to_jobs_job_table.py . [ 38%]
+                                                                       [ 39%]
+invenio_jobs/alembic/1764848648_add_notification_emails_and_.py ...      [ 41%]
+invenio_jobs/alembic/1773910810_merge_invenio_jobs_heads.py ...          [ 42%]
+invenio_jobs/alembic/1f896f6990b8_update_jobs_module_table_names.py ...  [ 44%]
+invenio_jobs/alembic/356496a01197_create_invenio_jobs_tables.py ...      [ 45%]
+invenio_jobs/alembic/371f4cbcb73d_create_invenio_jobs_branch.py ...      [ 47%]
+invenio_jobs/alembic/9732b5f7609a_change_datetime_types.py ...           [ 48%]
+invenio_jobs/api.py ...                                                  [ 50%]
+invenio_jobs/cli.py ...                                                  [ 52%]
+invenio_jobs/config.py ...                                               [ 53%]
+invenio_jobs/errors.py ...                                               [ 55%]
+invenio_jobs/ext.py ...                                                  [ 56%]
+invenio_jobs/jobs.py ...                                                 [ 58%]
+invenio_jobs/logging/__init__.py ...                                     [ 59%]
+invenio_jobs/logging/celery_signals.py ...                               [ 61%]
+invenio_jobs/logging/index_templates/__init__.py ...                     [ 62%]
+invenio_jobs/logging/index_templates/os-v1/__init__.py ...               [ 64%]
+invenio_jobs/logging/index_templates/os-v2/__init__.py ...               [ 65%]
+invenio_jobs/logging/jobs.py ...                                         [ 67%]
+invenio_jobs/logging/tasks.py ...                                        [ 69%]
+invenio_jobs/models.py ...                                               [ 70%]
+invenio_jobs/proxies.py ...                                              [ 72%]
+invenio_jobs/registry.py ...                                             [ 73%]
+invenio_jobs/resources/__init__.py ...                                   [ 75%]
+invenio_jobs/resources/config.py ...                                     [ 76%]
+invenio_jobs/resources/resources.py ...                                  [ 78%]
+invenio_jobs/services/__init__.py ...                                    [ 79%]
+invenio_jobs/services/config.py ...                                      [ 81%]
+invenio_jobs/services/errors.py ...                                      [ 82%]
+invenio_jobs/services/links.py ...                                       [ 84%]
+invenio_jobs/services/permissions.py ...                                 [ 86%]
+invenio_jobs/services/results.py ...                                     [ 87%]
+invenio_jobs/services/scheduler.py ...                                   [ 89%]
+invenio_jobs/services/schema.py ...                                      [ 90%]
+invenio_jobs/services/services.py ...                                    [ 92%]
+invenio_jobs/services/ui_schema.py ...                                   [ 93%]
+invenio_jobs/tasks.py ...                                                [ 95%]
+invenio_jobs/utils.py ...                                                [ 96%]
+invenio_jobs/views.py ...                                                [ 98%]
+invenio_jobs/webpack.py ...                                              [100%]
+=============================== warnings summary ===============================
+tests/test_cli.py::test_jobs_cli
+tests/test_services_job_logs.py::test_job_logs_search_limits_to_max_docs
+tests/test_services_subtasks.py::test_create_subtask_run
+    self.init_app(app)
+tests/test_cli.py::test_jobs_cli
+tests/test_services_job_logs.py::test_job_logs_search_limits_to_max_docs
+tests/test_services_subtasks.py::test_create_subtask_run
+    warnings.warn(
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                                       Stmts   Miss  Cover   Missing
+invenio_jobs/__init__.py                                                       3      0   100%
+invenio_jobs/administration/__init__.py                                        0      0   100%
+invenio_jobs/administration/jobs.py                                           86     24    72%   107, 111-117, 121-126, 135-140, 214-217, 232-253
+invenio_jobs/administration/runs.py                                           46     25    46%   39-54, 58-65, 69-70, 74-75
+invenio_jobs/alembic/1f896f6990b8_update_jobs_module_table_names.py           20     10    50%   25-32, 40-45
+invenio_jobs/alembic/371f4cbcb73d_create_invenio_jobs_branch.py               10      2    80%   22, 27
+invenio_jobs/alembic/9732b5f7609a_change_datetime_types.py                    17     10    41%   25-29, 34-38
+invenio_jobs/alembic/356496a01197_create_invenio_jobs_tables.py               17      4    76%   30-62, 105-106
+invenio_jobs/alembic/1753948224_add_subtasks_columns_to_jobs_run.py           31     22    29%   23-91, 102-114
+invenio_jobs/alembic/1757597048_add_run_args_column_to_jobs_job_table.py      12      2    83%   26, 45
+invenio_jobs/alembic/1764848648_add_notification_emails_and_.py               12      2    83%   24, 41
+invenio_jobs/alembic/1773910810_merge_invenio_jobs_heads.py                   10      2    80%   22, 27
+invenio_jobs/api.py                                                            4      0   100%
+invenio_jobs/cli.py                                                          230     50    78%   46, 62-63, 78-79, 90-91, 98-99, 106-108, 188-189, 208-211, 221, 232-235, 265-268, 273-287, 333-334, 345-350, 367-369, 400, 421-427
+invenio_jobs/config.py                                                        32      0   100%
+invenio_jobs/errors.py                                                        11      3    73%   20-22
+invenio_jobs/ext.py                                                           57      1    98%   106
+invenio_jobs/jobs.py                                                          33      6    82%   65-67, 89, 108-116
+invenio_jobs/logging/__init__.py                                               0      0   100%
+invenio_jobs/logging/celery_signals.py                                        22      8    64%   23-26, 39-46, 55
+invenio_jobs/logging/index_templates/__init__.py                               0      0   100%
+invenio_jobs/logging/index_templates/os-v1/__init__.py                         0      0   100%
+invenio_jobs/logging/index_templates/os-v2/__init__.py                         0      0   100%
+invenio_jobs/logging/jobs.py                                                  64      5    92%   100, 121-123, 127-128
+invenio_jobs/logging/tasks.py                                                  8      2    75%   20-21
+invenio_jobs/models.py                                                       145     14    90%   91-99, 108-110, 243-245
+invenio_jobs/proxies.py                                                       12      0   100%
+invenio_jobs/registry.py                                                      26      5    81%   23, 32-35
+invenio_jobs/resources/__init__.py                                             3      0   100%
+invenio_jobs/resources/config.py                                              57      0   100%
+invenio_jobs/resources/resources.py                                          126     14    89%   48-53, 58-63, 210-217, 237-243, 249-255
+invenio_jobs/services/__init__.py                                              4      0   100%
+invenio_jobs/services/config.py                                               79      0   100%
+invenio_jobs/services/errors.py                                               22      1    95%   63
+invenio_jobs/services/links.py                                                22      0   100%
+invenio_jobs/services/permissions.py                                          25      0   100%
+invenio_jobs/services/results.py                                             100     11    89%   83, 92-95, 120-121, 148-149, 167, 169-170
+invenio_jobs/services/scheduler.py                                            55     31    44%   31-32, 37-39, 59, 66, 70-71, 75-94, 99-106, 113-119
+invenio_jobs/services/schema.py                                              188     13    93%   52-57, 133, 216, 218, 228-229, 382, 417-418
+invenio_jobs/services/services.py                                            254     31    88%   54, 62-66, 93-95, 197-199, 217, 321, 430, 450, 491-505, 510-516, 525, 573, 584, 590-591
+invenio_jobs/services/ui_schema.py                                            19      0   100%
+invenio_jobs/tasks.py                                                         71     27    62%   30, 46-49, 54, 85, 89-106, 108-129, 134, 139, 154-160
+invenio_jobs/utils.py                                                         53     35    34%   23-34, 39-50, 58, 78-183
+invenio_jobs/views.py                                                         14      0   100%
+invenio_jobs/webpack.py                                                        2      0   100%
+TOTAL                                                                       2002    360    82%
+================= 191 passed, 3 skipped, 6 warnings in 23.54s ==================
+ Container docker_services_cli-elasticsearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-elasticsearch-1  Stopped
+ Container docker_services_cli-elasticsearch-1  Removing
+ Container docker_services_cli-elasticsearch-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed
